@@ -8,15 +8,16 @@
 		"type2":"Steel",
 		"ability":"Intimidate",
 		"ingame":"AVVVVABBBB",
-		"level":32,
+		"level":33,
 		"attacks":[
 			"Cut",
 			"Howl",
 			"Blade Flash",
 			"Fury Cutter"
 		],
+		"caught":"2d 4h 16m",
 		"nextAttack":"Endure @ 34",
-		"holding":"Nothing",
+		"holding":"Normal Orb",
 		"nature":"Bold",
 		"nickname":["AWOO", "Wood"]
 	},{
@@ -75,8 +76,8 @@
 		"ingame":"Sanae",
 		"level":39,
 		"attacks":[
-			"???",
-			"???",
+			"Extrasensory",
+			"Desision",
 			"???",
 			"???"
 		],
@@ -101,12 +102,148 @@
 		"nature":"???",
 		"nickname":[]
 	}],
+
+	"box":[{
+		"species":"CDaiyousei",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"CDaiyousei",
+		"level":5,
+		"caught":"0d 7h 38m"
+	},{
+		"species":"CNazrin",
+		"type1":"Beast",
+		"ability":"???",
+		"ingame":"???",
+		"level":4,
+		"caught":"0d 7h 38m"
+	},{
+		"species":"CStar",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"???",
+		"level":4,
+		"caught":"0d 7h 38m"
+	},{
+		"species":"CSunny",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"???",
+		"level":-1,
+		"caught":"0d 7h 40m"
+	},{
+		"species":"CNarzin",
+		"type1":"Beast",
+		"ability":"???",
+		"ingame":"???",
+		"level":-1,
+		"caught":"0d 7h 46m"
+	},{
+		"species":"CSunny",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"???",
+		"level":-1,
+		"caught":"0d 7h 49m"
+	},{
+		"species":"CTokiko",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"AAT",
+		"level":-1,
+		"caught":"0d 8h 39m"
+	},{
+		"species":"CParsee",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"UU",
+		"level":17,
+		"caught":"3d 8h 29m"
+	},{
+		"species":"CMystica",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"ag66ITTTT",
+		"level":16,
+		"caught":"3d 16h 27m"
+	},{
+		"species":"CMeiling",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"AM",
+		"level":-1,
+		"caught":"4d 0h 31m"
+	},{
+		"species":"CMystia",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"???",
+		"level":-1,
+		"caught":"4d 13h 24m"
+	},{
+		"species":"CCirno",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"BB",
+		"level":13,
+		"caught":"4d 13h 26m"
+	},{
+		"species":"CLunasa",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"CLunasa",
+		"level":16,
+		"caught":"4d 23h 09m"
+	},{
+		"species":"CLyrica",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"AAGGGG",
+		"level":18,
+		"caught":"5d 2h 35m"
+	},{
+		"species":"CMerlin",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"G",
+		"level":19,
+		"caught":"5d 0h 3m"
+	},{
+		"species":"CYuyuko",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"CYuyuko",
+		"level":17,
+		"caught":"5d 2h 22m"
+	},{
+		"species":"CLyrica",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"AAAUU",
+		"level":17,
+		"caught":"5d 2h 35m"
+	}],
 	
 	"badges":[
-		{"name":"Boulder"},
-		{"name":"Cascade"},
-		{"name":"Thunder"},
-		{"name":"Rainbow","time":"5d 6h 37m","attempts":1},
+		{"name":"Boulder","time":"0d 21h 41m","attempts":2},
+		{"name":"Cascade","time":"2d 0h 16m", "attempts":2},
+		{"name":"Thunder","time":"2d 22h 28m","attempts":2},
+		{"name":"Rainbow","time":"5d 6h 37m", "attempts":1},
 		{"name":"Marsh"},
 		{"name":"Soul"},
 		{"name":"Volcano"},

@@ -7,7 +7,8 @@
 		"type1":"Bug",
 		"type2":"Flying",
 		"ability":"???",
-		"ingame":"Butterfree",
+		"ingame":"Butterbae",
+		"formerIngame":["BUTT", "Butterfree"],
 		"level":32,
 		"attacks":[
 			"Confusion",
@@ -19,7 +20,8 @@
 		"nextAttack":"Psybeam @ 34",
 		"nextAttacks":["Safeguard @ 40","Silver Wind @ 47"],
 		"nature":"Modest",
-		"nickname":["Butterbae"]
+		"nickname":["Butterbae"],
+		"caught":"0d 7h 39m"
 	},{
 		"species":"Oddish",
 		"type1":"Grass",
@@ -65,6 +67,7 @@
 			"???",
 			"???"
 		],
+		"caught":"0d 3h 48m",
 		"holding":"Nothing",
 		"nature":"Lax",
 		"nickname":["Miss T"]
@@ -72,17 +75,18 @@
 		"species":"Dugtrio",
 		"type1":"Ground",
 		"ability":"???",
-		"ingame":"???",
+		"ingame":"AHHHHHIIII",
 		"level":33,
 		"attacks":[
-			"???",
-			"???",
-			"???",
-			"???"
+			"Dig",
+			"Areal Ace (TM)",
+			"Rock Tomb (TM)",
+			"Fury Swipes"
 		],
 		"holding":"Nothing",
 		"nature":"Brave",
-		"nickname":[]
+		"nickname":[],
+		"caught":"3d 6h 2m"
 	},{
 		"species":"Vaporeon",
 		"type1":"Water",
@@ -99,14 +103,166 @@
 		"nextAttack":"Bite @ 30",
 		"nextAttacks":["Aurora Beam @ 36","Haze @ 42"],
 		"nature":"Quiet",
-		"nickname":[]
+		"nickname":[],
+		"caught":"4d 23m 58m"
+	}],
+	
+	"box":[{
+		"species":"Rattata",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"Rattata",
+		"level":-1,
+		"caught":"0d 3h 46m"
+	},{
+		"species":"Rattata",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"Rattata",
+		"level":-1,
+		"caught":"0d 4h 06m"
+	},{
+		"species":"Magikarp",
+		"type1":"Water",
+		"ability":"???",
+		"ingame":"AA",
+		"level":6,
+		"caught":"0d 23h 22m",
+		"attacks":[
+			"Splash",
+			"---",
+			"---",
+			"---"
+		]
+	},{
+		"species":"Zubat",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"Zubat",
+		"level":-1,
+		"caught":"1d 14h 16m"
+	},{
+		"species":"Geodude",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"Geodude",
+		"level":9,
+		"caught":"1d 14h 34m"
+	},{
+		"species":"Zubat",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"Zubat",
+		"level":11,
+		"caught":"1d 14h 36m"
+	},{
+		"species":"Zubat",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"MMMGGAUUUO",
+		"level":10,
+		"caught":"1d 14h 45m"
+	},{
+		"species":"Ekans",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"A",
+		"level":-1,
+		"caught":"2d 2h 33m"
+	},{
+		"species":"Ekans",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"Ekans",
+		"level":8,
+		"caught":"2d 2h 55m"
+	},{
+		"species":"Pidgey",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"Pidgey",
+		"level":15,
+		"caught":"2d 8h 17m"
+	},{
+		"species":"Abra",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"Abra",
+		"level":8,
+		"caught":"2d 17h 57m"
+	},{
+		"species":"Weedle",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"AACBBBHCCC",
+		"level":7,
+		"caught":"2d 18h 3m"
+	},{
+		"species":"Pidgey",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"AAAAATTTTT",
+		"level":11,
+		"caught":"2d 20h 32m"
+	},{
+		"species":"Spearow",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"ATTTTZ&nbsp;&nbsp;ST",
+		"level":8,
+		"caught":"2d 22h 13m"
+	},{
+		"species":"Rattata",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"Rattata",
+		"level":10,
+		"caught":"2d 22h 21m"
+	},{
+		"species":"Spearow",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"&nbsp;!♂6????♂_",
+		"level":10,
+		"caught":"2d 22h 34m"
+	},{
+		"species":"Ekans",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"&nbsp;&nbsp;&nbsp;....&nbsp;..",
+		"level":10,
+		"caught":"2d 2h 42m"
+	},{
+		"species":"Pikachu",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"bbD",
+		"level":3,
+		"caught":"3d 7h 46m"
 	}],
 	
 	"badges":[
-		{"name":"Boulder"},
-		{"name":"Cascade"},
-		{"name":"Thunder","time":"3d 4h 35m"},
-		{"name":"Rainbow","time":"5d 1h 27m","attempts":1},
+		{"name":"Boulder","time":"0d 17h 22m","attempts":2},
+		{"name":"Cascade","time":"1d 21h 24m","attempts":6},
+		{"name":"Thunder","time":"3d 4h 35m", "attempts":2},
+		{"name":"Rainbow","time":"5d 1h 27m", "attempts":1},
 		{"name":"Marsh"},
 		{"name":"Soul"},
 		{"name":"Volcano"},

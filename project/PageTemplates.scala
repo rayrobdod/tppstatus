@@ -45,6 +45,10 @@ object PageTemplates {
 						Elem(htmlBinding, "section", Attributes(), Group(
 							Elem(htmlBinding, "h2", Attributes(), Group(Text("Badges"))),
 							listOfBadges(pageData.badges)
+						)),
+						Elem(htmlBinding, "section", Attributes(), Group(
+							Elem(htmlBinding, "h2", Attributes(), Group(Text("Boxed"))),
+							listOfBoxedPokemon(pageData.box)
 						))
 					))
 				))
@@ -53,13 +57,25 @@ object PageTemplates {
 	}
 	
 	def listOfPartyPokemon(list:Seq[Pokemon]):Node = {
-		Elem(htmlBinding, "table", Attributes("class" -> "party"), Group(
+		Elem(htmlBinding, "table", Attributes("class" -> "party"), rowOfPokemon(list))
+	}
+	
+	def listOfBoxedPokemon(list:Seq[Pokemon]):Node = {
+		val rows = list.grouped(6)
+		Elem(htmlBinding, "table", Attributes("class" -> "boxed"), Group.fromSeq(
+			rows.flatMap(rowOfPokemon(_)).toList
+		))
+	}
+	
+	def rowOfPokemon(list:Seq[Pokemon]):Group[Node] = {
+		Group(
 			Elem(htmlBinding, "tr", Attributes("class" -> "name"), Group.fromSeq(
 				list.map{x =>
 					Elem(htmlBinding, "td", Attributes(), Group(
 						Text(x.ingame),
 						Elem(htmlBinding, "br"),
 						Text("(" + x.species + ")"),
+						Elem(htmlBinding, "br"),
 						Elem(htmlBinding, "span", Attributes("class" -> ("type " + x.type1.toLowerCase())), Group(Text(x.type1))),
 						Elem(htmlBinding, "span", Attributes("class" -> ("type " + x.type2.toLowerCase())), Group(Text(x.type2)))
 					))
@@ -108,8 +124,16 @@ object PageTemplates {
 			)),
 			Elem(htmlBinding, "tr", Attributes("class" -> "nextMove"), Group.fromSeq(
 				list.map{x => wrapStringInTd(x.nextAttack)}
+			)),
+			Elem(htmlBinding, "tr", Attributes("class" -> "caught"), Group.fromSeq(
+				list.map{x =>
+					Elem(htmlBinding, "td", Attributes(), Group(
+						Text("Caught at: "),
+						Text(x.caught.toString)
+					))
+				}
 			))
-		))
+		)
 	}
 	
 	

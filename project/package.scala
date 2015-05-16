@@ -12,7 +12,8 @@ package object tpporg {
 		Map(
 			"attacks" -> new SeqBuilder(),
 			"nickname" -> new SeqBuilder(),
-			"nextAttacks" -> new SeqBuilder()
+			"nextAttacks" -> new SeqBuilder(),
+			"formerIngame" -> new SeqBuilder()
 		)
 	)
 	
@@ -31,6 +32,7 @@ package tpporg {
 		fileName:String = "sdf.html",
 		lastUpdate:String = "??d ??h ??m",
 		party:Seq[Pokemon] = Nil,
+		box:Seq[Pokemon] = Nil,
 		badges:Seq[Badge] = Nil
 	)
 	
@@ -43,9 +45,10 @@ package tpporg {
 	case class Pokemon(
 		species:String = "???",
 		type1:String = "???",
-		type2:String = "",
+		type2:String = "None",
 		ability:String = "???",
 		ingame:String = "???",
+		formerIngame:Seq[String] = Nil,
 		level:Long = -1,
 		attacks:Seq[String] = Seq("???","???","???","???"),
 		holding:String = "???",
@@ -68,11 +71,13 @@ package tpporg {
 			case "monsterType" => t.copy(monsterType = value.toString)
 			case "lastUpdate" => t.copy(lastUpdate = value.toString)
 			case "party" => t.copy(party = value.asInstanceOf[Seq[Pokemon]])
+			case "box" => t.copy(box = value.asInstanceOf[Seq[Pokemon]])
 			case "badges" => t.copy(badges = value.asInstanceOf[Seq[Badge]])
 			case _ => throw new IllegalArgumentException("PageDataBuilder apply key: " + key)
 		}
 		override def childBuilder(key:String) = key match { 
 			case "party" => new SeqBuilder(PokemonBuilder)
+			case "box" => new SeqBuilder(PokemonBuilder)
 			case "badges" => new SeqBuilder(BadgeBuilder)
 			case _ => throw new IllegalArgumentException("PageDataBuilder childBuilder key: " + key)
 		}
