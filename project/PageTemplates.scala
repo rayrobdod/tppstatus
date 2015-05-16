@@ -83,9 +83,7 @@ object PageTemplates {
 				}
 			)),
 			Elem(htmlBinding, "tr", Attributes("class" -> "held"), Group.fromSeq(
-				list.map{x =>
-					Elem(htmlBinding, "td", Attributes(), Group(Text(x.holding)))
-				}
+				list.map{x => wrapStringInTd(x.holding)}
 			)),
 			Elem(htmlBinding, "tr", Attributes("class" -> "moves"), Group.fromSeq(
 				list.map{x =>
@@ -97,19 +95,13 @@ object PageTemplates {
 				}
 			)),
 			Elem(htmlBinding, "tr", Attributes("class" -> "ability"), Group.fromSeq(
-				list.map{x =>
-					Elem(htmlBinding, "td", Attributes(), Group(Text(x.ability)))
-				}
+				list.map{x => wrapStringInTd(x.ability)}
 			)),
 			Elem(htmlBinding, "tr", Attributes("class" -> "nature"), Group.fromSeq(
-				list.map{x =>
-					Elem(htmlBinding, "td", Attributes(), Group(Text(x.nature)))
-				}
+				list.map{x => wrapStringInTd(x.nature)}
 			)),
 			Elem(htmlBinding, "tr", Attributes("class" -> "nextMove"), Group.fromSeq(
-				list.map{x =>
-					Elem(htmlBinding, "td", Attributes(), Group(Text(x.nextAttack)))
-				}
+				list.map{x => wrapStringInTd(x.nextAttack)}
 			))
 		))
 	}
@@ -119,18 +111,10 @@ object PageTemplates {
 	def listOfBadges(list:Seq[Badge]):Node = {
 		Elem(htmlBinding, "table", Attributes("class" -> "badges"), Group(
 			Elem(htmlBinding, "tr", Attributes("class" -> "name"), Group.fromSeq(
-				list.map{x =>
-					Elem(htmlBinding, "td", Attributes(), Group(
-						Text(x.name)
-					))
-				}
+				list.map{x => wrapStringInTd(x.name)}
 			)),
 			Elem(htmlBinding, "tr", Attributes("class" -> "time"), Group.fromSeq(
-				list.map{x =>
-					Elem(htmlBinding, "td", Attributes(), Group(
-						Text(x.time)
-					))
-				}
+				list.map{x => wrapStringInTd(x.time)}
 			)),
 			Elem(htmlBinding, "tr", Attributes("class" -> "attempts"), Group.fromSeq(
 				list.map{x =>
@@ -143,6 +127,9 @@ object PageTemplates {
 		))
 	}
 	
-
+	
+	private def wrapStringInTd(x:String) = {
+		Elem(htmlBinding, "td",  Attributes(), Group(Text(x)))
+	}
 }
 

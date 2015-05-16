@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"05d 06h 35m",
+	"lastUpdate":"05d 10h 44m",
 	"monsterType":"Bokéna",
 
 	"party":[{
@@ -103,7 +103,7 @@
 	}],
 	
 	"badges":[
-		{"name":"Boudler"},
+		{"name":"Boulder"},
 		{"name":"Cascade"},
 		{"name":"Thunder"},
 		{"name":"Rainbow","time":"5d 6h 37m","attempts":1},

@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"05d 06h 35m",
+	"lastUpdate":"05d 10h 44m",
 	"monsterType":"Moémon",
 
 	"party":[{
@@ -40,7 +40,7 @@
 		"species":"Charizard",
 		"type1":"Fire",
 		"type2":"Flying",
-		"ability":"???",
+		"ability":"Blaze",
 		"ingame":"FFF&nbsp;&nbsp;&nbsp;",
 		"level":41,
 		"attacks":[
@@ -86,7 +86,7 @@
 	},{
 		"species":"Vaporeon",
 		"type1":"Water",
-		"ability":"???",
+		"ability":"Water Absorb",
 		"ingame":"Acccioowww",
 		"level":25,
 		"attacks":[
@@ -103,7 +103,7 @@
 	}],
 	
 	"badges":[
-		{"name":"Boudler"},
+		{"name":"Boulder"},
 		{"name":"Cascade"},
 		{"name":"Thunder","time":"3d 4h 35m"},
 		{"name":"Rainbow","time":"5d 1h 27m","attempts":1},
