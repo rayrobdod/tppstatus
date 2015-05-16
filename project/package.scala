@@ -29,6 +29,7 @@ package tpporg {
 	
 	case class PageData(
 		monsterType:String = "Pokémon",
+		gameName:String = "Pokémon",
 		fileName:String = "sdf.html",
 		lastUpdate:String = "??d ??h ??m",
 		party:Seq[Pokemon] = Nil,
@@ -71,6 +72,7 @@ package tpporg {
 		override def apply(t:PageData, key:String, value:Any) = key match {
 			case "monsterType" => t.copy(monsterType = value.toString)
 			case "lastUpdate" => t.copy(lastUpdate = value.toString)
+			case "gameName" => t.copy(gameName = value.toString)
 			case "party" => t.copy(party = value.asInstanceOf[Seq[Pokemon]])
 			case "box" => t.copy(box = value.asInstanceOf[Seq[Pokemon]])
 			case "daycare" => t.copy(daycare = value.asInstanceOf[Seq[Pokemon]])

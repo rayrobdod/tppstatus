@@ -13,7 +13,8 @@ table.boxed {border-bottom: 5px solid grey;}
 div.lastUpdated {display:block; float:right; font-size:150%;}
 
 body {margin: 0px;}
-header nav { text-align: right; background-color: lightgrey; padding: 1ex; }
+header { background-color: lightgrey; padding: 1ex; }
+header nav.remote {text-align: right; }
 header nav a {color: black;}
 
 .type {padding: 2px;}

@@ -21,19 +21,25 @@ object PageTemplates {
 		Group(xmlProcInstr, Text("\n"), htmlDoctype, Text("\n"),
 			Elem(htmlBinding, "html", Attributes("lang" -> "en-US"), Group(
 				Elem(htmlBinding, "head", Attributes(), Group(
-					Elem(htmlBinding, "title", Attributes(), Group(Text("Twitch Plays Pokémon"))),
+					Elem(htmlBinding, "title", Attributes(), Group(Text("Twitch Plays Pokémon - " + pageData.gameName))),
 					Elem(htmlBinding, "meta", Attributes("http-equiv" -> "content-type", "content" -> "application/xhtml+xml")),
 					Elem(htmlBinding, "link", Attributes("rel" -> "stylesheet", "href" -> "style/style.css"))
 				)),
 				Elem(htmlBinding, "body", Attributes(), Group(
-					Elem(htmlBinding, "header", Attributes(), Group(XMLConvertable.ElemConvertable(
-						<nav xmlns="http://www.w3.org/1999/xhtml">
-							<a href="http://twitchplayspokemon.org/">TwitchPlaysPokemon.org</a>
-							<a href="http://www.reddit.com/live/ut336fzq0red">Live Updater</a>
-						</nav>
-					))),
+					XMLConvertable.ElemConvertable(
+						<header xmlns="http://www.w3.org/1999/xhtml">
+							<nav class="remote">
+								<a href="http://twitchplayspokemon.org/">TwitchPlaysPokemon.org</a>
+								<a href="http://www.reddit.com/live/ut336fzq0red">Live Updater</a>
+							</nav>
+							<nav class="local">
+								<a href="moemon.xhtml">Moemon</a>
+								<a href="touhoumon.xhtml">Touhoumon</a>
+							</nav>
+						</header>
+					),
 					Elem(htmlBinding, "main", Attributes(), Group(
-						Elem(htmlBinding, "h1", Attributes(), Group(Text("Twitch Plays Pokémon"))),
+						Elem(htmlBinding, "h1", Attributes(), Group(Text("Twitch Plays Pokémon - " + pageData.gameName))),
 						Elem(htmlBinding, "div", Attributes("class" -> "lastUpdated"), Group(
 							Text("Last Updated: "),
 							Text(pageData.lastUpdate)

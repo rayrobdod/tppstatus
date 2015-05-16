@@ -1,5 +1,6 @@
 {
-	"lastUpdate":"5d 21h 34m",
+	"lastUpdate":"5d 21h 34m",  
+	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 
 	"party":[{
@@ -77,10 +78,10 @@
 		"ingame":"Sanae",
 		"level":40,
 		"attacks":[
-			"Extrasensory",
+			"Water Pulse",
 			"Twister",
-			"???",
-			"???"
+			"Razor Wind",
+			"Extrasensory"
 		],
 		"caught":"Easy",
 		"holding":"Nothing",
