@@ -2,6 +2,8 @@
 ::-moz-selection{background:inherit;color:#c40029;}
 
 a,a:visited{transition:0.2s ease-in-out;}
+
+ul.game-list {font-size: 200%;}
 table {border-collapse:collapse; border:1px solid grey; min-width: 100%}
 table td {border-bottom: 1px solid grey; text-align: center;}
 table td ul,
@@ -41,5 +43,6 @@ header nav a {color: black;}
 .type.water{background-color:#6890f0}
 .type.faith{background-color:#f8b010}
 .type.wind{background-color: #d8e030}
-.type.dream{background-color: #a8a878;}
-.type.beast{background-color: #b8a038;}
+.type.dream{background-color:#a8a878;}
+.type.beast{background-color:#b8a038;}
+.type.heart{background-color:#f8a8b8;}

@@ -1,8 +1,8 @@
 {
-	"lastUpdate":"5d 21h 34m",
+	"lastUpdate":"6d 00h 00m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
-
+	
 	"party":[{
 		"species":"Butterfree",
 		"type1":"Bug",
@@ -45,7 +45,7 @@
 		"type2":"Flying",
 		"ability":"Blaze",
 		"ingame":"FFF&nbsp;&nbsp;&nbsp;",
-		"level":41,
+		"level":42,
 		"attacks":[
 			"Wing Attack",
 			"Ember",
@@ -61,12 +61,12 @@
 		"type2":"Flying",
 		"ability":"???",
 		"ingame":"T",
-		"level":42,
+		"level":39,
 		"attacks":[
+			"Quick Attack",
 			"Fly",
-			"???",
-			"???",
-			"???"
+			"Wing Attack",
+			"Tackle"
 		],
 		"caught":"0d 3h 48m",
 		"holding":"Nothing",
@@ -110,16 +110,14 @@
 	
 	"box":[{
 		"species":"Rattata",
-		"type1":"???",
-		"type2":"???",
+		"type1":"Normal",
 		"ability":"???",
 		"ingame":"Rattata",
 		"level":-1,
 		"caught":"0d 3h 46m"
 	},{
 		"species":"Rattata",
-		"type1":"???",
-		"type2":"???",
+		"type1":"Normal",
 		"ability":"???",
 		"ingame":"Rattata",
 		"level":-1,
@@ -139,8 +137,8 @@
 		]
 	},{
 		"species":"Zubat",
-		"type1":"???",
-		"type2":"???",
+		"type1":"Poison",
+		"type2":"Flying",
 		"ability":"???",
 		"ingame":"Zubat",
 		"level":-1,
@@ -155,40 +153,38 @@
 		"caught":"1d 14h 34m"
 	},{
 		"species":"Zubat",
-		"type1":"???",
-		"type2":"???",
+		"type1":"Poison",
+		"type2":"Flying",
 		"ability":"???",
 		"ingame":"Zubat",
 		"level":11,
 		"caught":"1d 14h 36m"
 	},{
 		"species":"Zubat",
-		"type1":"???",
-		"type2":"???",
+		"type1":"Poison",
+		"type2":"Flying",
 		"ability":"???",
 		"ingame":"MMMGGAUUUO",
 		"level":10,
 		"caught":"1d 14h 45m"
 	},{
 		"species":"Ekans",
-		"type1":"???",
-		"type2":"???",
+		"type1":"Poison",
 		"ability":"???",
 		"ingame":"A",
 		"level":-1,
 		"caught":"2d 2h 33m"
 	},{
 		"species":"Ekans",
-		"type1":"???",
-		"type2":"???",
+		"type1":"Poison",
 		"ability":"???",
 		"ingame":"Ekans",
 		"level":8,
 		"caught":"2d 2h 55m"
 	},{
 		"species":"Pidgey",
-		"type1":"???",
-		"type2":"???",
+		"type1":"Normal",
+		"type2":"Flying",
 		"ability":"???",
 		"ingame":"Pidgey",
 		"level":15,
@@ -211,40 +207,38 @@
 		"caught":"2d 18h 3m"
 	},{
 		"species":"Pidgey",
-		"type1":"???",
-		"type2":"???",
+		"type1":"Normal",
+		"type2":"Flying",
 		"ability":"???",
 		"ingame":"AAAAATTTTT",
 		"level":11,
 		"caught":"2d 20h 32m"
 	},{
 		"species":"Spearow",
-		"type1":"???",
-		"type2":"???",
+		"type1":"Normal",
+		"type2":"Flying",
 		"ability":"???",
 		"ingame":"ATTTTZ&nbsp;&nbsp;ST",
 		"level":8,
 		"caught":"2d 22h 13m"
 	},{
 		"species":"Rattata",
-		"type1":"???",
-		"type2":"???",
+		"type1":"Normal",
 		"ability":"???",
 		"ingame":"Rattata",
 		"level":10,
 		"caught":"2d 22h 21m"
 	},{
 		"species":"Spearow",
-		"type1":"???",
-		"type2":"???",
+		"type1":"Normal",
+		"type2":"Flying",
 		"ability":"???",
 		"ingame":"&nbsp;!♂6????♂_",
 		"level":10,
 		"caught":"2d 22h 34m"
 	},{
 		"species":"Ekans",
-		"type1":"???",
-		"type2":"???",
+		"type1":"Poison",
 		"ability":"???",
 		"ingame":"&nbsp;&nbsp;&nbsp;....&nbsp;..",
 		"level":10,

@@ -40,7 +40,7 @@ package tpporg {
 	
 	case class Badge(
 		name:String = "???",
-		time:String = "??d ??h ??m",
+		time:String = "---",
 		attempts:Long = 0
 	)
 	
