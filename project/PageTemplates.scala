@@ -89,7 +89,13 @@ object PageTemplates {
 				list.map{x =>
 					Elem(htmlBinding, "td", Attributes(), Group(
 						Elem(htmlBinding, "ol", Attributes(), Group.fromSeq(
-							x.attacks.map{y => Elem(htmlBinding, "li", Attributes(), Group(Text(y)))}
+							x.attacks.map{y => Elem(htmlBinding, "li", Attributes(), Group(
+								if (Set("Cut", "Surf", "Flash", "Strength", "Fly") contains y) {
+									Elem(htmlBinding, "strong", Attributes(), Group(Text(y)))
+								} else {
+									Text(y)
+								}
+							))}
 						))
 					))
 				}
