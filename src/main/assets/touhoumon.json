@@ -1,0 +1,115 @@
+{
+	"lastUpdate":"05d 06h 35m",
+	"monsterType":"Bokéna",
+
+	"party":[{
+		"species":"Momiji",
+		"type1":"Beast",
+		"type2":"Steel",
+		"ability":"Intimidate",
+		"ingame":"AVVVVABBBB",
+		"level":32,
+		"attacks":[
+			"Cut",
+			"Howl",
+			"Blade Flash",
+			"<s>Razor Wind</s> Fury Cutter"
+		],
+		"nextAttack":"Endure @ 34",
+		"holding":"Nothing",
+		"nature":"Bold",
+		"nickname":["AWOO", "Wood"]
+	},{
+		"species":"CMeiling",
+		"type1":"Dream",
+		"ability":"???",
+		"ingame":"AM",
+		"level":20,
+		"attacks":[
+			"Double Kick",
+			"Focus Energy",
+			"Low Kick",
+			"Force Palm"
+		],
+		"holding":"Easy Orb",
+		"nature":"???",
+		"nickname":[]
+	},{
+		"species":"Kogasa",
+		"type1":"Ghost",
+		"ability":"???",
+		"ingame":"XXXXXXXQk",
+		"level":33,
+		"attacks":[
+			"Mirror Shot",
+			"Recolation",
+			"---",
+			"---"
+		],
+		"holding":"Nothing",
+		"nature":"???",
+		"nickname":[]
+	},{
+		"species":"Tokiko",
+		"type1":"Flying",
+		"ability":"???",
+		"ingame":"A",
+		"type1":"Flying",
+		"level":42,
+		"attacks":[
+			"Soar",
+			"Zen Headbutt",
+			"Roost",
+			"Quick Attack"
+		],
+		"nextAttack":"Screech @ 44",
+		"holding":"Nothing",
+		"nature":"Naive",
+		"nickname":["Book Jesus","Albumgeddon"]
+	},{
+		"species":"Sanae",
+		"type1":"Faith",
+		"type2":"Wind",
+		"ability":"Serene Grace",
+		"nextAttack":"Twister @ 40",
+		"ingame":"Sanae",
+		"level":39,
+		"attacks":[
+			"???",
+			"???",
+			"???",
+			"???"
+		],
+		"caught":"Easy",
+		"holding":"Nothing",
+		"nature":"Quiet",
+		"nickname":[]
+	},{
+		"species":"CLunasa",
+		"type1":"Ghost",
+		"ability":"Soundproof",
+		"ingame":"CLunasa",
+		"level":16,
+		"attacks":[
+			"Astonish",
+			"Harden",
+			"Night Shade",
+			"Helping Hand"
+		],
+		"caught":"Easy",
+		"holding":"Nothing",
+		"nature":"???",
+		"nickname":[]
+	}],
+	
+	"badges":[
+		{"name":"Boudler"},
+		{"name":"Cascade"},
+		{"name":"Thunder"},
+		{"name":"Rainbow","time":"5d 6h 37m","attempts":1},
+		{"name":"Marsh"},
+		{"name":"Soul"},
+		{"name":"Volcano"},
+		{"name":"Earth"}
+	]
+}
