@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"05d 10h 44m",
+	"lastUpdate":"5d 21h 34m",
 	"monsterType":"Moémon",
 
 	"party":[{
@@ -35,7 +35,7 @@
 			"Absorb",
 			"Stun Spore"
 		],
-		"holding":"Nothing",
+		"holding":"Escape Rope",
 		"nature":"Hasty",
 		"nickname":[]
 	},{
@@ -48,7 +48,7 @@
 		"attacks":[
 			"Wing Attack",
 			"Ember",
-			"Smokescreen",
+			"Fly",
 			"Scratch"
 		],
 		"holding":"Potion",
@@ -62,7 +62,7 @@
 		"ingame":"T",
 		"level":42,
 		"attacks":[
-			"???",
+			"Fly",
 			"???",
 			"???",
 			"???"
@@ -91,8 +91,8 @@
 		"species":"Vaporeon",
 		"type1":"Water",
 		"ability":"Water Absorb",
-		"ingame":"Acccioowww",
-		"level":25,
+		"ingame":"ACCCIOOWWW",
+		"level":28,
 		"attacks":[
 			"Quick Attack",
 			"Growl",
@@ -256,6 +256,13 @@
 		"ingame":"bbD",
 		"level":3,
 		"caught":"3d 7h 46m"
+	},{
+		"species":"Hitmonchan",
+		"type1":"Fighting",
+		"ability":"Keen Eye",
+		"ingame":"Fff",
+		"level":25,
+		"caught":"5d 12h 46m"
 	}],
 	
 	"badges":[

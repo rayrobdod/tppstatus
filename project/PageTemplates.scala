@@ -47,6 +47,10 @@ object PageTemplates {
 							listOfBadges(pageData.badges)
 						)),
 						Elem(htmlBinding, "section", Attributes(), Group(
+							Elem(htmlBinding, "h2", Attributes(), Group(Text("Daycare"))),
+							listOfBoxedPokemon(pageData.daycare)
+						)),
+						Elem(htmlBinding, "section", Attributes(), Group(
 							Elem(htmlBinding, "h2", Attributes(), Group(Text("Boxed"))),
 							listOfBoxedPokemon(pageData.box)
 						))

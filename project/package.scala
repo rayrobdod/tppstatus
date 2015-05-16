@@ -33,6 +33,7 @@ package tpporg {
 		lastUpdate:String = "??d ??h ??m",
 		party:Seq[Pokemon] = Nil,
 		box:Seq[Pokemon] = Nil,
+		daycare:Seq[Pokemon] = Nil,
 		badges:Seq[Badge] = Nil
 	)
 	
@@ -72,12 +73,14 @@ package tpporg {
 			case "lastUpdate" => t.copy(lastUpdate = value.toString)
 			case "party" => t.copy(party = value.asInstanceOf[Seq[Pokemon]])
 			case "box" => t.copy(box = value.asInstanceOf[Seq[Pokemon]])
+			case "daycare" => t.copy(daycare = value.asInstanceOf[Seq[Pokemon]])
 			case "badges" => t.copy(badges = value.asInstanceOf[Seq[Badge]])
 			case _ => throw new IllegalArgumentException("PageDataBuilder apply key: " + key)
 		}
 		override def childBuilder(key:String) = key match { 
 			case "party" => new SeqBuilder(PokemonBuilder)
 			case "box" => new SeqBuilder(PokemonBuilder)
+			case "daycare" => new SeqBuilder(PokemonBuilder)
 			case "badges" => new SeqBuilder(BadgeBuilder)
 			case _ => throw new IllegalArgumentException("PageDataBuilder childBuilder key: " + key)
 		}

@@ -8,6 +8,7 @@ table td ul,
 table td ol {margin: 0px; padding: 0px;}
 table td li {display: block;}
 table.boxed tr.name td {border-top: 5px solid grey;}
+table.boxed {border-bottom: 5px solid grey;}
 
 div.lastUpdated {display:block; float:right; font-size:150%;}
 

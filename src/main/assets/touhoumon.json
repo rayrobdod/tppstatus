@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"05d 10h 44m",
+	"lastUpdate":"5d 21h 34m",
 	"monsterType":"Bokéna",
 
 	"party":[{
@@ -7,8 +7,8 @@
 		"type1":"Beast",
 		"type2":"Steel",
 		"ability":"Intimidate",
-		"ingame":"AVVVVABBBB",
-		"level":33,
+		"ingame":"AUUUUABBBB",
+		"level":35,
 		"attacks":[
 			"Cut",
 			"Howl",
@@ -36,14 +36,15 @@
 		"nature":"???",
 		"nickname":[]
 	},{
-		"species":"Kogasa",
+		"species":"Satori",
 		"type1":"Ghost",
 		"ability":"???",
 		"ingame":"XXXXXXXQk",
-		"level":33,
+		"nextAttack":"--- @ --",
+		"level":34,
 		"attacks":[
 			"Mirror Shot",
-			"Recolation",
+			"Recolletion",
 			"---",
 			"---"
 		],
@@ -72,12 +73,12 @@
 		"type1":"Faith",
 		"type2":"Wind",
 		"ability":"Serene Grace",
-		"nextAttack":"Twister @ 40",
+		"nextAttack":"Swagger @ 43",
 		"ingame":"Sanae",
-		"level":39,
+		"level":40,
 		"attacks":[
 			"Extrasensory",
-			"Desision",
+			"Twister",
 			"???",
 			"???"
 		],
@@ -86,18 +87,19 @@
 		"nature":"Quiet",
 		"nickname":[]
 	},{
-		"species":"CLunasa",
-		"type1":"Ghost",
-		"ability":"Soundproof",
-		"ingame":"CLunasa",
-		"level":16,
+		"species":"CToyohime",
+		"type1":"Earth",
+		"type2":"Water",
+		"ability":"Own Tempo",
+		"ingame":"AAAAAAAAAA",
+		"level":25,
 		"attacks":[
-			"Astonish",
-			"Harden",
-			"Night Shade",
-			"Helping Hand"
+			"Mud Slap",
+			"Sandstorm",
+			"Refresh",
+			"Water Pulse"
 		],
-		"caught":"Easy",
+		"caught":"5d 16h 1m",
 		"holding":"Nothing",
 		"nature":"???",
 		"nickname":[]
@@ -190,14 +192,6 @@
 		"level":-1,
 		"caught":"4d 13h 24m"
 	},{
-		"species":"CCirno",
-		"type1":"???",
-		"type2":"???",
-		"ability":"???",
-		"ingame":"BB",
-		"level":13,
-		"caught":"4d 13h 26m"
-	},{
 		"species":"CLunasa",
 		"type1":"???",
 		"type2":"???",
@@ -237,6 +231,37 @@
 		"ingame":"AAAUU",
 		"level":17,
 		"caught":"5d 2h 35m"
+	},{
+		"species":"CLunasa",
+		"type1":"Ghost",
+		"ability":"Soundproof",
+		"ingame":"CLunasa",
+		"level":16,
+		"attacks":[
+			"Astonish",
+			"Harden",
+			"Night Shade",
+			"Helping Hand"
+		],
+		"caught":"Easy",
+		"holding":"Nothing",
+		"nature":"???",
+		"nickname":[]
+	}],
+	
+	"daycare":[{
+		"species":"CCirno",
+		"type1":"Ice",
+		"ability":"???",
+		"ingame":"BB",
+		"level":24,
+		"attacks":[
+			"Hail",
+			"Aurora Beam",
+			"Ice Shard",
+			"???"
+		],
+		"caught":"4d 13h 26m"
 	}],
 	
 	"badges":[
