@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"6d 00h 00m",
+	"lastUpdate":"6d 01h 05m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
@@ -10,7 +10,7 @@
 		"ability":"???",
 		"ingame":"Butterbae",
 		"formerIngame":["BUTT", "Butterfree"],
-		"level":32,
+		"level":36,
 		"attacks":[
 			"Confusion",
 			"Psychic",
@@ -27,14 +27,14 @@
 		"species":"Oddish",
 		"type1":"Grass",
 		"type2":"Poison",
-		"ability":"???",
+		"ability":"Chlorophyll",
 		"ingame":"AAACCCVV",
 		"level":18,
 		"attacks":[
+			"Stun Spore",
 			"Cut",
-			"Sleep Powder",
 			"Absorb",
-			"Stun Spore"
+			"Sleep Powder",
 		],
 		"holding":"Escape Rope",
 		"nature":"Hasty",
@@ -95,10 +95,10 @@
 		"ingame":"ACCCIOOWWW",
 		"level":28,
 		"attacks":[
-			"Quick Attack",
 			"Growl",
 			"Sand-Attack",
-			"Water Pulse"
+			"Water Pulse",
+			"Quick Attack"
 		],
 		"holding":"Nothing",
 		"nextAttack":"Bite @ 30",

@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"6d 00h 00m",  
+	"lastUpdate":"6d 01h 05m",  
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 
@@ -11,9 +11,9 @@
 		"ingame":"AUUUUABBBB",
 		"level":35,
 		"attacks":[
+			"Fury Cutter",
 			"Cut",
 			"Blade Flash",
-			"Fury Cutter",
 			"---"
 		],
 		"caught":"2d 4h 16m",
@@ -26,9 +26,9 @@
 		"type1":"Dream",
 		"ability":"???",
 		"ingame":"AM",
-		"level":20,
+		"level":21,
 		"attacks":[
-			"Double Kick",
+			"Energy Ball",
 			"Focus Energy",
 			"Low Kick",
 			"Force Palm"
@@ -38,7 +38,7 @@
 		"nature":"???",
 		"nickname":[]
 	},{
-		"species":"Satori",
+		"species":"CSatori",
 		"type1":"Heart",
 		"ability":"Trace",
 		"ingame":"XXXXXXXQk",
@@ -272,7 +272,7 @@
 		{"name":"Cascade","time":"2d 0h 16m", "attempts":2},
 		{"name":"Thunder","time":"2d 22h 28m","attempts":2},
 		{"name":"Rainbow","time":"5d 6h 37m", "attempts":1},
-		{"name":"Marsh",  "time":"---", "attempts":1},
+		{"name":"Marsh",  "time":"---", "attempts":3},
 		{"name":"Soul"},
 		{"name":"Volcano"},
 		{"name":"Earth"}
