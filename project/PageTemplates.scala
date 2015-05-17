@@ -44,6 +44,10 @@ object PageTemplates {
 							Text("Last Updated: "),
 							Text(pageData.lastUpdate)
 						)),
+						Elem(htmlBinding, "div", Attributes("class" -> "checkpoint"), Group(
+							Text("Checkpoint: "),
+							Text(pageData.checkpoint)
+						)),
 						Elem(htmlBinding, "section", Attributes(), Group(
 							Elem(htmlBinding, "h2", Attributes(), Group(Text(pageData.monsterType + " in Party"))),
 							listOfPartyPokemon(pageData.party)

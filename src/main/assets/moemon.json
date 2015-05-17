@@ -1,17 +1,19 @@
 {
-	"lastUpdate":"6d 21h 00m",
+	"lastUpdate":"6d 21h 30m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
+	
+	"checkpoint":"Fuchsia City",
 	
 	"party":[{
 		"species":"Butterfree",
 		"type1":"Bug",
 		"type2":"Flying",
-		"ability":"???",
+		"ability":"Compound Eyes",
 		"gender":"Female",
 		"ingame":"Butterbae",
 		"formerIngame":["BUTT", "Butterfree"],
-		"level":39,
+		"level":40,
 		"attacks":[
 			"Confusion",
 			"Psychic",
@@ -19,8 +21,8 @@
 			"Sleep Powder"
 		],
 		"holding":"Burn Heal",
-		"nextAttack":"Safeguard @ 40",
-		"nextAttacks":["Silver Wind @ 47"],
+		"nextAttack":"Silver Wind @ 47",
+		"nextAttacks":["--- @ --"],
 		"nature":"Modest",
 		"nickname":["Butterbae"],
 		"caughtTime":"0d 7h 39m"

@@ -1,7 +1,9 @@
 {
-	"lastUpdate":"6d 21h 00m",
+	"lastUpdate":"6d 21h 30m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
+	
+	"checkpoint":"Fuchsia City",
 
 	"party":[{
 		"species":"Momiji",
@@ -30,7 +32,7 @@
 		"ingame":"BB",
 		"level":31,
 		"attacks":[
-			"Hail",
+			"Surf",
 			"Aurora Beam",
 			"Ice Shard",
 			"Ice Punch"
@@ -423,6 +425,15 @@
 		"holding":"Nothing",
 		"nature":"???",
 		"nickname":[]
+	},{
+		"species":"CMystia",
+		"type1":"???",
+		"ability":"???",
+		"ingame":"CMystia",
+		"gender":"???",
+		"level":15,
+		"caughtTime":"6d 21h 15m",
+		"caughtBall":"normal"
 	}],
 	
 	"daycare":[{
