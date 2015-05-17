@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"6d 04h 15m",
+	"lastUpdate":"6d 10h 30m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
@@ -23,7 +23,7 @@
 		"nextAttacks":["Silver Wind @ 47"],
 		"nature":"Modest",
 		"nickname":["Butterbae"],
-		"caught":"0d 7h 39m"
+		"caughtTime":"0d 7h 39m"
 	},{
 		"species":"Oddish",
 		"type1":"Grass",
@@ -61,7 +61,8 @@
 		"nextAttacks":["Dragon Rage @ 54","Fire Spin @ 64"],
 		"holding":"Potion",
 		"nature":"Naughty",
-		"nickname":["Effie", "White"]
+		"nickname":["Effie", "White"],
+		"caughtBall":"Poke"
 	},{
 		"species":"Pidgeot",
 		"type1":"Normal",
@@ -78,7 +79,7 @@
 		],
 		"nextAttack":"Agility @ 48",
 		"nextAttacks":["Mirror Move @ 62"],
-		"caught":"0d 3h 48m",
+		"caughtTime":"0d 3h 48m",
 		"holding":"Nothing",
 		"nature":"Lax",
 		"nickname":["Miss T"]
@@ -100,7 +101,7 @@
 		"holding":"Nothing",
 		"nature":"Brave",
 		"nickname":[],
-		"caught":"3d 6h 2m"
+		"caughtTime":"3d 6h 2m"
 	},{
 		"species":"Vaporeon",
 		"type1":"Water",
@@ -109,17 +110,18 @@
 		"ingame":"ACCCIOOWWW",
 		"level":30,
 		"attacks":[
-			"Growl",
-			"Sand-Attack",
 			"Water Pulse",
+			"Sand-Attack",
+			"Surf",
 			"Quick Attack"
 		],
-		"holding":"Nothing",
+		"holding":"Awakening",
 		"nextAttack":"Aurora Beam @ 36",
 		"nextAttacks":["Haze @ 42"],
 		"nature":"Quiet",
 		"nickname":[],
-		"caught":"4d 23m 58m"
+		"caughtTime":"4d 23m 58m",
+		"caughtBall":"Poke"
 	}],
 	
 	"box":[{
@@ -128,21 +130,22 @@
 		"ability":"???",
 		"ingame":"Rattata",
 		"level":-1,
-		"caught":"0d 3h 46m"
+		"caughtTime":"0d 3h 46m"
 	},{
 		"species":"Rattata",
 		"type1":"Normal",
 		"ability":"???",
 		"ingame":"Rattata",
 		"level":-1,
-		"caught":"0d 4h 06m"
+		"caughtTime":"0d 4h 06m"
 	},{
 		"species":"Magikarp",
 		"type1":"Water",
 		"ability":"???",
 		"ingame":"AA",
 		"level":6,
-		"caught":"0d 23h 22m",
+		"caughtTime":"0d 23h 22m",
+		"caughtBall":"Poke",
 		"attacks":[
 			"Splash",
 			"---",
@@ -156,7 +159,7 @@
 		"ability":"???",
 		"ingame":"Zubat",
 		"level":-1,
-		"caught":"1d 14h 16m"
+		"caughtTime":"1d 14h 16m"
 	},{
 		"species":"Geodude",
 		"type1":"???",
@@ -164,7 +167,7 @@
 		"ability":"???",
 		"ingame":"Geodude",
 		"level":9,
-		"caught":"1d 14h 34m"
+		"caughtTime":"1d 14h 34m"
 	},{
 		"species":"Zubat",
 		"type1":"Poison",
@@ -172,7 +175,7 @@
 		"ability":"???",
 		"ingame":"Zubat",
 		"level":11,
-		"caught":"1d 14h 36m"
+		"caughtTime":"1d 14h 36m"
 	},{
 		"species":"Zubat",
 		"type1":"Poison",
@@ -180,21 +183,21 @@
 		"ability":"???",
 		"ingame":"MMMGGAUUUO",
 		"level":10,
-		"caught":"1d 14h 45m"
+		"caughtTime":"1d 14h 45m"
 	},{
 		"species":"Ekans",
 		"type1":"Poison",
 		"ability":"???",
 		"ingame":"A",
 		"level":-1,
-		"caught":"2d 2h 33m"
+		"caughtTime":"2d 2h 33m"
 	},{
 		"species":"Ekans",
 		"type1":"Poison",
 		"ability":"???",
 		"ingame":"Ekans",
 		"level":8,
-		"caught":"2d 2h 55m"
+		"caughtTime":"2d 2h 55m"
 	},{
 		"species":"Pidgey",
 		"type1":"Normal",
@@ -202,7 +205,7 @@
 		"ability":"???",
 		"ingame":"Pidgey",
 		"level":15,
-		"caught":"2d 8h 17m"
+		"caughtTime":"2d 8h 17m"
 	},{
 		"species":"Abra",
 		"type1":"???",
@@ -210,7 +213,7 @@
 		"ability":"???",
 		"ingame":"Abra",
 		"level":8,
-		"caught":"2d 17h 57m"
+		"caughtTime":"2d 17h 57m"
 	},{
 		"species":"Weedle",
 		"type1":"???",
@@ -218,7 +221,7 @@
 		"ability":"???",
 		"ingame":"AACBBBHCCC",
 		"level":7,
-		"caught":"2d 18h 3m"
+		"caughtTime":"2d 18h 3m"
 	},{
 		"species":"Pidgey",
 		"type1":"Normal",
@@ -226,7 +229,7 @@
 		"ability":"???",
 		"ingame":"AAAAATTTTT",
 		"level":11,
-		"caught":"2d 20h 32m"
+		"caughtTime":"2d 20h 32m"
 	},{
 		"species":"Spearow",
 		"type1":"Normal",
@@ -234,14 +237,14 @@
 		"ability":"???",
 		"ingame":"ATTTTZ&nbsp;&nbsp;ST",
 		"level":8,
-		"caught":"2d 22h 13m"
+		"caughtTime":"2d 22h 13m"
 	},{
 		"species":"Rattata",
 		"type1":"Normal",
 		"ability":"???",
 		"ingame":"Rattata",
 		"level":10,
-		"caught":"2d 22h 21m"
+		"caughtTime":"2d 22h 21m"
 	},{
 		"species":"Spearow",
 		"type1":"Normal",
@@ -249,14 +252,14 @@
 		"ability":"???",
 		"ingame":"&nbsp;!♂6????♂_",
 		"level":10,
-		"caught":"2d 22h 34m"
+		"caughtTime":"2d 22h 34m"
 	},{
 		"species":"Ekans",
 		"type1":"Poison",
 		"ability":"???",
 		"ingame":"&nbsp;&nbsp;&nbsp;....&nbsp;..",
 		"level":10,
-		"caught":"2d 2h 42m"
+		"caughtTime":"2d 2h 42m"
 	},{
 		"species":"Pikachu",
 		"type1":"???",
@@ -264,7 +267,7 @@
 		"ability":"???",
 		"ingame":"bbD",
 		"level":3,
-		"caught":"3d 7h 46m"
+		"caughtTime":"3d 7h 46m"
 	},{
 		"species":"Hitmonchan",
 		"type1":"Fighting",
@@ -272,7 +275,95 @@
 		"gender":"Male",
 		"ingame":"Fff",
 		"level":25,
-		"caught":"5d 12h 46m"
+		"caughtTime":"5d 12h 46m"
+	},{
+		"species":"Exeggcute",
+		"type1":"Grass",
+		"type2":"Psychic",
+		"ability":"???",
+		"ingame":"AAAAAAAAAA",
+		"gender":"female",
+		"level":23,
+		"caughtTime":"6d 7h 34m",
+		"caughtBall":"safari"
+	},{
+		"species":"Dodou",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"BCCCCCCCC",
+		"gender":"female",
+		"level":26,
+		"caughtTime":"6d 7h 42m",
+		"caughtBall":"safari"
+	},{
+		"species":"Paras",
+		"type1":"Bug",
+		"type2":"Grass",
+		"ability":"???",
+		"ingame":"AAAAAAAAAA",
+		"gender":"female",
+		"level":22,
+		"caughtTime":"6d 7h 48m",
+		"caughtBall":"safari"
+	},{
+		"species":"Nidoran♂",
+		"type1":"Poison",
+		"ability":"???",
+		"ingame":"AAAAAAAAAA",
+		"gender":"male",
+		"level":30,
+		"caughtTime":"6d 8h 29m",
+		"caughtBall":"safari"
+	},{
+		"species":"Nidorino",
+		"type1":"Poison",
+		"ability":"???",
+		"ingame":"AAAAAAAAAA",
+		"gender":"male",
+		"level":33,
+		"caughtTime":"6d 8h 41m",
+		"caughtBall":"safari"
+	},{
+		"species":"Paras",
+		"type1":"Bug",
+		"type2":"Grass",
+		"ability":"???",
+		"ingame":"AAAAAAAAAA",
+		"gender":"female",
+		"level":22,
+		"caughtTime":"6d 8h 45m",
+		"caughtBall":"safari"
+	},{
+		"species":"Paras",
+		"type1":"Bug",
+		"type2":"Grass",
+		"ability":"???",
+		"ingame":"AAAAAAAAAA",
+		"gender":"female",
+		"level":22,
+		"caughtTime":"6d 9h 0m",
+		"caughtBall":"safari"
+	},{
+		"species":"Exeggcute",
+		"type1":"Grass",
+		"type2":"Psychic",
+		"ability":"???",
+		"ingame":"AAAAAAAAAA",
+		"gender":"female",
+		"level":27,
+		"caughtTime":"6d 9h 8m",
+		"caughtBall":"safari"
+	},{
+		"species":"Rhyhorn",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"Rhyhorn",
+		"gender":"female",
+		"level":-1,
+		"caughtTime":"6d 9h 29m",
+		"caughtBall":"safari"
 	}],
 	
 	"badges":[

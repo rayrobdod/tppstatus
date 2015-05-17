@@ -59,7 +59,8 @@ package tpporg {
 		nextAttack:String = "???",
 		nextAttacks:Seq[String] = Nil,
 		gender:String = "???",
-		caught:String = "???"
+		caughtTime:String = "???",
+		caughtBall:String = "???"
 	)
 	
 	

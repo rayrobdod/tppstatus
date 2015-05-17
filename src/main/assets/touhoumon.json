@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"6d 04h 15m",
+	"lastUpdate":"6d 10h 30m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 
@@ -10,14 +10,14 @@
 		"ability":"Intimidate",
 		"gender":"Male",
 		"ingame":"AUUUUABBBB",
-		"level":38,
+		"level":39,
 		"attacks":[
 			"Fury Cutter",
 			"Cut",
 			"Blade Flash",
 			"Crunch"
 		],
-		"caught":"2d 4h 16m",
+		"caughtTime":"2d 4h 16m",
 		"nextAttack":"Tail Wind @ 40",
 		"nextAttacks":["Night Slash @ 44", "Swords Dance @ 48", "Killing Bite @ 52", "Braver @ 56"],
 		"holding":"Normal Orb",
@@ -32,7 +32,7 @@
 		"level":21,
 		"attacks":[
 			"Energy Ball",
-			"Focus Energy",
+			"Strength",
 			"Low Kick",
 			"Force Palm"
 		],
@@ -82,7 +82,7 @@
 		"ability":"Serene Grace",
 		"gender":"Female",
 		"ingame":"Sanae",
-		"level":41,
+		"level":42,
 		"attacks":[
 			"Water Pulse",
 			"Twister",
@@ -90,7 +90,7 @@
 			"Extrasensory"
 		],
 		"nextAttack":"Swagger @ 43",
-		"caught":"???",
+		"caughtBall":"Easy",
 		"holding":"Nothing",
 		"nature":"Quiet",
 		"nickname":[]
@@ -109,7 +109,7 @@
 			"Water Pulse"
 		],
 		"nextAttack":"Sand Tomb @ 30",
-		"caught":"5d 16h 1m",
+		"caughtTime":"5d 16h 1m",
 		"holding":"Nothing",
 		"nature":"???",
 		"nickname":[]
@@ -122,14 +122,14 @@
 		"ability":"???",
 		"ingame":"CDaiyousei",
 		"level":5,
-		"caught":"0d 7h 38m"
+		"caughtTime":"0d 7h 38m"
 	},{
 		"species":"CNazrin",
 		"type1":"Beast",
 		"ability":"???",
 		"ingame":"???",
 		"level":4,
-		"caught":"0d 7h 38m"
+		"caughtTime":"0d 7h 38m"
 	},{
 		"species":"CStar",
 		"type1":"???",
@@ -137,7 +137,7 @@
 		"ability":"???",
 		"ingame":"???",
 		"level":4,
-		"caught":"0d 7h 38m"
+		"caughtTime":"0d 7h 38m"
 	},{
 		"species":"CSunny",
 		"type1":"???",
@@ -145,14 +145,14 @@
 		"ability":"???",
 		"ingame":"???",
 		"level":-1,
-		"caught":"0d 7h 40m"
+		"caughtTime":"0d 7h 40m"
 	},{
 		"species":"CNarzin",
 		"type1":"Beast",
 		"ability":"???",
 		"ingame":"???",
 		"level":-1,
-		"caught":"0d 7h 46m"
+		"caughtTime":"0d 7h 46m"
 	},{
 		"species":"CSunny",
 		"type1":"???",
@@ -160,7 +160,7 @@
 		"ability":"???",
 		"ingame":"???",
 		"level":-1,
-		"caught":"0d 7h 49m"
+		"caughtTime":"0d 7h 49m"
 	},{
 		"species":"CTokiko",
 		"type1":"???",
@@ -168,7 +168,7 @@
 		"ability":"???",
 		"ingame":"AAT",
 		"level":-1,
-		"caught":"0d 8h 39m"
+		"caughtTime":"0d 8h 39m"
 	},{
 		"species":"CParsee",
 		"type1":"???",
@@ -176,7 +176,7 @@
 		"ability":"???",
 		"ingame":"UU",
 		"level":17,
-		"caught":"3d 8h 29m"
+		"caughtTime":"3d 8h 29m"
 	},{
 		"species":"CMystica",
 		"type1":"???",
@@ -184,7 +184,7 @@
 		"ability":"???",
 		"ingame":"ag66ITTTT",
 		"level":16,
-		"caught":"3d 16h 27m"
+		"caughtTime":"3d 16h 27m"
 	},{
 		"species":"CMeiling",
 		"type1":"???",
@@ -192,7 +192,7 @@
 		"ability":"???",
 		"ingame":"AM",
 		"level":-1,
-		"caught":"4d 0h 31m"
+		"caughtTime":"4d 0h 31m"
 	},{
 		"species":"CMystia",
 		"type1":"???",
@@ -200,7 +200,7 @@
 		"ability":"???",
 		"ingame":"???",
 		"level":-1,
-		"caught":"4d 13h 24m"
+		"caughtTime":"4d 13h 24m"
 	},{
 		"species":"CLunasa",
 		"type1":"???",
@@ -208,7 +208,7 @@
 		"ability":"???",
 		"ingame":"CLunasa",
 		"level":16,
-		"caught":"4d 23h 09m"
+		"caughtTime":"4d 23h 09m"
 	},{
 		"species":"CLyrica",
 		"type1":"???",
@@ -216,7 +216,7 @@
 		"ability":"???",
 		"ingame":"AAGGGG",
 		"level":18,
-		"caught":"5d 2h 35m"
+		"caughtTime":"5d 2h 35m"
 	},{
 		"species":"CMerlin",
 		"type1":"???",
@@ -224,7 +224,7 @@
 		"ability":"???",
 		"ingame":"G",
 		"level":19,
-		"caught":"5d 0h 3m"
+		"caughtTime":"5d 0h 3m"
 	},{
 		"species":"CYuyuko",
 		"type1":"???",
@@ -232,7 +232,7 @@
 		"ability":"???",
 		"ingame":"CYuyuko",
 		"level":17,
-		"caught":"5d 2h 22m"
+		"caughtTime":"5d 2h 22m"
 	},{
 		"species":"CLyrica",
 		"type1":"???",
@@ -240,7 +240,7 @@
 		"ability":"???",
 		"ingame":"AAAUU",
 		"level":17,
-		"caught":"5d 2h 35m"
+		"caughtTime":"5d 2h 35m"
 	},{
 		"species":"CLunasa",
 		"type1":"Ghost",
@@ -253,10 +253,157 @@
 			"Night Shade",
 			"Helping Hand"
 		],
-		"caught":"Easy",
+		"caughtBall":"Easy",
 		"holding":"Nothing",
 		"nature":"???",
 		"nickname":[]
+	},{
+		"species":"CKogasa",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"AAAAAAAAAA",
+		"gender":"male",
+		"level":26,
+		"caughtTime":"6d 7h 25m",
+		"caughtBall":"safari"
+	},{
+		"species":"CKogasa",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"AAAAAAAAAA",
+		"gender":"female",
+		"level":-1,
+		"caughtTime":"6d 7h 34m",
+		"caughtBall":"safari"
+	},{
+		"species":"Hourai",
+		"type1":"Reason",
+		"ability":"???",
+		"ingame":"BCCCCCCCC",
+		"gender":"male",
+		"level":22,
+		"caughtTime":"6d 7h 42m",
+		"caughtBall":"safari"
+	},{
+		"species":"Kedama",
+		"type1":"Nature",
+		"ability":"???",
+		"ingame":"AAAAAAAAAA",
+		"gender":"genderless",
+		"level":22,
+		"caughtTime":"6d 7h 48m",
+		"caughtBall":"safari"
+	},{
+		"species":"CKomachi",
+		"type1":"Water",
+		"ability":"???",
+		"ingame":"CKomachi",
+		"gender":"female",
+		"level":25,
+		"caughtTime":"6d 7h 56m",
+		"caughtBall":"safari"
+	},{
+		"species":"CKomachi",
+		"type1":"Water",
+		"ability":"???",
+		"ingame":"CKomachi",
+		"gender":"male",
+		"level":-1,
+		"caughtTime":"6d 8h 12m",
+		"caughtBall":"safari"
+	},{
+		"species":"CRan",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"CRan",
+		"gender":"male",
+		"level":25,
+		"caughtTime":"6d 8h 15m",
+		"caughtBall":"safari"
+	},{
+		"species":"CKomachi",
+		"type1":"Water",
+		"ability":"???",
+		"ingame":"AAAAAAAAAA",
+		"gender":"male",
+		"level":26,
+		"caughtTime":"6d 8h 22m",
+		"caughtBall":"safari"
+	},{
+		"species":"Hourai",
+		"type1":"Reason",
+		"ability":"???",
+		"ingame":"AAAAAAAAAA",
+		"gender":"???",
+		"level":27,
+		"caughtTime":"6d 8h 29m",
+		"caughtBall":"safari"
+	},{
+		"species":"Kedama",
+		"type1":"Nature",
+		"ability":"???",
+		"ingame":"AAAAAAAAAA",
+		"gender":"genderless",
+		"level":24,
+		"caughtTime":"6d 8h 45m",
+		"caughtBall":"safari"
+	},{
+		"species":"Kedama",
+		"type1":"Nature",
+		"ability":"???",
+		"ingame":"AAAAAAAAAA",
+		"gender":"genderless",
+		"level":25,
+		"caughtTime":"6d 8h 53m",
+		"caughtBall":"safari"
+	},{
+		"species":"Hourai",
+		"type1":"Reason",
+		"ability":"???",
+		"ingame":"AAAAAAAAAA",
+		"gender":"female",
+		"level":22,
+		"caughtTime":"6d 8h 59m",
+		"caughtBall":"safari"
+	},{
+		"species":"Kedama",
+		"type1":"Nature",
+		"ability":"???",
+		"ingame":"AAAAAAAAAA",
+		"gender":"genderless",
+		"level":30,
+		"caughtTime":"6d 9h 8m",
+		"caughtBall":"safari"
+	},{
+		"species":"Kedama",
+		"type1":"Nature",
+		"ability":"???",
+		"ingame":"AAAAAAAAAA",
+		"gender":"genderless",
+		"level":30,
+		"caughtTime":"6d 9h 19m",
+		"caughtBall":"safari"
+	},{
+		"species":"Hourai",
+		"type1":"Reason",
+		"ability":"???",
+		"ingame":"AAAAAAAAAA",
+		"gender":"female",
+		"level":27,
+		"caughtTime":"6d 9h 23m",
+		"caughtBall":"safari"
+	},{
+		"species":"Kedama",
+		"type1":"Nature",
+		"ability":"???",
+		"ingame":"AAAAAAAAAA",
+		"gender":"genderless",
+		"level":-1,
+		"caughtTime":"6d 9h 36m",
+		"caughtBall":"safari"
 	}],
 	
 	"daycare":[{
@@ -271,7 +418,8 @@
 			"Ice Shard",
 			"???"
 		],
-		"caught":"4d 13h 26m"
+		"caughtTime":"4d 13h 26m",
+		"caughtBall":"safari"
 	}],
 	
 	"badges":[

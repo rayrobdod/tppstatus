@@ -87,6 +87,7 @@ object PageTemplates {
 						Text("(" + x.species + ")"),
 						Elem(htmlBinding, "br"),
 						Elem(htmlBinding, "span", Attributes("class" -> ("type " + x.type1.toLowerCase())), Group(Text(x.type1))),
+						Text(" "),
 						Elem(htmlBinding, "span", Attributes("class" -> ("type " + x.type2.toLowerCase())), Group(Text(x.type2)))
 					))
 				}
@@ -139,7 +140,7 @@ object PageTemplates {
 				list.map{x =>
 					Elem(htmlBinding, "td", Attributes(), Group(
 						Text("Caught at: "),
-						Text(x.caught.toString)
+						Text(x.caughtTime.toString)
 					))
 				}
 			))
