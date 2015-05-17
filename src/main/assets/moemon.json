@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"6d 10h 30m",
+	"lastUpdate":"6d 21h 00m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
@@ -11,7 +11,7 @@
 		"gender":"Female",
 		"ingame":"Butterbae",
 		"formerIngame":["BUTT", "Butterfree"],
-		"level":38,
+		"level":39,
 		"attacks":[
 			"Confusion",
 			"Psychic",
@@ -25,22 +25,22 @@
 		"nickname":["Butterbae"],
 		"caughtTime":"0d 7h 39m"
 	},{
-		"species":"Oddish",
+		"species":"Vileplume",
 		"type1":"Grass",
 		"type2":"Poison",
 		"ability":"Chlorophyll",
 		"gender":"Female",
 		"ingame":"AAACCCVV",
-		"level":18,
+		"level":21,
 		"attacks":[
 			"Stun Spore",
 			"Cut",
 			"Absorb",
 			"Sleep Powder",
 		],
-		"nextAttack":"Acid @ 23",
-		"nextAttacks":["Moonlight @ 32", "Petal Dance @ 39"],
-		"holding":"Escape Rope",
+		"nextAttack":"Petal Dance @ 44",
+		"nextAttacks":[],
+		"holding":"Max Potion",
 		"nature":"Hasty",
 		"nickname":[]
 	},{
@@ -50,15 +50,15 @@
 		"ability":"Blaze",
 		"gender":"Female",
 		"ingame":"FFF&nbsp;&nbsp;&nbsp;",
-		"level":42,
+		"level":45,
 		"attacks":[
 			"Wing Attack",
 			"Ember",
 			"Fly",
 			"Scratch"
 		],
-		"nextAttack":"Slash @ 44",
-		"nextAttacks":["Dragon Rage @ 54","Fire Spin @ 64"],
+		"nextAttack":"Dragon Rage @ 54",
+		"nextAttacks":["Fire Spin @ 64"],
 		"holding":"Potion",
 		"nature":"Naughty",
 		"nickname":["Effie", "White"],
@@ -70,7 +70,7 @@
 		"ability":"???",
 		"gender":"Female",
 		"ingame":"T",
-		"level":40,
+		"level":41,
 		"attacks":[
 			"Quick Attack",
 			"Fly",
@@ -89,7 +89,7 @@
 		"ability":"???",
 		"gender":"Female",
 		"ingame":"AHHHHHIIII",
-		"level":33,
+		"level":35,
 		"attacks":[
 			"Dig",
 			"Areal Ace (TM)",
@@ -108,16 +108,16 @@
 		"ability":"Water Absorb",
 		"gender":"Female",
 		"ingame":"ACCCIOOWWW",
-		"level":30,
+		"level":37,
 		"attacks":[
 			"Water Pulse",
-			"Sand-Attack",
+			"Aurora Beam",
 			"Surf",
 			"Quick Attack"
 		],
 		"holding":"Awakening",
-		"nextAttack":"Aurora Beam @ 36",
-		"nextAttacks":["Haze @ 42"],
+		"nextAttack":"Haze @ 42",
+		"nextAttacks":[],
 		"nature":"Quiet",
 		"nickname":[],
 		"caughtTime":"4d 23m 58m",

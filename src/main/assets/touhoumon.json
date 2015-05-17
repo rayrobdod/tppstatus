@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"6d 10h 30m",
+	"lastUpdate":"6d 21h 00m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 
@@ -10,7 +10,7 @@
 		"ability":"Intimidate",
 		"gender":"Male",
 		"ingame":"AUUUUABBBB",
-		"level":39,
+		"level":42,
 		"attacks":[
 			"Fury Cutter",
 			"Cut",
@@ -18,42 +18,42 @@
 			"Crunch"
 		],
 		"caughtTime":"2d 4h 16m",
-		"nextAttack":"Tail Wind @ 40",
-		"nextAttacks":["Night Slash @ 44", "Swords Dance @ 48", "Killing Bite @ 52", "Braver @ 56"],
+		"nextAttack":"Night Slash @ 44",
+		"nextAttacks":["Swords Dance @ 48", "Killing Bite @ 52", "Braver @ 56"],
 		"holding":"Normal Orb",
 		"nature":"Bold",
 		"nickname":["AWOO", "Wood"]
 	},{
-		"species":"CMeiling",
-		"type1":"Dream",
+		"species":"CCirno",
+		"type1":"Ice",
 		"ability":"???",
-		"gender":"Female",
-		"ingame":"AM",
-		"level":21,
+		"ingame":"BB",
+		"level":31,
 		"attacks":[
-			"Energy Ball",
-			"Strength",
-			"Low Kick",
-			"Force Palm"
+			"Hail",
+			"Aurora Beam",
+			"Ice Shard",
+			"Ice Punch"
 		],
-		"nextAttack":"Slack Off @ 21",
-		"holding":"Easy Orb",
-		"nature":"???",
-		"nickname":[]
+		"nextAttack":"--- @ --",
+		"nextAttacks":["After evolution:","Taunt @ 34", "Ice Ball @ 37", "Soar @ 40"],
+		"caughtTime":"4d 13h 26m"
 	},{
-		"species":"CSatori",
+		"species":"Satori",
 		"type1":"Heart",
 		"ability":"Trace",
 		"gender":"Male",
 		"ingame":"XXXXXXXQk",
-		"nextAttack":"--- @ --",
-		"level":35,
+		"nextAttack":"???",
+		"level":38,
 		"attacks":[
 			"Mirror Shot",
 			"---",
 			"---",
 			"---"
 		],
+		"nextAttack":"Mana Burst @ 39",
+		"nextAttacks":["Dark Pulse @ 42", "Signal Beam @ 45", "Shadow Ball @ 48"],
 		"holding":"Blazer",
 		"nature":"???",
 		"nickname":[]
@@ -64,7 +64,7 @@
 		"ingame":"A",
 		"gender":"Female",
 		"type1":"Flying",
-		"level":45,
+		"level":46,
 		"attacks":[
 			"Soar",
 			"Zen Headbutt",
@@ -82,36 +82,18 @@
 		"ability":"Serene Grace",
 		"gender":"Female",
 		"ingame":"Sanae",
-		"level":42,
+		"level":43,
 		"attacks":[
 			"Water Pulse",
-			"Twister",
 			"Razor Wind",
-			"Extrasensory"
+			"Extrasensory",
+			"---"
 		],
-		"nextAttack":"Swagger @ 43",
+		"nextAttack":"Whirlwind @ 46",
+		"nextAttacks":["Heat Wave @ 50","Psych Up @ 54","Aeroblast @ 58"],
 		"caughtBall":"Easy",
 		"holding":"Nothing",
 		"nature":"Quiet",
-		"nickname":[]
-	},{
-		"species":"CToyohime",
-		"type1":"Earth",
-		"type2":"Water",
-		"ability":"Own Tempo",
-		"gender":"Male",
-		"ingame":"AAAAAAAAAA",
-		"level":25,
-		"attacks":[
-			"Mud Slap",
-			"Sandstorm",
-			"Refresh",
-			"Water Pulse"
-		],
-		"nextAttack":"Sand Tomb @ 30",
-		"caughtTime":"5d 16h 1m",
-		"holding":"Nothing",
-		"nature":"???",
 		"nickname":[]
 	}],
 
@@ -404,22 +386,63 @@
 		"level":-1,
 		"caughtTime":"6d 9h 36m",
 		"caughtBall":"safari"
+	},{
+		"species":"CKeine",
+		"type1":"???",
+		"ability":"???",
+		"ingame":"…………",
+		"gender":"female",
+		"level":29,
+		"caughtTime":"6d 13h 49m",
+		"caughtBall":"hard"
+	},{
+		"species":"CKogasa",
+		"type1":"???",
+		"ability":"???",
+		"ingame":"???",
+		"gender":"female",
+		"level":13,
+		"caughtTime":"6d 19h 30m",
+		"caughtBall":"hard"
+	},{
+		"species":"CToyohime",
+		"type1":"Earth",
+		"type2":"Water",
+		"ability":"Own Tempo",
+		"gender":"Male",
+		"ingame":"AAAAAAAAAA",
+		"level":25,
+		"attacks":[
+			"Mud Slap",
+			"Sandstorm",
+			"Refresh",
+			"Water Pulse"
+		],
+		"nextAttack":"Sand Tomb @ 30",
+		"caughtTime":"5d 16h 1m",
+		"holding":"Nothing",
+		"nature":"???",
+		"nickname":[]
 	}],
 	
 	"daycare":[{
-		"species":"CCirno",
-		"type1":"Ice",
+		"species":"CMeiling",
+		"type1":"Dream",
 		"ability":"???",
-		"ingame":"BB",
-		"level":24,
+		"gender":"Female",
+		"ingame":"AM",
+		"level":21,
 		"attacks":[
-			"Hail",
-			"Aurora Beam",
-			"Ice Shard",
-			"???"
+			"Energy Ball",
+			"Strength",
+			"Low Kick",
+			"Force Palm"
 		],
-		"caughtTime":"4d 13h 26m",
-		"caughtBall":"safari"
+		"nextAttack":"Rolling Kick @ 25",
+		"nextAttacks":["Block @ 29"],
+		"holding":"Easy Orb",
+		"nature":"???",
+		"nickname":[]
 	}],
 	
 	"badges":[
@@ -428,7 +451,7 @@
 		{"name":"Thunder","time":"2d 22h 28m","attempts":2},
 		{"name":"Rainbow","time":"5d 6h 37m", "attempts":1},
 		{"name":"Marsh"},
-		{"name":"Soul",  "time":"---", "attempts":4},
+		{"name":"Soul",   "time":"6d 11h 37m","attempts":5},
 		{"name":"Volcano"},
 		{"name":"Earth"}
 	]
