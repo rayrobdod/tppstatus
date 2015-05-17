@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"6d 01h 05m",  
+	"lastUpdate":"6d 03h 30m",  
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 
@@ -8,16 +8,18 @@
 		"type1":"Beast",
 		"type2":"Steel",
 		"ability":"Intimidate",
+		"gender":"Male",
 		"ingame":"AUUUUABBBB",
-		"level":35,
+		"level":38,
 		"attacks":[
 			"Fury Cutter",
 			"Cut",
 			"Blade Flash",
-			"---"
+			"Crunch"
 		],
 		"caught":"2d 4h 16m",
-		"nextAttack":"Crunch @ 37",
+		"nextAttack":"Tail Wind @ 40",
+		"nextAttacks":["Night Slash @ 44", "Swords Dance @ 48", "Killing Bite @ 52", "Braver @ 56"],
 		"holding":"Normal Orb",
 		"nature":"Bold",
 		"nickname":["AWOO", "Wood"]
@@ -25,6 +27,7 @@
 		"species":"CMeiling",
 		"type1":"Dream",
 		"ability":"???",
+		"gender":"Female",
 		"ingame":"AM",
 		"level":21,
 		"attacks":[
@@ -41,16 +44,17 @@
 		"species":"CSatori",
 		"type1":"Heart",
 		"ability":"Trace",
+		"gender":"Male",
 		"ingame":"XXXXXXXQk",
 		"nextAttack":"--- @ --",
-		"level":34,
+		"level":35,
 		"attacks":[
 			"Mirror Shot",
 			"---",
 			"---",
 			"---"
 		],
-		"holding":"Nothing",
+		"holding":"Blazer",
 		"nature":"???",
 		"nickname":[]
 	},{
@@ -58,8 +62,9 @@
 		"type1":"Flying",
 		"ability":"???",
 		"ingame":"A",
+		"gender":"Female",
 		"type1":"Flying",
-		"level":44,
+		"level":45,
 		"attacks":[
 			"Soar",
 			"Zen Headbutt",
@@ -75,16 +80,17 @@
 		"type1":"Faith",
 		"type2":"Wind",
 		"ability":"Serene Grace",
-		"nextAttack":"Swagger @ 43",
+		"gender":"Female",
 		"ingame":"Sanae",
-		"level":40,
+		"level":41,
 		"attacks":[
 			"Water Pulse",
 			"Twister",
 			"Razor Wind",
 			"Extrasensory"
 		],
-		"caught":"Easy",
+		"nextAttack":"Swagger @ 43",
+		"caught":"???",
 		"holding":"Nothing",
 		"nature":"Quiet",
 		"nickname":[]
@@ -93,6 +99,7 @@
 		"type1":"Earth",
 		"type2":"Water",
 		"ability":"Own Tempo",
+		"gender":"Male",
 		"ingame":"AAAAAAAAAA",
 		"level":25,
 		"attacks":[
@@ -272,8 +279,8 @@
 		{"name":"Cascade","time":"2d 0h 16m", "attempts":2},
 		{"name":"Thunder","time":"2d 22h 28m","attempts":2},
 		{"name":"Rainbow","time":"5d 6h 37m", "attempts":1},
-		{"name":"Marsh",  "time":"---", "attempts":3},
-		{"name":"Soul"},
+		{"name":"Marsh"},
+		{"name":"Soul",  "time":"---", "attempts":3},
 		{"name":"Volcano"},
 		{"name":"Earth"}
 	]

@@ -58,6 +58,7 @@ package tpporg {
 		nickname:Seq[String] = Nil,
 		nextAttack:String = "???",
 		nextAttacks:Seq[String] = Nil,
+		gender:String = "???",
 		caught:String = "???"
 	)
 	

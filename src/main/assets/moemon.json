@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"6d 01h 05m",
+	"lastUpdate":"6d 03h 30m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
@@ -8,9 +8,10 @@
 		"type1":"Bug",
 		"type2":"Flying",
 		"ability":"???",
+		"gender":"Female",
 		"ingame":"Butterbae",
 		"formerIngame":["BUTT", "Butterfree"],
-		"level":36,
+		"level":37,
 		"attacks":[
 			"Confusion",
 			"Psychic",
@@ -28,6 +29,7 @@
 		"type1":"Grass",
 		"type2":"Poison",
 		"ability":"Chlorophyll",
+		"gender":"Female",
 		"ingame":"AAACCCVV",
 		"level":18,
 		"attacks":[
@@ -36,6 +38,8 @@
 			"Absorb",
 			"Sleep Powder",
 		],
+		"nextAttack":"Acid @ 23",
+		"nextAttacks":["Moonlight @ 32", "Petal Dance @ 39"],
 		"holding":"Escape Rope",
 		"nature":"Hasty",
 		"nickname":[]
@@ -44,6 +48,7 @@
 		"type1":"Fire",
 		"type2":"Flying",
 		"ability":"Blaze",
+		"gender":"Female",
 		"ingame":"FFF&nbsp;&nbsp;&nbsp;",
 		"level":42,
 		"attacks":[
@@ -52,6 +57,8 @@
 			"Fly",
 			"Scratch"
 		],
+		"nextAttack":"Slash @ 44",
+		"nextAttacks":["Dragon Rage @ 54","Fire Spin @ 64"],
 		"holding":"Potion",
 		"nature":"Naughty",
 		"nickname":["Effie", "White"]
@@ -60,6 +67,7 @@
 		"type1":"Normal",
 		"type2":"Flying",
 		"ability":"???",
+		"gender":"Female",
 		"ingame":"T",
 		"level":39,
 		"attacks":[
@@ -68,6 +76,8 @@
 			"Wing Attack",
 			"Tackle"
 		],
+		"nextAttack":"Agility @ 48",
+		"nextAttacks":["Mirror Move @ 62"],
 		"caught":"0d 3h 48m",
 		"holding":"Nothing",
 		"nature":"Lax",
@@ -76,6 +86,7 @@
 		"species":"Dugtrio",
 		"type1":"Ground",
 		"ability":"???",
+		"gender":"Female",
 		"ingame":"AHHHHHIIII",
 		"level":33,
 		"attacks":[
@@ -84,6 +95,8 @@
 			"Rock Tomb (TM)",
 			"Fury Swipes"
 		],
+		"nextAttack":"Slash @ 38",
+		"nextAttacks":["Earthquake @ 51","Fissure @ 64"],
 		"holding":"Nothing",
 		"nature":"Brave",
 		"nickname":[],
@@ -92,8 +105,9 @@
 		"species":"Vaporeon",
 		"type1":"Water",
 		"ability":"Water Absorb",
+		"gender":"Female",
 		"ingame":"ACCCIOOWWW",
-		"level":28,
+		"level":30,
 		"attacks":[
 			"Growl",
 			"Sand-Attack",
@@ -101,8 +115,8 @@
 			"Quick Attack"
 		],
 		"holding":"Nothing",
-		"nextAttack":"Bite @ 30",
-		"nextAttacks":["Aurora Beam @ 36","Haze @ 42"],
+		"nextAttack":"Aurora Beam @ 36",
+		"nextAttacks":["Haze @ 42"],
 		"nature":"Quiet",
 		"nickname":[],
 		"caught":"4d 23m 58m"
@@ -255,6 +269,7 @@
 		"species":"Hitmonchan",
 		"type1":"Fighting",
 		"ability":"Keen Eye",
+		"gender":"Male",
 		"ingame":"Fff",
 		"level":25,
 		"caught":"5d 12h 46m"
@@ -266,7 +281,7 @@
 		{"name":"Thunder","time":"3d 4h 35m", "attempts":2},
 		{"name":"Rainbow","time":"5d 1h 27m", "attempts":1},
 		{"name":"Marsh"},
-		{"name":"Soul"},
+		{"name":"Soul","attempts":1},
 		{"name":"Volcano"},
 		{"name":"Earth"}
 	]
