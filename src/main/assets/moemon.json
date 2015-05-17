@@ -1,11 +1,50 @@
 {
-	"lastUpdate":"6d 21h 30m",
+	"lastUpdate":"7d 0h 0m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
-	"checkpoint":"Fuchsia City",
+	"checkpoint":"Lavender Town",
 	
 	"party":[{
+		"species":"Vileplume",
+		"type1":"Grass",
+		"type2":"Poison",
+		"ability":"Chlorophyll",
+		"gender":"Female",
+		"ingame":"AAACCCVV",
+		"level":21,
+		"attacks":[
+			"Stun Spore",
+			"Cut",
+			"Absorb",
+			"Sleep Powder",
+		],
+		"nextAttack":"Petal Dance @ 44",
+		"nextAttacks":[],
+		"holding":"Max Potion",
+		"nature":"Hasty",
+		"nickname":[]
+	},{
+		"species":"Vaporeon",
+		"type1":"Water",
+		"ability":"Water Absorb",
+		"gender":"Female",
+		"ingame":"ACCCIOOWWW",
+		"level":38,
+		"attacks":[
+			"Water Pulse",
+			"Aurora Beam",
+			"Surf",
+			"Quick Attack"
+		],
+		"holding":"Awakening",
+		"nextAttack":"Haze @ 42",
+		"nextAttacks":[],
+		"nature":"Quiet",
+		"nickname":["Accio"],
+		"caughtTime":"4d 23m 58m",
+		"caughtBall":"Poke"
+	},{
 		"species":"Butterfree",
 		"type1":"Bug",
 		"type2":"Flying",
@@ -27,49 +66,10 @@
 		"nickname":["Butterbae"],
 		"caughtTime":"0d 7h 39m"
 	},{
-		"species":"Vileplume",
-		"type1":"Grass",
-		"type2":"Poison",
-		"ability":"Chlorophyll",
-		"gender":"Female",
-		"ingame":"AAACCCVV",
-		"level":21,
-		"attacks":[
-			"Stun Spore",
-			"Cut",
-			"Absorb",
-			"Sleep Powder",
-		],
-		"nextAttack":"Petal Dance @ 44",
-		"nextAttacks":[],
-		"holding":"Max Potion",
-		"nature":"Hasty",
-		"nickname":[]
-	},{
-		"species":"Charizard",
-		"type1":"Fire",
-		"type2":"Flying",
-		"ability":"Blaze",
-		"gender":"Female",
-		"ingame":"FFF&nbsp;&nbsp;&nbsp;",
-		"level":45,
-		"attacks":[
-			"Wing Attack",
-			"Ember",
-			"Fly",
-			"Scratch"
-		],
-		"nextAttack":"Dragon Rage @ 54",
-		"nextAttacks":["Fire Spin @ 64"],
-		"holding":"Potion",
-		"nature":"Naughty",
-		"nickname":["Effie", "White"],
-		"caughtBall":"Poke"
-	},{
 		"species":"Pidgeot",
 		"type1":"Normal",
 		"type2":"Flying",
-		"ability":"???",
+		"ability":"Keen Eye",
 		"gender":"Female",
 		"ingame":"T",
 		"level":41,
@@ -105,24 +105,24 @@
 		"nickname":[],
 		"caughtTime":"3d 6h 2m"
 	},{
-		"species":"Vaporeon",
-		"type1":"Water",
-		"ability":"Water Absorb",
+		"species":"Charizard",
+		"type1":"Fire",
+		"type2":"Flying",
+		"ability":"Blaze",
 		"gender":"Female",
-		"ingame":"ACCCIOOWWW",
-		"level":37,
+		"ingame":"FFF&nbsp;&nbsp;&nbsp;",
+		"level":45,
 		"attacks":[
-			"Water Pulse",
-			"Aurora Beam",
-			"Surf",
-			"Quick Attack"
+			"Wing Attack",
+			"Ember",
+			"Fly",
+			"Scratch"
 		],
-		"holding":"Awakening",
-		"nextAttack":"Haze @ 42",
-		"nextAttacks":[],
-		"nature":"Quiet",
-		"nickname":[],
-		"caughtTime":"4d 23m 58m",
+		"nextAttack":"Dragon Rage @ 54",
+		"nextAttacks":["Fire Spin @ 64"],
+		"holding":"Potion",
+		"nature":"Naughty",
+		"nickname":["Effie", "White"],
 		"caughtBall":"Poke"
 	}],
 	

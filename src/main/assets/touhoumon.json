@@ -1,52 +1,16 @@
 {
-	"lastUpdate":"6d 21h 30m",
+	"lastUpdate":"7d 0h 0m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
 	"checkpoint":"Fuchsia City",
 
 	"party":[{
-		"species":"Momiji",
-		"type1":"Beast",
-		"type2":"Steel",
-		"ability":"Intimidate",
-		"gender":"Male",
-		"ingame":"AUUUUABBBB",
-		"level":42,
-		"attacks":[
-			"Fury Cutter",
-			"Cut",
-			"Blade Flash",
-			"Crunch"
-		],
-		"caughtTime":"2d 4h 16m",
-		"nextAttack":"Night Slash @ 44",
-		"nextAttacks":["Swords Dance @ 48", "Killing Bite @ 52", "Braver @ 56"],
-		"holding":"Normal Orb",
-		"nature":"Bold",
-		"nickname":["AWOO", "Wood"]
-	},{
-		"species":"CCirno",
-		"type1":"Ice",
-		"ability":"???",
-		"ingame":"BB",
-		"level":31,
-		"attacks":[
-			"Surf",
-			"Aurora Beam",
-			"Ice Shard",
-			"Ice Punch"
-		],
-		"nextAttack":"--- @ --",
-		"nextAttacks":["After evolution:","Taunt @ 34", "Ice Ball @ 37", "Soar @ 40"],
-		"caughtTime":"4d 13h 26m"
-	},{
 		"species":"Satori",
 		"type1":"Heart",
 		"ability":"Trace",
 		"gender":"Male",
 		"ingame":"XXXXXXXQk",
-		"nextAttack":"???",
 		"level":38,
 		"attacks":[
 			"Mirror Shot",
@@ -60,23 +24,25 @@
 		"nature":"???",
 		"nickname":[]
 	},{
-		"species":"Tokiko",
-		"type1":"Flying",
-		"ability":"???",
-		"ingame":"A",
-		"gender":"Female",
-		"type1":"Flying",
-		"level":46,
+		"species":"Momiji",
+		"type1":"Beast",
+		"type2":"Steel",
+		"ability":"Intimidate",
+		"gender":"Male",
+		"ingame":"AUUUUABBBB",
+		"level":43,
 		"attacks":[
-			"Soar",
-			"Zen Headbutt",
-			"Roost",
-			"Quick Attack"
+			"Fury Cutter",
+			"Cut",
+			"Blade Flash",
+			"Crunch"
 		],
-		"nextAttack":"Slash @ 48",
-		"holding":"Nothing",
-		"nature":"Naive",
-		"nickname":["Book Jesus","Albumgeddon"]
+		"caughtTime":"2d 4h 16m",
+		"nextAttack":"Night Slash @ 44",
+		"nextAttacks":["Swords Dance @ 48", "Killing Bite @ 52", "Braver @ 56"],
+		"holding":"Normal Orb",
+		"nature":"Bold",
+		"nickname":["AWOO", "Wood"]
 	},{
 		"species":"Sanae",
 		"type1":"Faith",
@@ -84,7 +50,7 @@
 		"ability":"Serene Grace",
 		"gender":"Female",
 		"ingame":"Sanae",
-		"level":43,
+		"level":44,
 		"attacks":[
 			"Water Pulse",
 			"Razor Wind",
@@ -97,6 +63,56 @@
 		"holding":"Nothing",
 		"nature":"Quiet",
 		"nickname":[]
+	},{
+		"species":"Tokiko",
+		"type1":"Flying",
+		"ability":"Limber",
+		"ingame":"A",
+		"gender":"Female",
+		"type1":"Flying",
+		"level":47,
+		"attacks":[
+			"Soar",
+			"Zen Headbutt",
+			"Roost",
+			"Quick Attack"
+		],
+		"nextAttack":"Slash @ 48",
+		"holding":"Nothing",
+		"nature":"Naive",
+		"nickname":["Book Jesus","Albumgeddon"]
+	},{
+		"species":"CCirno",
+		"type1":"Ice",
+		"ability":"???",
+		"gender":"Female",
+		"ingame":"BB",
+		"level":31,
+		"attacks":[
+			"Surf",
+			"Aurora Beam",
+			"Ice Shard",
+			"Ice Punch"
+		],
+		"nextAttack":"--- @ --",
+		"nextAttacks":["After evolution:","Taunt @ 34", "Ice Ball @ 37", "Soar @ 40"],
+		"caughtTime":"4d 13h 26m"
+	},{
+		"species":"CMystia",
+		"type1":"Flying",
+		"ability":"???",
+		"ingame":"CMystia",
+		"gender":"Female",
+		"level":15,
+		"attacks":[
+			"Sand-Attack",
+			"Sing",
+			"Gust",
+			"Wing Attack"
+		],
+		"nextAttack":"Agility @ 17",
+		"caughtTime":"6d 21h 15m",
+		"caughtBall":"normal"
 	}],
 
 	"box":[{
@@ -171,8 +187,7 @@
 		"caughtTime":"3d 16h 27m"
 	},{
 		"species":"CMeiling",
-		"type1":"???",
-		"type2":"???",
+		"type1":"Dream",
 		"ability":"???",
 		"ingame":"AM",
 		"level":-1,
@@ -426,13 +441,31 @@
 		"nature":"???",
 		"nickname":[]
 	},{
-		"species":"CMystia",
+		"species":"CSakuya",
 		"type1":"???",
 		"ability":"???",
-		"ingame":"CMystia",
+		"ingame":"ABAaaX",
 		"gender":"???",
-		"level":15,
-		"caughtTime":"6d 21h 15m",
+		"level":31,
+		"caughtTime":"6d 21h 51m",
+		"caughtBall":"normal"
+	},{
+		"species":"CMeiling",
+		"type1":"Dream",
+		"ability":"???",
+		"ingame":"CMeiling",
+		"gender":"male",
+		"level":22,
+		"caughtTime":"6d 22h 30m",
+		"caughtBall":"normal"
+	},{
+		"species":"CMeiling",
+		"type1":"Dream",
+		"ability":"???",
+		"ingame":"CMeiling",
+		"gender":"male",
+		"level":24,
+		"caughtTime":"6d 23h 45m",
 		"caughtBall":"normal"
 	}],
 	
