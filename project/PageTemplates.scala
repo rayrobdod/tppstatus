@@ -95,6 +95,7 @@ object PageTemplates {
 				list.map{x =>
 					Elem(htmlBinding, "td", Attributes(), Group(
 						Text(x.ingame),
+						Elem(htmlBinding, "img", Attributes("width" -> "16", "height" -> "16", "alt" -> x.caughtBall, "src" -> x.caughtBallUrl)),
 						Elem(htmlBinding, "br"),
 						Text("(" + x.species + ")"),
 						Elem(htmlBinding, "br"),

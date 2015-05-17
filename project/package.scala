@@ -64,7 +64,11 @@ package tpporg {
 		gender:String = "???",
 		caughtTime:String = "???",
 		caughtBall:String = "???"
-	)
+	) {
+		def caughtBallUrl:String = {
+			"images/balls/" + caughtBall.toLowerCase + ".png"
+		}
+	}
 	
 	
 	
