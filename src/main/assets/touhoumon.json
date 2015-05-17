@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"6d 03h 30m",  
+	"lastUpdate":"6d 04h 15m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 
@@ -280,7 +280,7 @@
 		{"name":"Thunder","time":"2d 22h 28m","attempts":2},
 		{"name":"Rainbow","time":"5d 6h 37m", "attempts":1},
 		{"name":"Marsh"},
-		{"name":"Soul",  "time":"---", "attempts":3},
+		{"name":"Soul",  "time":"---", "attempts":4},
 		{"name":"Volcano"},
 		{"name":"Earth"}
 	]

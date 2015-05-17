@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"6d 03h 30m",
+	"lastUpdate":"6d 04h 15m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
@@ -11,7 +11,7 @@
 		"gender":"Female",
 		"ingame":"Butterbae",
 		"formerIngame":["BUTT", "Butterfree"],
-		"level":37,
+		"level":38,
 		"attacks":[
 			"Confusion",
 			"Psychic",
@@ -19,8 +19,8 @@
 			"Sleep Powder"
 		],
 		"holding":"Burn Heal",
-		"nextAttack":"Psybeam @ 34",
-		"nextAttacks":["Safeguard @ 40","Silver Wind @ 47"],
+		"nextAttack":"Safeguard @ 40",
+		"nextAttacks":["Silver Wind @ 47"],
 		"nature":"Modest",
 		"nickname":["Butterbae"],
 		"caught":"0d 7h 39m"
@@ -69,7 +69,7 @@
 		"ability":"???",
 		"gender":"Female",
 		"ingame":"T",
-		"level":39,
+		"level":40,
 		"attacks":[
 			"Quick Attack",
 			"Fly",
@@ -281,7 +281,7 @@
 		{"name":"Thunder","time":"3d 4h 35m", "attempts":2},
 		{"name":"Rainbow","time":"5d 1h 27m", "attempts":1},
 		{"name":"Marsh"},
-		{"name":"Soul","attempts":1},
+		{"name":"Soul",   "time":"6d 4h 13m", "attempts":2},
 		{"name":"Volcano"},
 		{"name":"Earth"}
 	]
