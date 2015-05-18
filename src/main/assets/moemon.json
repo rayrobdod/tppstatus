@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"7d 11h 30m",
+	"lastUpdate":"7d 21h 00m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
@@ -15,7 +15,7 @@
 		"ability":"Chlorophyll",
 		"gender":"Female",
 		"ingame":"AAACCCVV",
-		"level":21,
+		"level":23,
 		"attacks":[
 			"Stun Spore",
 			"Cut",
@@ -24,7 +24,7 @@
 		],
 		"nextAttack":"Petal Dance @ 44",
 		"nextAttacks":[],
-		"holding":"Max Potion",
+		"holding":"Nugget",
 		"nature":"Hasty",
 		"nickname":[]
 	},{
@@ -33,7 +33,7 @@
 		"ability":"Water Absorb",
 		"gender":"Female",
 		"ingame":"ACCCIOOWWW",
-		"level":43,
+		"level":45,
 		"attacks":[
 			"Water Pulse",
 			"Aurora Beam",
@@ -75,7 +75,7 @@
 		"ability":"Keen Eye",
 		"gender":"Female",
 		"ingame":"T",
-		"level":41,
+		"level":43,
 		"attacks":[
 			"Quick Attack",
 			"Fly",
@@ -387,6 +387,54 @@
 		"level":-1,
 		"caughtTime":"7d 11h 34m",
 		"caughtBall":"poke"
+	},{
+		"species":"Ekans",
+		"type1":"???",
+		"ingame":"???",
+		"gender":"female",
+		"level":-1,
+		"caughtTime":"???",
+		"caughtBall":"master"
+	},{
+		"species":"Spearow",
+		"type1":"???",
+		"ingame":"Spearow",
+		"gender":"female",
+		"level":12,
+		"caughtTime":"7d 17h 0m",
+		"caughtBall":"poke"
+	},{
+		"species":"Rattata",
+		"type1":"???",
+		"ingame":"&nbsp;",
+		"gender":"female",
+		"level":10,
+		"caughtTime":"7d 17h 2m",
+		"caughtBall":"poke"
+	},{
+		"species":"Voltorb",
+		"type1":"???",
+		"ingame":"Voltorb",
+		"gender":"female",
+		"level":22,
+		"caughtTime":"7d 19h 25m",
+		"caughtBall":"poke"
+	},{
+		"species":"Electabuzz",
+		"type1":"???",
+		"ingame":"AAAYX",
+		"gender":"female",
+		"level":35,
+		"caughtTime":"7d 20h 6m",
+		"caughtBall":"poke"
+	},{
+		"species":"Voltorb",
+		"type1":"???",
+		"ingame":"Voltorb",
+		"gender":"female",
+		"level":22,
+		"caughtTime":"7d 20h 23m",
+		"caughtBall":"poke"
 	}],
 	
 	"items":{
@@ -399,7 +447,7 @@
 			"BlackGlassses",
 			"..."
 		],
-		"Balls":["Master Ball"],
+		"Balls":[],
 		"Key":[
 			"Teachy TV",
 			"TM Case",

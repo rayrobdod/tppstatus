@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"7d 11h 30m",
+	"lastUpdate":"7d 21h 00m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
@@ -15,13 +15,14 @@
 		"nature":"Relaxed",
 		"gender":"Female",
 		"ingame":"BB",
-		"level":34,
+		"level":36,
 		"attacks":[
 			"Surf",
 			"Aurora Beam",
 			"Ice Shard",
 			"Ice Punch"
 		],
+		"holding":"Nugget",
 		"nextAttack":"Ice Ball @ 37",
 		"nextAttacks":["Soar @ 40"],
 		"caughtTime":"4d 13h 26m"
@@ -30,8 +31,9 @@
 		"type1":"Heart",
 		"ability":"Trace",
 		"gender":"Male",
-		"ingame":"XXXXXXXQk",
-		"level":39,
+		"ingame":"Chauzu",
+		"formerIngame":["XXXXXXXQk"],
+		"level":40,
 		"attacks":[
 			"Mirror Shot",
 			"Mana Burst",
@@ -91,7 +93,7 @@
 		"ingame":"A",
 		"gender":"Female",
 		"type1":"Flying",
-		"level":47,
+		"level":48,
 		"attacks":[
 			"Soar",
 			"Zen Headbutt",
@@ -112,7 +114,7 @@
 		"attacks":[
 			"Sand-Attack",
 			"Sing",
-			"Gust",
+			"<s>Gust</s> Fly",
 			"Wing Attack"
 		],
 		"nextAttack":"Agility @ 17",
@@ -527,7 +529,7 @@
 		{"name":"Cascade","time":"2d 0h 16m", "attempts":2},
 		{"name":"Thunder","time":"2d 22h 28m","attempts":2},
 		{"name":"Rainbow","time":"5d 6h 37m", "attempts":1},
-		{"name":"Marsh"},
+		{"name":"Marsh",  "time":"7d 16h 20m","attempts":3},
 		{"name":"Soul",   "time":"6d 11h 37m","attempts":5},
 		{"name":"Volcano"},
 		{"name":"Earth"}
@@ -548,7 +550,8 @@
 			"Secret Key"
 		],
 		"TMs":[
-			"..."
+			"...",
+			"TM4 Calm Mind"
 		]
 	}
 }
