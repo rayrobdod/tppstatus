@@ -15,7 +15,7 @@
 		"ability":"Chlorophyll",
 		"gender":"Female",
 		"ingame":"AAACCCVV",
-		"level":21,
+		"level":"21",
 		"attacks":[
 			"Stun Spore",
 			"Cut",
@@ -33,7 +33,7 @@
 		"ability":"Water Absorb",
 		"gender":"Female",
 		"ingame":"ACCCIOOWWW",
-		"level":39,
+		"level":"39",
 		"attacks":[
 			"Water Pulse",
 			"Aurora Beam",
@@ -55,7 +55,7 @@
 		"gender":"Female",
 		"ingame":"Butterbae",
 		"formerIngame":["BUTT", "Butterfree"],
-		"level":40,
+		"level":"40",
 		"attacks":[
 			"Confusion",
 			"Psychic",
@@ -75,7 +75,7 @@
 		"ability":"Keen Eye",
 		"gender":"Female",
 		"ingame":"T",
-		"level":41,
+		"level":"41",
 		"attacks":[
 			"Quick Attack",
 			"Fly",
@@ -94,7 +94,7 @@
 		"ability":"???",
 		"gender":"Female",
 		"ingame":"AHHHHHIIII",
-		"level":35,
+		"level":"35",
 		"attacks":[
 			"Dig",
 			"Areal Ace (TM)",
@@ -114,7 +114,7 @@
 		"ability":"Blaze",
 		"gender":"Female",
 		"ingame":"FFF&nbsp;&nbsp;&nbsp;",
-		"level":45,
+		"level":"45",
 		"attacks":[
 			"Wing Attack",
 			"Ember",
@@ -134,21 +134,21 @@
 		"type1":"Normal",
 		"ability":"???",
 		"ingame":"Rattata",
-		"level":-1,
+		"level":"-1",
 		"caughtTime":"0d 3h 46m"
 	},{
 		"species":"Rattata",
 		"type1":"Normal",
 		"ability":"???",
 		"ingame":"Rattata",
-		"level":-1,
+		"level":"-1",
 		"caughtTime":"0d 4h 06m"
 	},{
 		"species":"Magikarp",
 		"type1":"Water",
 		"ability":"???",
 		"ingame":"AA",
-		"level":6,
+		"level":"6",
 		"caughtTime":"0d 23h 22m",
 		"caughtBall":"Poke",
 		"attacks":[
@@ -163,7 +163,7 @@
 		"type2":"Flying",
 		"ability":"???",
 		"ingame":"Zubat",
-		"level":-1,
+		"level":"-1",
 		"caughtTime":"1d 14h 16m"
 	},{
 		"species":"Geodude",
@@ -171,7 +171,7 @@
 		"type2":"???",
 		"ability":"???",
 		"ingame":"Geodude",
-		"level":9,
+		"level":"9",
 		"caughtTime":"1d 14h 34m"
 	},{
 		"species":"Zubat",
@@ -179,7 +179,7 @@
 		"type2":"Flying",
 		"ability":"???",
 		"ingame":"Zubat",
-		"level":11,
+		"level":"11",
 		"caughtTime":"1d 14h 36m"
 	},{
 		"species":"Zubat",
@@ -187,21 +187,21 @@
 		"type2":"Flying",
 		"ability":"???",
 		"ingame":"MMMGGAUUUO",
-		"level":10,
+		"level":"10",
 		"caughtTime":"1d 14h 45m"
 	},{
 		"species":"Ekans",
 		"type1":"Poison",
 		"ability":"???",
 		"ingame":"A",
-		"level":-1,
+		"level":"-1",
 		"caughtTime":"2d 2h 33m"
 	},{
 		"species":"Ekans",
 		"type1":"Poison",
 		"ability":"???",
 		"ingame":"Ekans",
-		"level":8,
+		"level":"8",
 		"caughtTime":"2d 2h 55m"
 	},{
 		"species":"Pidgey",
@@ -209,7 +209,7 @@
 		"type2":"Flying",
 		"ability":"???",
 		"ingame":"Pidgey",
-		"level":15,
+		"level":"15",
 		"caughtTime":"2d 8h 17m"
 	},{
 		"species":"Abra",
@@ -217,7 +217,7 @@
 		"type2":"???",
 		"ability":"???",
 		"ingame":"Abra",
-		"level":8,
+		"level":"8",
 		"caughtTime":"2d 17h 57m"
 	},{
 		"species":"Weedle",
@@ -225,7 +225,7 @@
 		"type2":"???",
 		"ability":"???",
 		"ingame":"AACBBBHCCC",
-		"level":7,
+		"level":"7",
 		"caughtTime":"2d 18h 3m"
 	},{
 		"species":"Pidgey",
@@ -233,7 +233,7 @@
 		"type2":"Flying",
 		"ability":"???",
 		"ingame":"AAAAATTTTT",
-		"level":11,
+		"level":"11",
 		"caughtTime":"2d 20h 32m"
 	},{
 		"species":"Spearow",
@@ -241,14 +241,14 @@
 		"type2":"Flying",
 		"ability":"???",
 		"ingame":"ATTTTZ&nbsp;&nbsp;ST",
-		"level":8,
+		"level":"8",
 		"caughtTime":"2d 22h 13m"
 	},{
 		"species":"Rattata",
 		"type1":"Normal",
 		"ability":"???",
 		"ingame":"Rattata",
-		"level":10,
+		"level":"10",
 		"caughtTime":"2d 22h 21m"
 	},{
 		"species":"Spearow",
@@ -256,14 +256,14 @@
 		"type2":"Flying",
 		"ability":"???",
 		"ingame":"&nbsp;!♂6????♂_",
-		"level":10,
+		"level":"10",
 		"caughtTime":"2d 22h 34m"
 	},{
 		"species":"Ekans",
 		"type1":"Poison",
 		"ability":"???",
 		"ingame":"&nbsp;&nbsp;&nbsp;....&nbsp;..",
-		"level":10,
+		"level":"10",
 		"caughtTime":"2d 2h 42m"
 	},{
 		"species":"Pikachu",
@@ -271,7 +271,7 @@
 		"type2":"???",
 		"ability":"???",
 		"ingame":"bbD",
-		"level":3,
+		"level":"3",
 		"caughtTime":"3d 7h 46m"
 	},{
 		"species":"Hitmonchan",
@@ -279,7 +279,7 @@
 		"ability":"Keen Eye",
 		"gender":"Male",
 		"ingame":"Fff",
-		"level":25,
+		"level":"25",
 		"caughtTime":"5d 12h 46m"
 	},{
 		"species":"Exeggcute",
@@ -288,7 +288,7 @@
 		"ability":"???",
 		"ingame":"AAAAAAAAAA",
 		"gender":"female",
-		"level":23,
+		"level":"23",
 		"caughtTime":"6d 7h 34m",
 		"caughtBall":"safari"
 	},{
@@ -298,7 +298,7 @@
 		"ability":"???",
 		"ingame":"BCCCCCCCC",
 		"gender":"female",
-		"level":26,
+		"level":"26",
 		"caughtTime":"6d 7h 42m",
 		"caughtBall":"safari"
 	},{
@@ -308,7 +308,7 @@
 		"ability":"???",
 		"ingame":"AAAAAAAAAA",
 		"gender":"female",
-		"level":22,
+		"level":"22",
 		"caughtTime":"6d 7h 48m",
 		"caughtBall":"safari"
 	},{
@@ -317,7 +317,7 @@
 		"ability":"???",
 		"ingame":"AAAAAAAAAA",
 		"gender":"male",
-		"level":30,
+		"level":"30",
 		"caughtTime":"6d 8h 29m",
 		"caughtBall":"safari"
 	},{
@@ -326,7 +326,7 @@
 		"ability":"???",
 		"ingame":"AAAAAAAAAA",
 		"gender":"male",
-		"level":33,
+		"level":"33",
 		"caughtTime":"6d 8h 41m",
 		"caughtBall":"safari"
 	},{
@@ -336,7 +336,7 @@
 		"ability":"???",
 		"ingame":"AAAAAAAAAA",
 		"gender":"female",
-		"level":22,
+		"level":"22",
 		"caughtTime":"6d 8h 45m",
 		"caughtBall":"safari"
 	},{
@@ -346,7 +346,7 @@
 		"ability":"???",
 		"ingame":"AAAAAAAAAA",
 		"gender":"female",
-		"level":22,
+		"level":"22",
 		"caughtTime":"6d 9h 0m",
 		"caughtBall":"safari"
 	},{
@@ -356,7 +356,7 @@
 		"ability":"???",
 		"ingame":"AAAAAAAAAA",
 		"gender":"female",
-		"level":27,
+		"level":"27",
 		"caughtTime":"6d 9h 8m",
 		"caughtBall":"safari"
 	},{
@@ -366,7 +366,7 @@
 		"ability":"???",
 		"ingame":"Rhyhorn",
 		"gender":"female",
-		"level":-1,
+		"level":"-1",
 		"caughtTime":"6d 9h 29m",
 		"caughtBall":"safari"
 	}],
@@ -407,12 +407,12 @@
 	
 	
 	"badges":[
-		{"name":"Boulder","time":"0d 17h 22m","attempts":2},
-		{"name":"Cascade","time":"1d 21h 24m","attempts":6},
-		{"name":"Thunder","time":"3d 4h 35m", "attempts":2},
-		{"name":"Rainbow","time":"5d 1h 27m", "attempts":1},
+		{"name":"Boulder","time":"0d 17h 22m","attempts":"2"},
+		{"name":"Cascade","time":"1d 21h 24m","attempts":"6"},
+		{"name":"Thunder","time":"3d 4h 35m", "attempts":"2"},
+		{"name":"Rainbow","time":"5d 1h 27m", "attempts":"1"},
 		{"name":"Marsh"},
-		{"name":"Soul",   "time":"6d 4h 13m", "attempts":2},
+		{"name":"Soul",   "time":"6d 4h 13m", "attempts":"2"},
 		{"name":"Volcano"},
 		{"name":"Earth"}
 	]

@@ -14,7 +14,7 @@
 		"ability":"Trace",
 		"gender":"Male",
 		"ingame":"XXXXXXXQk",
-		"level":39,
+		"level":"39",
 		"attacks":[
 			"Mirror Shot",
 			"Mana Burst",
@@ -34,7 +34,7 @@
 		"ability":"Intimidate",
 		"gender":"Male",
 		"ingame":"AUUUUABBBB",
-		"level":44,
+		"level":"44",
 		"attacks":[
 			"Fury Cutter",
 			"Cut",
@@ -54,7 +54,7 @@
 		"ability":"Serene Grace",
 		"gender":"Female",
 		"ingame":"Sanae",
-		"level":45,
+		"level":"45",
 		"attacks":[
 			"Water Pulse",
 			"Razor Wind",
@@ -74,7 +74,7 @@
 		"ingame":"A",
 		"gender":"Female",
 		"type1":"Flying",
-		"level":47,
+		"level":"47",
 		"attacks":[
 			"Soar",
 			"Zen Headbutt",
@@ -91,7 +91,7 @@
 		"ability":"Relaxed",
 		"gender":"Female",
 		"ingame":"BB",
-		"level":32,
+		"level":"32",
 		"attacks":[
 			"Surf",
 			"Aurora Beam",
@@ -107,7 +107,7 @@
 		"ability":"Impish",
 		"ingame":"CMystia",
 		"gender":"Female",
-		"level":15,
+		"level":"15",
 		"attacks":[
 			"Sand-Attack",
 			"Sing",
@@ -125,14 +125,14 @@
 		"type2":"???",
 		"ability":"???",
 		"ingame":"CDaiyousei",
-		"level":5,
+		"level":"5",
 		"caughtTime":"0d 7h 38m"
 	},{
 		"species":"CNazrin",
 		"type1":"Beast",
 		"ability":"???",
 		"ingame":"???",
-		"level":4,
+		"level":"4",
 		"caughtTime":"0d 7h 38m"
 	},{
 		"species":"CStar",
@@ -140,7 +140,7 @@
 		"type2":"???",
 		"ability":"???",
 		"ingame":"???",
-		"level":4,
+		"level":"4",
 		"caughtTime":"0d 7h 38m"
 	},{
 		"species":"CSunny",
@@ -148,14 +148,14 @@
 		"type2":"???",
 		"ability":"???",
 		"ingame":"???",
-		"level":-1,
+		"level":"-1",
 		"caughtTime":"0d 7h 40m"
 	},{
 		"species":"CNarzin",
 		"type1":"Beast",
 		"ability":"???",
 		"ingame":"???",
-		"level":-1,
+		"level":"-1",
 		"caughtTime":"0d 7h 46m"
 	},{
 		"species":"CSunny",
@@ -163,7 +163,7 @@
 		"type2":"???",
 		"ability":"???",
 		"ingame":"???",
-		"level":-1,
+		"level":"-1",
 		"caughtTime":"0d 7h 49m"
 	},{
 		"species":"CTokiko",
@@ -171,7 +171,7 @@
 		"type2":"???",
 		"ability":"???",
 		"ingame":"AAT",
-		"level":-1,
+		"level":"-1",
 		"caughtTime":"0d 8h 39m"
 	},{
 		"species":"CParsee",
@@ -179,7 +179,7 @@
 		"type2":"???",
 		"ability":"???",
 		"ingame":"UU",
-		"level":17,
+		"level":"17",
 		"caughtTime":"3d 8h 29m"
 	},{
 		"species":"CMystica",
@@ -187,14 +187,14 @@
 		"type2":"???",
 		"ability":"???",
 		"ingame":"ag66ITTTT",
-		"level":16,
+		"level":"16",
 		"caughtTime":"3d 16h 27m"
 	},{
 		"species":"CMeiling",
 		"type1":"Dream",
 		"ability":"???",
 		"ingame":"AM",
-		"level":-1,
+		"level":"-1",
 		"caughtTime":"4d 0h 31m"
 	},{
 		"species":"CMystia",
@@ -202,7 +202,7 @@
 		"type2":"???",
 		"ability":"???",
 		"ingame":"???",
-		"level":-1,
+		"level":"-1",
 		"caughtTime":"4d 13h 24m"
 	},{
 		"species":"CLunasa",
@@ -210,7 +210,7 @@
 		"type2":"???",
 		"ability":"???",
 		"ingame":"CLunasa",
-		"level":16,
+		"level":"16",
 		"caughtTime":"4d 23h 09m"
 	},{
 		"species":"CLyrica",
@@ -218,7 +218,7 @@
 		"type2":"???",
 		"ability":"???",
 		"ingame":"AAGGGG",
-		"level":18,
+		"level":"18",
 		"caughtTime":"5d 2h 35m"
 	},{
 		"species":"CMerlin",
@@ -226,7 +226,7 @@
 		"type2":"???",
 		"ability":"???",
 		"ingame":"G",
-		"level":19,
+		"level":"19",
 		"caughtTime":"5d 0h 3m"
 	},{
 		"species":"CYuyuko",
@@ -234,7 +234,7 @@
 		"type2":"???",
 		"ability":"???",
 		"ingame":"CYuyuko",
-		"level":17,
+		"level":"17",
 		"caughtTime":"5d 2h 22m"
 	},{
 		"species":"CLyrica",
@@ -242,14 +242,14 @@
 		"type2":"???",
 		"ability":"???",
 		"ingame":"AAAUU",
-		"level":17,
+		"level":"17",
 		"caughtTime":"5d 2h 35m"
 	},{
 		"species":"CLunasa",
 		"type1":"Ghost",
 		"ability":"Soundproof",
 		"ingame":"CLunasa",
-		"level":16,
+		"level":"16",
 		"attacks":[
 			"Astonish",
 			"Harden",
@@ -267,7 +267,7 @@
 		"ability":"???",
 		"ingame":"AAAAAAAAAA",
 		"gender":"male",
-		"level":26,
+		"level":"26",
 		"caughtTime":"6d 7h 25m",
 		"caughtBall":"safari"
 	},{
@@ -277,7 +277,7 @@
 		"ability":"???",
 		"ingame":"AAAAAAAAAA",
 		"gender":"female",
-		"level":-1,
+		"level":"-1",
 		"caughtTime":"6d 7h 34m",
 		"caughtBall":"safari"
 	},{
@@ -286,7 +286,7 @@
 		"ability":"???",
 		"ingame":"BCCCCCCCC",
 		"gender":"male",
-		"level":22,
+		"level":"22",
 		"caughtTime":"6d 7h 42m",
 		"caughtBall":"safari"
 	},{
@@ -295,7 +295,7 @@
 		"ability":"???",
 		"ingame":"AAAAAAAAAA",
 		"gender":"genderless",
-		"level":22,
+		"level":"22",
 		"caughtTime":"6d 7h 48m",
 		"caughtBall":"safari"
 	},{
@@ -304,7 +304,7 @@
 		"ability":"???",
 		"ingame":"CKomachi",
 		"gender":"female",
-		"level":25,
+		"level":"25",
 		"caughtTime":"6d 7h 56m",
 		"caughtBall":"safari"
 	},{
@@ -313,7 +313,7 @@
 		"ability":"???",
 		"ingame":"CKomachi",
 		"gender":"male",
-		"level":-1,
+		"level":"-1",
 		"caughtTime":"6d 8h 12m",
 		"caughtBall":"safari"
 	},{
@@ -323,7 +323,7 @@
 		"ability":"???",
 		"ingame":"CRan",
 		"gender":"male",
-		"level":25,
+		"level":"25",
 		"caughtTime":"6d 8h 15m",
 		"caughtBall":"safari"
 	},{
@@ -332,7 +332,7 @@
 		"ability":"???",
 		"ingame":"AAAAAAAAAA",
 		"gender":"male",
-		"level":26,
+		"level":"26",
 		"caughtTime":"6d 8h 22m",
 		"caughtBall":"safari"
 	},{
@@ -341,7 +341,7 @@
 		"ability":"???",
 		"ingame":"AAAAAAAAAA",
 		"gender":"???",
-		"level":27,
+		"level":"27",
 		"caughtTime":"6d 8h 29m",
 		"caughtBall":"safari"
 	},{
@@ -350,7 +350,7 @@
 		"ability":"???",
 		"ingame":"AAAAAAAAAA",
 		"gender":"genderless",
-		"level":24,
+		"level":"24",
 		"caughtTime":"6d 8h 45m",
 		"caughtBall":"safari"
 	},{
@@ -359,7 +359,7 @@
 		"ability":"???",
 		"ingame":"AAAAAAAAAA",
 		"gender":"genderless",
-		"level":25,
+		"level":"25",
 		"caughtTime":"6d 8h 53m",
 		"caughtBall":"safari"
 	},{
@@ -368,7 +368,7 @@
 		"ability":"???",
 		"ingame":"AAAAAAAAAA",
 		"gender":"female",
-		"level":22,
+		"level":"22",
 		"caughtTime":"6d 8h 59m",
 		"caughtBall":"safari"
 	},{
@@ -377,7 +377,7 @@
 		"ability":"???",
 		"ingame":"AAAAAAAAAA",
 		"gender":"genderless",
-		"level":30,
+		"level":"30",
 		"caughtTime":"6d 9h 8m",
 		"caughtBall":"safari"
 	},{
@@ -386,7 +386,7 @@
 		"ability":"???",
 		"ingame":"AAAAAAAAAA",
 		"gender":"genderless",
-		"level":30,
+		"level":"30",
 		"caughtTime":"6d 9h 19m",
 		"caughtBall":"safari"
 	},{
@@ -395,7 +395,7 @@
 		"ability":"???",
 		"ingame":"AAAAAAAAAA",
 		"gender":"female",
-		"level":27,
+		"level":"27",
 		"caughtTime":"6d 9h 23m",
 		"caughtBall":"safari"
 	},{
@@ -404,7 +404,7 @@
 		"ability":"???",
 		"ingame":"AAAAAAAAAA",
 		"gender":"genderless",
-		"level":-1,
+		"level":"-1",
 		"caughtTime":"6d 9h 36m",
 		"caughtBall":"safari"
 	},{
@@ -413,7 +413,7 @@
 		"ability":"???",
 		"ingame":"…………",
 		"gender":"female",
-		"level":29,
+		"level":"29",
 		"caughtTime":"6d 13h 49m",
 		"caughtBall":"hard"
 	},{
@@ -422,7 +422,7 @@
 		"ability":"???",
 		"ingame":"???",
 		"gender":"female",
-		"level":13,
+		"level":"13",
 		"caughtTime":"6d 19h 30m",
 		"caughtBall":"hard"
 	},{
@@ -432,7 +432,7 @@
 		"ability":"Own Tempo",
 		"gender":"Male",
 		"ingame":"AAAAAAAAAA",
-		"level":25,
+		"level":"25",
 		"attacks":[
 			"Mud Slap",
 			"Sandstorm",
@@ -450,7 +450,7 @@
 		"ability":"???",
 		"ingame":"ABAaaX",
 		"gender":"???",
-		"level":31,
+		"level":"31",
 		"caughtTime":"6d 21h 51m",
 		"caughtBall":"normal"
 	},{
@@ -459,7 +459,7 @@
 		"ability":"???",
 		"ingame":"CMeiling",
 		"gender":"male",
-		"level":22,
+		"level":"22",
 		"caughtTime":"6d 22h 30m",
 		"caughtBall":"normal"
 	},{
@@ -468,7 +468,7 @@
 		"ability":"???",
 		"ingame":"CMeiling",
 		"gender":"male",
-		"level":24,
+		"level":"24",
 		"caughtTime":"6d 23h 45m",
 		"caughtBall":"normal"
 	},{
@@ -477,7 +477,7 @@
 		"ability":"???",
 		"ingame":"CPatchouli",
 		"gender":"female",
-		"level":22,
+		"level":"22",
 		"caughtTime":"7d 0h 24m",
 		"caughtBall":"normal"
 	},{
@@ -486,7 +486,7 @@
 		"ability":"???",
 		"ingame":"CMurasa",
 		"gender":"male",
-		"level":5,
+		"level":"5",
 		"caughtTime":"7d 0h 37m",
 		"caughtBall":"normal"
 	},{
@@ -496,7 +496,7 @@
 		"ability":"???",
 		"ingame":"Rinnosuke",
 		"gender":"",
-		"level":-1,
+		"level":"-1",
 		"caughtTime":"7d 3h 3m",
 		"caughtBall":"easy"
 	}],
@@ -507,7 +507,7 @@
 		"ability":"???",
 		"gender":"Female",
 		"ingame":"AM",
-		"level":21,
+		"level":"21",
 		"attacks":[
 			"Energy Ball",
 			"Strength",
@@ -522,12 +522,12 @@
 	}],
 	
 	"badges":[
-		{"name":"Boulder","time":"0d 21h 41m","attempts":2},
-		{"name":"Cascade","time":"2d 0h 16m", "attempts":2},
-		{"name":"Thunder","time":"2d 22h 28m","attempts":2},
-		{"name":"Rainbow","time":"5d 6h 37m", "attempts":1},
+		{"name":"Boulder","time":"0d 21h 41m","attempts":"2"},
+		{"name":"Cascade","time":"2d 0h 16m", "attempts":"2"},
+		{"name":"Thunder","time":"2d 22h 28m","attempts":"2"},
+		{"name":"Rainbow","time":"5d 6h 37m", "attempts":"1"},
 		{"name":"Marsh"},
-		{"name":"Soul",   "time":"6d 11h 37m","attempts":5},
+		{"name":"Soul",   "time":"6d 11h 37m","attempts":"5"},
 		{"name":"Volcano"},
 		{"name":"Earth"}
 	],
