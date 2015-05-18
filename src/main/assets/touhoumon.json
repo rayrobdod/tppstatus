@@ -1,12 +1,12 @@
 {
-	"lastUpdate":"7d 4h 00m",
+	"lastUpdate":"7d 8h 30m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
 	"name":"AAABBHM",
 	"idno":"29177",
 	
-	"checkpoint":"Saffron City",
+	"checkpoint":"Lavender Town",
 
 	"party":[{
 		"species":"Satori",
@@ -23,7 +23,7 @@
 		],
 		"nextAttack":"Dark Pulse @ 42",
 		"nextAttacks":["Signal Beam @ 45", "Shadow Ball @ 48"],
-		"holding":"Blazer",
+		"holding":"Lunatic Orb",
 		"nature":"Calm",
 		"caughtBall":"Easy",
 		"nickname":[]
@@ -88,7 +88,8 @@
 	},{
 		"species":"Cirno",
 		"type1":"Ice",
-		"ability":"Relaxed",
+		"type2":"Flying",
+		"nature":"Relaxed",
 		"gender":"Female",
 		"ingame":"BB",
 		"level":32,
@@ -104,7 +105,7 @@
 	},{
 		"species":"CMystia",
 		"type1":"Flying",
-		"ability":"Impish",
+		"nature":"Impish",
 		"ingame":"CMystia",
 		"gender":"Female",
 		"level":15,
@@ -535,7 +536,8 @@
 	"items":{
 		"Normal":[
 			"...",
-			"Hyper Potion"
+			"Hyper Potion",
+			"Blaizer"
 		],
 		"Balls":["Normal Orb ×41"],
 		"Key":[

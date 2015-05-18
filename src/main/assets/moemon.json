@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"7d 4h 00m",
+	"lastUpdate":"7d 8h 30m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
@@ -20,7 +20,7 @@
 			"Stun Spore",
 			"Cut",
 			"Giga Drain (TM)",
-			"Sleep Powder",
+			"Sleep Powder"
 		],
 		"nextAttack":"Petal Dance @ 44",
 		"nextAttacks":[],
@@ -33,7 +33,7 @@
 		"ability":"Water Absorb",
 		"gender":"Female",
 		"ingame":"ACCCIOOWWW",
-		"level":39,
+		"level":40,
 		"attacks":[
 			"Water Pulse",
 			"Aurora Beam",
@@ -369,6 +369,15 @@
 		"level":-1,
 		"caughtTime":"6d 9h 29m",
 		"caughtBall":"safari"
+	},{
+		"species":"Clefairy",
+		"type1":"Normal",
+		"ability":"???",
+		"ingame":"Clefairy",
+		"gender":"female",
+		"level":-1,
+		"caughtTime":"7d 7h 55m",
+		"caughtBall":"poke"
 	}],
 	
 	"items":{
