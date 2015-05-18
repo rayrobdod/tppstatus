@@ -1,20 +1,39 @@
 {
-	"lastUpdate":"7d 4h 00m",
+	"lastUpdate":"7d 21h 00m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
 	"name":"AAABBHM",
 	"idno":"29177",
 	
-	"checkpoint":"Saffron City",
+	"checkpoint":"Lavender Town",
 
 	"party":[{
+		"species":"Cirno",
+		"type1":"Ice",
+		"type2":"Flying",
+		"nature":"Relaxed",
+		"gender":"Female",
+		"ingame":"BB",
+		"level":"36",
+		"attacks":[
+			"Surf",
+			"Aurora Beam",
+			"Ice Shard",
+			"Ice Punch"
+		],
+		"holding":"Nugget",
+		"nextAttack":"Ice Ball @ 37",
+		"nextAttacks":["Soar @ 40"],
+		"caughtTime":"4d 13h 26m"
+	},{
 		"species":"Satori",
 		"type1":"Heart",
 		"ability":"Trace",
 		"gender":"Male",
-		"ingame":"XXXXXXXQk",
-		"level":"39",
+		"ingame":"Chauzu",
+		"formerIngame":["XXXXXXXQk"],
+		"level":"40",
 		"attacks":[
 			"Mirror Shot",
 			"Mana Burst",
@@ -23,9 +42,29 @@
 		],
 		"nextAttack":"Dark Pulse @ 42",
 		"nextAttacks":["Signal Beam @ 45", "Shadow Ball @ 48"],
-		"holding":"Blazer",
+		"holding":"Lunatic Orb",
 		"nature":"Calm",
 		"caughtBall":"Easy",
+		"nickname":[]
+	},{
+		"species":"Sanae",
+		"type1":"Faith",
+		"type2":"Wind",
+		"ability":"Serene Grace",
+		"gender":"Female",
+		"ingame":"Sanae",
+		"level":"45",
+		"attacks":[
+			"Water Pulse",
+			"Razor Wind",
+			"Extrasensory",
+			"---"
+		],
+		"nextAttack":"Whirlwind @ 46",
+		"nextAttacks":["Heat Wave @ 50","Psych Up @ 54","Aeroblast @ 58"],
+		"caughtBall":"Easy",
+		"holding":"Nothing",
+		"nature":"Quiet",
 		"nickname":[]
 	},{
 		"species":"Momiji",
@@ -48,33 +87,13 @@
 		"nature":"Bold",
 		"nickname":["AWOO", "Wood", "Anubis"]
 	},{
-		"species":"Sanae",
-		"type1":"Faith",
-		"type2":"Wind",
-		"ability":"Serene Grace",
-		"gender":"Female",
-		"ingame":"Sanae",
-		"level":"45",
-		"attacks":[
-			"Water Pulse",
-			"Razor Wind",
-			"Extrasensory",
-			"---"
-		],
-		"nextAttack":"Whirlwind @ 46",
-		"nextAttacks":["Heat Wave @ 50","Psych Up @ 54","Aeroblast @ 58"],
-		"caughtBall":"Easy",
-		"holding":"Nothing",
-		"nature":"Quiet",
-		"nickname":[]
-	},{
 		"species":"Tokiko",
 		"type1":"Flying",
 		"ability":"Limber",
 		"ingame":"A",
 		"gender":"Female",
 		"type1":"Flying",
-		"level":"47",
+		"level":"48",
 		"attacks":[
 			"Soar",
 			"Zen Headbutt",
@@ -86,32 +105,16 @@
 		"nature":"Naive",
 		"nickname":["Book Jesus","Albumgeddon"]
 	},{
-		"species":"Cirno",
-		"type1":"Ice",
-		"ability":"Relaxed",
-		"gender":"Female",
-		"ingame":"BB",
-		"level":"32",
-		"attacks":[
-			"Surf",
-			"Aurora Beam",
-			"Ice Shard",
-			"Ice Punch"
-		],
-		"nextAttack":"Taunt @ 34",
-		"nextAttacks":["Ice Ball @ 37", "Soar @ 40"],
-		"caughtTime":"4d 13h 26m"
-	},{
 		"species":"CMystia",
 		"type1":"Flying",
-		"ability":"Impish",
+		"nature":"Impish",
 		"ingame":"CMystia",
 		"gender":"Female",
 		"level":"15",
 		"attacks":[
 			"Sand-Attack",
 			"Sing",
-			"Gust",
+			"<s>Gust</s> Fly",
 			"Wing Attack"
 		],
 		"nextAttack":"Agility @ 17",
@@ -526,7 +529,7 @@
 		{"name":"Cascade","time":"2d 0h 16m", "attempts":"2"},
 		{"name":"Thunder","time":"2d 22h 28m","attempts":"2"},
 		{"name":"Rainbow","time":"5d 6h 37m", "attempts":"1"},
-		{"name":"Marsh"},
+		{"name":"Marsh",  "time":"7d 16h 20m","attempts":"3"},
 		{"name":"Soul",   "time":"6d 11h 37m","attempts":"5"},
 		{"name":"Volcano"},
 		{"name":"Earth"}
@@ -535,7 +538,11 @@
 	"items":{
 		"Normal":[
 			"...",
-			"Hyper Potion"
+			"Max Revive",
+			"SupportHeart",
+			"Burn Heal",
+			"Hyper Potion",
+			"Blaizer"
 		],
 		"Balls":["Normal Orb ×41"],
 		"Key":[
@@ -543,7 +550,8 @@
 			"Secret Key"
 		],
 		"TMs":[
-			"..."
+			"...",
+			"TM4 Calm Mind"
 		]
 	}
 }
