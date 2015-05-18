@@ -24,7 +24,7 @@
 		"nextAttack":"Dark Pulse @ 42",
 		"nextAttacks":["Signal Beam @ 45", "Shadow Ball @ 48"],
 		"holding":"Blazer",
-		"nature":"???",
+		"nature":"Calm",
 		"caughtBall":"Easy",
 		"nickname":[]
 	},{
@@ -88,7 +88,7 @@
 	},{
 		"species":"Cirno",
 		"type1":"Ice",
-		"ability":"???",
+		"ability":"Relaxed",
 		"gender":"Female",
 		"ingame":"BB",
 		"level":32,
@@ -104,7 +104,7 @@
 	},{
 		"species":"CMystia",
 		"type1":"Flying",
-		"ability":"???",
+		"ability":"Impish",
 		"ingame":"CMystia",
 		"gender":"Female",
 		"level":15,
