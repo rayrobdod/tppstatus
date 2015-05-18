@@ -1,9 +1,12 @@
 {
-	"lastUpdate":"7d 0h 0m",
+	"lastUpdate":"7d 4h 00m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
-	"checkpoint":"Fuchsia City",
+	"name":"AAABBHM",
+	"idno":"29177",
+	
+	"checkpoint":"Saffron City",
 
 	"party":[{
 		"species":"Satori",
@@ -11,17 +14,18 @@
 		"ability":"Trace",
 		"gender":"Male",
 		"ingame":"XXXXXXXQk",
-		"level":38,
+		"level":39,
 		"attacks":[
 			"Mirror Shot",
-			"---",
+			"Mana Burst",
 			"---",
 			"---"
 		],
-		"nextAttack":"Mana Burst @ 39",
-		"nextAttacks":["Dark Pulse @ 42", "Signal Beam @ 45", "Shadow Ball @ 48"],
+		"nextAttack":"Dark Pulse @ 42",
+		"nextAttacks":["Signal Beam @ 45", "Shadow Ball @ 48"],
 		"holding":"Blazer",
 		"nature":"???",
+		"caughtBall":"Easy",
 		"nickname":[]
 	},{
 		"species":"Momiji",
@@ -30,16 +34,16 @@
 		"ability":"Intimidate",
 		"gender":"Male",
 		"ingame":"AUUUUABBBB",
-		"level":43,
+		"level":44,
 		"attacks":[
 			"Fury Cutter",
 			"Cut",
-			"Blade Flash",
+			"Night Slash",
 			"Crunch"
 		],
 		"caughtTime":"2d 4h 16m",
-		"nextAttack":"Night Slash @ 44",
-		"nextAttacks":["Swords Dance @ 48", "Killing Bite @ 52", "Braver @ 56"],
+		"nextAttack":"Swords Dance @ 48",
+		"nextAttacks":["Killing Bite @ 52", "Braver @ 56"],
 		"holding":"Normal Orb",
 		"nature":"Bold",
 		"nickname":["AWOO", "Wood"]
@@ -50,7 +54,7 @@
 		"ability":"Serene Grace",
 		"gender":"Female",
 		"ingame":"Sanae",
-		"level":44,
+		"level":45,
 		"attacks":[
 			"Water Pulse",
 			"Razor Wind",
@@ -82,20 +86,20 @@
 		"nature":"Naive",
 		"nickname":["Book Jesus","Albumgeddon"]
 	},{
-		"species":"CCirno",
+		"species":"Cirno",
 		"type1":"Ice",
 		"ability":"???",
 		"gender":"Female",
 		"ingame":"BB",
-		"level":31,
+		"level":32,
 		"attacks":[
 			"Surf",
 			"Aurora Beam",
 			"Ice Shard",
 			"Ice Punch"
 		],
-		"nextAttack":"--- @ --",
-		"nextAttacks":["After evolution:","Taunt @ 34", "Ice Ball @ 37", "Soar @ 40"],
+		"nextAttack":"Taunt @ 34",
+		"nextAttacks":["Ice Ball @ 37", "Soar @ 40"],
 		"caughtTime":"4d 13h 26m"
 	},{
 		"species":"CMystia",
@@ -467,6 +471,34 @@
 		"level":24,
 		"caughtTime":"6d 23h 45m",
 		"caughtBall":"normal"
+	},{
+		"species":"CPatchouli",
+		"type1":"???",
+		"ability":"???",
+		"ingame":"CPatchouli",
+		"gender":"female",
+		"level":22,
+		"caughtTime":"7d 0h 24m",
+		"caughtBall":"normal"
+	},{
+		"species":"CMurasa",
+		"type1":"???",
+		"ability":"???",
+		"ingame":"CMurasa",
+		"gender":"male",
+		"level":5,
+		"caughtTime":"7d 0h 37m",
+		"caughtBall":"normal"
+	},{
+		"species":"Rinnosuke",
+		"type1":"Steel",
+		"type2":"Dream",
+		"ability":"???",
+		"ingame":"Rinnosuke",
+		"gender":"",
+		"level":-1,
+		"caughtTime":"7d 3h 3m",
+		"caughtBall":"easy"
 	}],
 	
 	"daycare":[{
@@ -498,5 +530,20 @@
 		{"name":"Soul",   "time":"6d 11h 37m","attempts":5},
 		{"name":"Volcano"},
 		{"name":"Earth"}
-	]
+	],
+	
+	"items":{
+		"Normal":[
+			"...",
+			"Hyper Potion"
+		],
+		"Balls":["Normal Orb ×41"],
+		"Key":[
+			"...",
+			"Secret Key"
+		],
+		"TMs":[
+			"..."
+		]
+	}
 }

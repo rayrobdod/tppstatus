@@ -77,6 +77,9 @@ package tpporg {
 			case "lastUpdate" => t.copy(lastUpdate = value.toString)
 			case "gameName" => t.copy(gameName = value.toString)
 			case "checkpoint" => t.copy(checkpoint = value.toString)
+			case "name" => t
+			case "idno" => t
+			case "items" => t
 			case "party" => t.copy(party = value.asInstanceOf[Seq[Pokemon]])
 			case "box" => t.copy(box = value.asInstanceOf[Seq[Pokemon]])
 			case "daycare" => t.copy(daycare = value.asInstanceOf[Seq[Pokemon]])
@@ -88,6 +91,7 @@ package tpporg {
 			case "box" => new SeqBuilder(PokemonBuilder)
 			case "daycare" => new SeqBuilder(PokemonBuilder)
 			case "badges" => new SeqBuilder(BadgeBuilder)
+			case "items" => new SeqBuilder
 			case _ => throw new IllegalArgumentException("PageDataBuilder childBuilder key: " + key)
 		}
 		override def resultType = classOf[PageData]

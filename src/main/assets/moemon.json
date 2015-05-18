@@ -1,9 +1,12 @@
 {
-	"lastUpdate":"7d 0h 0m",
+	"lastUpdate":"7d 4h 00m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
-	"checkpoint":"Lavender Town",
+	"name":"AAtatat",
+	"idno":"42115",
+	
+	"checkpoint":"Saffron City",
 	
 	"party":[{
 		"species":"Vileplume",
@@ -16,7 +19,7 @@
 		"attacks":[
 			"Stun Spore",
 			"Cut",
-			"Absorb",
+			"Giga Drain (TM)",
 			"Sleep Powder",
 		],
 		"nextAttack":"Petal Dance @ 44",
@@ -30,7 +33,7 @@
 		"ability":"Water Absorb",
 		"gender":"Female",
 		"ingame":"ACCCIOOWWW",
-		"level":38,
+		"level":39,
 		"attacks":[
 			"Water Pulse",
 			"Aurora Beam",
@@ -367,6 +370,41 @@
 		"caughtTime":"6d 9h 29m",
 		"caughtBall":"safari"
 	}],
+	
+	"items":{
+		"Normal":[
+			"Awakening",
+			"Nigget",
+			"Moon Stone ×2",
+			"Parlyz Heal",
+			"Burn Heal",
+			"BlackGlassses",
+			"..."
+		],
+		"Balls":[],
+		"Key":[
+			"Teachy TV",
+			"TM Case",
+			"Helix Fossil",
+			"Fame Checker",
+			"Bicycle",
+			"SS Ticket",
+			"..."
+		],
+		"TMs":[
+			"HM1 Cut",
+			"HM2 Fly",
+			"HM3 Surf",
+			"HM4 Strength",
+			"TM06 Toxic",
+			"TM12 Taunt",
+			"TM28 Dig",
+			"TM31 Brick Break",
+			"..."
+		]
+	},
+	
+	
 	
 	"badges":[
 		{"name":"Boulder","time":"0d 17h 22m","attempts":2},
