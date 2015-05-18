@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"7d 8h 30m",
+	"lastUpdate":"7d 11h 30m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
@@ -33,7 +33,7 @@
 		"ability":"Water Absorb",
 		"gender":"Female",
 		"ingame":"ACCCIOOWWW",
-		"level":40,
+		"level":43,
 		"attacks":[
 			"Water Pulse",
 			"Aurora Beam",
@@ -55,7 +55,7 @@
 		"gender":"Female",
 		"ingame":"Butterbae",
 		"formerIngame":["BUTT", "Butterfree"],
-		"level":40,
+		"level":41,
 		"attacks":[
 			"Confusion",
 			"Psychic",
@@ -114,7 +114,7 @@
 		"ability":"Blaze",
 		"gender":"Female",
 		"ingame":"FFF&nbsp;&nbsp;&nbsp;",
-		"level":45,
+		"level":46,
 		"attacks":[
 			"Wing Attack",
 			"Ember",
@@ -378,6 +378,15 @@
 		"level":-1,
 		"caughtTime":"7d 7h 55m",
 		"caughtBall":"poke"
+	},{
+		"species":"Lapras",
+		"type1":"Normal",
+		"ability":"???",
+		"ingame":"AMMOOOOii9",
+		"gender":"female",
+		"level":-1,
+		"caughtTime":"7d 11h 34m",
+		"caughtBall":"poke"
 	}],
 	
 	"items":{
@@ -390,7 +399,7 @@
 			"BlackGlassses",
 			"..."
 		],
-		"Balls":[],
+		"Balls":["Master Ball"],
 		"Key":[
 			"Teachy TV",
 			"TM Case",

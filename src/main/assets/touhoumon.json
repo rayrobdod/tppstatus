@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"7d 8h 30m",
+	"lastUpdate":"7d 11h 30m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
@@ -9,6 +9,23 @@
 	"checkpoint":"Lavender Town",
 
 	"party":[{
+		"species":"Cirno",
+		"type1":"Ice",
+		"type2":"Flying",
+		"nature":"Relaxed",
+		"gender":"Female",
+		"ingame":"BB",
+		"level":34,
+		"attacks":[
+			"Surf",
+			"Aurora Beam",
+			"Ice Shard",
+			"Ice Punch"
+		],
+		"nextAttack":"Ice Ball @ 37",
+		"nextAttacks":["Soar @ 40"],
+		"caughtTime":"4d 13h 26m"
+	},{
 		"species":"Satori",
 		"type1":"Heart",
 		"ability":"Trace",
@@ -26,6 +43,26 @@
 		"holding":"Lunatic Orb",
 		"nature":"Calm",
 		"caughtBall":"Easy",
+		"nickname":[]
+	},{
+		"species":"Sanae",
+		"type1":"Faith",
+		"type2":"Wind",
+		"ability":"Serene Grace",
+		"gender":"Female",
+		"ingame":"Sanae",
+		"level":45,
+		"attacks":[
+			"Water Pulse",
+			"Razor Wind",
+			"Extrasensory",
+			"---"
+		],
+		"nextAttack":"Whirlwind @ 46",
+		"nextAttacks":["Heat Wave @ 50","Psych Up @ 54","Aeroblast @ 58"],
+		"caughtBall":"Easy",
+		"holding":"Nothing",
+		"nature":"Quiet",
 		"nickname":[]
 	},{
 		"species":"Momiji",
@@ -48,26 +85,6 @@
 		"nature":"Bold",
 		"nickname":["AWOO", "Wood", "Anubis"]
 	},{
-		"species":"Sanae",
-		"type1":"Faith",
-		"type2":"Wind",
-		"ability":"Serene Grace",
-		"gender":"Female",
-		"ingame":"Sanae",
-		"level":45,
-		"attacks":[
-			"Water Pulse",
-			"Razor Wind",
-			"Extrasensory",
-			"---"
-		],
-		"nextAttack":"Whirlwind @ 46",
-		"nextAttacks":["Heat Wave @ 50","Psych Up @ 54","Aeroblast @ 58"],
-		"caughtBall":"Easy",
-		"holding":"Nothing",
-		"nature":"Quiet",
-		"nickname":[]
-	},{
 		"species":"Tokiko",
 		"type1":"Flying",
 		"ability":"Limber",
@@ -85,23 +102,6 @@
 		"holding":"Nothing",
 		"nature":"Naive",
 		"nickname":["Book Jesus","Albumgeddon"]
-	},{
-		"species":"Cirno",
-		"type1":"Ice",
-		"type2":"Flying",
-		"nature":"Relaxed",
-		"gender":"Female",
-		"ingame":"BB",
-		"level":32,
-		"attacks":[
-			"Surf",
-			"Aurora Beam",
-			"Ice Shard",
-			"Ice Punch"
-		],
-		"nextAttack":"Taunt @ 34",
-		"nextAttacks":["Ice Ball @ 37", "Soar @ 40"],
-		"caughtTime":"4d 13h 26m"
 	},{
 		"species":"CMystia",
 		"type1":"Flying",
@@ -536,6 +536,9 @@
 	"items":{
 		"Normal":[
 			"...",
+			"Max Revive",
+			"SupportHeart",
+			"Burn Heal",
 			"Hyper Potion",
 			"Blaizer"
 		],
