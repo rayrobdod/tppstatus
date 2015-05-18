@@ -57,14 +57,19 @@ object MyBuild extends Build {
 			val pageInfos = (dataObjects in Assets).value
 			streams.value.log.info("Creating " + pageInfos.size + " pages")
 			
-			pageInfos.map({(pageInfo:PageData) =>
-				val fileName = (resourceManaged in Assets).value / pageInfo.fileName
+			pageInfos.flatMap({(pageInfo:PageData) =>
+				val readFileName = (resourceManaged in Assets).value / pageInfo.fileName
+				val writeFileName = (resourceManaged in Assets).value / pageInfo.editFileName
 				
-				val elem = PageTemplates.overallPage(pageInfo)
+				val readElem = PageTemplates.overallPage(pageInfo, false)
+				val writeElem = PageTemplates.overallPage(pageInfo, true)
 				
-				IO.createDirectory(fileName.getParentFile)
-				IO.write(fileName, elem.toString, UTF_8)
-				fileName
+				IO.createDirectory(readFileName.getParentFile)
+				IO.createDirectory(writeFileName.getParentFile)
+				IO.write(readFileName, readElem.toString, UTF_8)
+				IO.write(writeFileName, writeElem.toString, UTF_8)
+				
+				Seq(readFileName, writeFileName)
 			})
 		},
 		resourceGenerators in Assets <+= pages in Assets

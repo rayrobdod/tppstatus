@@ -37,7 +37,12 @@ package tpporg {
 		box:Seq[Pokemon] = Nil,
 		daycare:Seq[Pokemon] = Nil,
 		badges:Seq[Badge] = Nil
-	)
+	) {
+		def editFileName:String = {
+			val index = fileName.lastIndexOf('.')
+			fileName.substring(0, index) + "_edit" + fileName.substring(index)
+		}
+	}
 	
 	case class Badge(
 		name:String = "???",

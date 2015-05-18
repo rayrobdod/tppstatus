@@ -17,7 +17,48 @@ object PageTemplates {
 	}
 	
 	
-	def overallPage(pageData:PageData):Group[Node] = {
+	def overallPage(pageData:PageData, isEditing:Boolean):Group[Node] = {
+		val data:Group[Node] = Group(
+			Elem(htmlBinding, "h1", Attributes(), Group(Text("Twitch Plays Pokémon - " + pageData.gameName))),
+			Elem(htmlBinding, "div", Attributes("class" -> "lastUpdated"), Group(
+				Text("Last Updated: "),
+				TextValue("lastUpdate", pageData.lastUpdate, isEditing)
+			)),
+			Elem(htmlBinding, "div", Attributes("class" -> "checkpoint"), Group(
+				Text("Checkpoint: "),
+				TextValue("checkpoint", pageData.checkpoint, isEditing)
+			)),
+			Elem(htmlBinding, "section", Attributes(), Group(
+				Elem(htmlBinding, "h2", Attributes(), Group(Text(pageData.monsterType + " in Party"))),
+				listOfPartyPokemon(pageData.party, isEditing)
+			)),
+			Elem(htmlBinding, "section", Attributes(), Group(
+				Elem(htmlBinding, "h2", Attributes(), Group(Text("Badges"))),
+				listOfBadges(pageData.badges, isEditing)
+			)),
+			Elem(htmlBinding, "section", Attributes(), Group(
+				Elem(htmlBinding, "h2", Attributes(), Group(Text("Daycare"))),
+				listOfBoxedPokemon(pageData.daycare, "daycare", isEditing)
+			)),
+			Elem(htmlBinding, "section", Attributes(), Group(
+				Elem(htmlBinding, "h2", Attributes(), Group(Text("Boxed"))),
+				listOfBoxedPokemon(pageData.box, "box", isEditing)
+			))
+		)
+		val dataInForm:Group[Node] = {
+			if (isEditing) {
+				Group(Elem(htmlBinding, "form", Attributes(
+						"method" -> "POST",
+						"enctype" -> "application/x-www-form-urlencoded",
+						"action" -> "path/to/url"
+				), data))
+			} else {
+				data
+			}
+		}
+		
+		
+		
 		Group(xmlProcInstr, Text("\n"), htmlDoctype, Text("\n"),
 			Elem(htmlBinding, "html", Attributes("lang" -> "en-US"), Group(
 				Elem(htmlBinding, "head", Attributes(), Group(
@@ -38,113 +79,99 @@ object PageTemplates {
 							</nav>
 						</header>
 					),
-					Elem(htmlBinding, "main", Attributes(), Group(
-						Elem(htmlBinding, "h1", Attributes(), Group(Text("Twitch Plays Pokémon - " + pageData.gameName))),
-						Elem(htmlBinding, "div", Attributes("class" -> "lastUpdated"), Group(
-							Text("Last Updated: "),
-							Text(pageData.lastUpdate)
-						)),
-						Elem(htmlBinding, "div", Attributes("class" -> "checkpoint"), Group(
-							Text("Checkpoint: "),
-							Text(pageData.checkpoint)
-						)),
-						Elem(htmlBinding, "section", Attributes(), Group(
-							Elem(htmlBinding, "h2", Attributes(), Group(Text(pageData.monsterType + " in Party"))),
-							listOfPartyPokemon(pageData.party)
-						)),
-						Elem(htmlBinding, "section", Attributes(), Group(
-							Elem(htmlBinding, "h2", Attributes(), Group(Text("Badges"))),
-							listOfBadges(pageData.badges)
-						)),
-						Elem(htmlBinding, "section", Attributes(), Group(
-							Elem(htmlBinding, "h2", Attributes(), Group(Text("Daycare"))),
-							listOfBoxedPokemon(pageData.daycare)
-						)),
-						Elem(htmlBinding, "section", Attributes(), Group(
-							Elem(htmlBinding, "h2", Attributes(), Group(Text("Boxed"))),
-							listOfBoxedPokemon(pageData.box)
-						))
-					))
+					Elem(htmlBinding, "main", Attributes(), 
+						dataInForm
+					)
 				))
 			))
 		)
 	}
 	
-	def listOfPartyPokemon(list:Seq[Pokemon]):Node = {
-		Elem(htmlBinding, "table", Attributes("class" -> "party"), rowOfPokemon(list))
+	def listOfPartyPokemon(list:Seq[Pokemon], isEditing:Boolean):Node = {
+		Elem(htmlBinding, "table", Attributes("class" -> "party"),
+			rowOfPokemon(list, "party", 0, isEditing)
+		)
 	}
 	
-	def listOfBoxedPokemon(list:Seq[Pokemon]):Node = {
-		val rows = list.grouped(6)
-		Elem(htmlBinding, "table", Attributes("class" -> "boxed"), Group.fromSeq(
-			rows.flatMap(rowOfPokemon(_)).toList
+	def listOfBoxedPokemon(list:Seq[Pokemon], key:String, isEditing:Boolean):Node = {
+		val rows = list.grouped(6).zipWithIndex;
+		Elem(htmlBinding, "table", Attributes("class" -> key), Group.fromSeq(
+			rows.flatMap{x => rowOfPokemon(x._1, key, (x._2 * 6), isEditing)}.toList
 		))
 	}
 	
-	def rowOfPokemon(list:Seq[Pokemon]):Group[Node] = {
+	def rowOfPokemon(list:Seq[Pokemon], key:String, startIndex:Int, isEditing:Boolean):Group[Node] = {
 		Group(
 			Elem(htmlBinding, "tr", Attributes("class" -> "name"), Group.fromSeq(
-				list.map{x =>
+				list.zipWithIndex.map{x =>
 					Elem(htmlBinding, "td", Attributes(), Group(
-						Text(x.ingame),
+						TextValue(key + "_" + (startIndex + x._2) + "_ingame", x._1.ingame.toString, isEditing),
 						Elem(htmlBinding, "br"),
-						Text("(" + x.species + ")"),
+						Text("("),
+						TextValue(key + "_" + (startIndex + x._2) + "_species", x._1.species.toString, isEditing),
+						Text(")"),
 						Elem(htmlBinding, "br"),
-						Elem(htmlBinding, "span", Attributes("class" -> ("type " + x.type1.toLowerCase())), Group(Text(x.type1))),
+						TypeField(key + "_" + (startIndex + x._2) + "_type1", x._1.type1, isEditing),
 						Text(" "),
-						Elem(htmlBinding, "span", Attributes("class" -> ("type " + x.type2.toLowerCase())), Group(Text(x.type2)))
+						TypeField(key + "_" + (startIndex + x._2) + "_type2", x._1.type2, isEditing)
 					))
 				}
 			)),
 			Elem(htmlBinding, "tr", Attributes("class" -> "level"), Group.fromSeq(
-				list.map{x =>
+				list.zipWithIndex.map{x =>
 					Elem(htmlBinding, "td", Attributes(), Group(
 						Text("Level "),
-						Text(x.level.toString)
+						TextValue(key + "_" + (startIndex + x._2) + "_level", x._1.level.toString, isEditing)
 					))
 				}
 			)),
 			Elem(htmlBinding, "tr", Attributes("class" -> "nicks"), Group.fromSeq(
-				list.map{x =>
+				list.zipWithIndex.map{x =>
 					Elem(htmlBinding, "td", Attributes(), Group(
-						Elem(htmlBinding, "ul", Attributes(), Group.fromSeq(
-							x.nickname.map{y => Elem(htmlBinding, "li", Attributes(), Group(Text(y)))}
-						))
+						NicknamesField(key + "_" + (startIndex + x._2) + "_nickname", x._1.nickname, isEditing)
 					))
 				}
 			)),
 			Elem(htmlBinding, "tr", Attributes("class" -> "held"), Group.fromSeq(
-				list.map{x => wrapStringInTd(x.holding)}
+				list.zipWithIndex.map{x => 
+					Elem(htmlBinding, "td", Attributes(), Group(
+						TextValue(key + "_" + (startIndex + x._2) + "_holding", x._1.holding, isEditing)
+					))
+				}
 			)),
 			Elem(htmlBinding, "tr", Attributes("class" -> "moves"), Group.fromSeq(
-				list.map{x =>
+				list.zipWithIndex.map{x =>
 					Elem(htmlBinding, "td", Attributes(), Group(
-						Elem(htmlBinding, "ol", Attributes(), Group.fromSeq(
-							x.attacks.map{y => Elem(htmlBinding, "li", Attributes(), Group(
-								if (Set("Cut", "Surf", "Flash", "Strength", "Fly") contains y) {
-									Elem(htmlBinding, "strong", Attributes(), Group(Text(y)))
-								} else {
-									Text(y)
-								}
-							))}
-						))
+						MovesField(key + "_" + (startIndex + x._2) + "_moves", x._1.attacks, isEditing)
 					))
 				}
 			)),
 			Elem(htmlBinding, "tr", Attributes("class" -> "ability"), Group.fromSeq(
-				list.map{x => wrapStringInTd(x.ability)}
+				list.zipWithIndex.map{x => 
+					Elem(htmlBinding, "td", Attributes(), Group(
+						TextValue(key + "_" + (startIndex + x._2) + "_ability", x._1.ability, isEditing)
+					))
+				}
 			)),
 			Elem(htmlBinding, "tr", Attributes("class" -> "nature"), Group.fromSeq(
-				list.map{x => wrapStringInTd(x.nature)}
+				list.zipWithIndex.map{x => 
+					Elem(htmlBinding, "td", Attributes(), Group(
+						TextValue(key + "_" + (startIndex + x._2) + "_nature", x._1.nature, isEditing)
+					))
+				}
 			)),
 			Elem(htmlBinding, "tr", Attributes("class" -> "nextMove"), Group.fromSeq(
-				list.map{x => wrapStringInTd(x.nextAttack)}
+				list.zipWithIndex.map{x => 
+					Elem(htmlBinding, "td", Attributes(), Group(
+						TextValue(key + "_" + (startIndex + x._2) + "_nextAttack", x._1.nextAttack, isEditing)
+					))
+				}
 			)),
 			Elem(htmlBinding, "tr", Attributes("class" -> "caught"), Group.fromSeq(
-				list.map{x =>
+				list.zipWithIndex.map{x =>
 					Elem(htmlBinding, "td", Attributes(), Group(
 						Text("Caught at: "),
-						Text(x.caughtTime.toString)
+						TextValue(key + "_" + (startIndex + x._2) + "_caughtTime", x._1.caughtTime, isEditing)
 					))
 				}
 			))
@@ -153,19 +180,27 @@ object PageTemplates {
 	
 	
 	
-	def listOfBadges(list:Seq[Badge]):Node = {
+	def listOfBadges(list:Seq[Badge], isEditing:Boolean):Node = {
 		Elem(htmlBinding, "table", Attributes("class" -> "badges"), Group(
 			Elem(htmlBinding, "tr", Attributes("class" -> "name"), Group.fromSeq(
-				list.map{x => wrapStringInTd(x.name)}
+				list.zipWithIndex.map{x => 
+					Elem(htmlBinding, "td", Attributes(), Group(
+						TextValue("badge_" + x._2 + "_name", x._1.name, isEditing)
+					))
+				}
 			)),
 			Elem(htmlBinding, "tr", Attributes("class" -> "time"), Group.fromSeq(
-				list.map{x => wrapStringInTd(x.time)}
+				list.zipWithIndex.map{x => 
+					Elem(htmlBinding, "td", Attributes(), Group(
+						TextValue("badge_" + x._2 + "_time", x._1.time, isEditing)
+					))
+				}
 			)),
 			Elem(htmlBinding, "tr", Attributes("class" -> "attempts"), Group.fromSeq(
-				list.map{x =>
+				list.zipWithIndex.map{x =>
 					Elem(htmlBinding, "td", Attributes(), Group(
 						Text("Attempts: "),
-						Text(x.attempts.toString)
+						TextValue("badge_" + x._2 + "_time", x._1.attempts.toString, isEditing)
 					))
 				}
 			))
@@ -173,8 +208,59 @@ object PageTemplates {
 	}
 	
 	
-	private def wrapStringInTd(x:String) = {
-		Elem(htmlBinding, "td",  Attributes(), Group(Text(x)))
+	
+	private def TextValue(key:String, value:String, isEditing:Boolean) = {
+		if (isEditing) {
+			Elem(htmlBinding, "input", Attributes("name" -> key, "value" -> value, "type" -> "text"))
+		} else {
+			Text(value)
+		}
+	}
+	
+	private def TypeField(key:String, value:String, isEditing:Boolean) = {
+		if (isEditing) {
+			Elem(htmlBinding, "input", Attributes("name" -> key, "value" -> value, "type" -> "text"))
+		} else {
+			Elem(htmlBinding, "span", Attributes("class" -> ("type " + value.toLowerCase())), Group(Text(value)))
+		}
+	}
+	
+	private def NicknamesField(key:String, values:Seq[String], isEditing:Boolean) = {
+		if (isEditing) {
+			Elem(htmlBinding, "ul", Attributes(), Group.fromSeq(
+				(values ++ Seq("","","")).take(3).map{y => Elem(htmlBinding, "li", Attributes(), Group(
+					Elem(htmlBinding, "input", Attributes("name" -> key, "value" -> y, "type" -> "text"))
+				))}
+			))
+		} else {
+			Elem(htmlBinding, "ul", Attributes(), Group.fromSeq(
+				values.map{y => Elem(htmlBinding, "li", Attributes(), Group(Text(y)))}
+			))
+		}
+	}
+	
+	private def MovesField(key:String, values:Seq[String], isEditing:Boolean) = {
+		if (isEditing) {
+			Elem(htmlBinding, "ol", Attributes(), Group.fromSeq(
+				(values ++ Seq("","","","")).take(4).map{y =>
+					Elem(htmlBinding, "li", Attributes(), Group(
+						Elem(htmlBinding, "input", Attributes("name" -> key, "value" -> y, "type" -> "text"))
+					))
+				}
+			))
+		} else {
+			Elem(htmlBinding, "ol", Attributes(), Group.fromSeq(
+				values.map{y => 
+					Elem(htmlBinding, "li", Attributes(), Group(
+						if (Set("Cut", "Surf", "Flash", "Strength", "Fly") contains y) {
+							Elem(htmlBinding, "strong", Attributes(), Group(Text(y)))
+						} else {
+							Text(y)
+						}
+					))
+				}
+			))
+		}
 	}
 }
 

@@ -9,8 +9,8 @@ table td {border-bottom: 1px solid grey; text-align: center;}
 table td ul,
 table td ol {margin: 0px; padding: 0px;}
 table td li {display: block;}
-table.boxed tr.name td {border-top: 5px solid grey;}
-table.boxed {border-bottom: 5px solid grey;}
+table.box tr.name td {border-top: 5px solid grey;}
+table.box {border-bottom: 5px solid grey;}
 
 div.lastUpdated {display:block; float:right; font-size:150%;}
 
