@@ -49,7 +49,7 @@ package tpporg {
 	case class Badge(
 		name:String = "???",
 		time:String = "---",
-		attempts:Long = 0
+		attempts:String = "0"
 	)
 	
 	case class Pokemon(
@@ -59,7 +59,7 @@ package tpporg {
 		ability:String = "???",
 		ingame:String = "???",
 		formerIngame:Seq[String] = Nil,
-		level:Long = -1,
+		level:String = "-1",
 		attacks:Seq[String] = Seq("???","???","???","???"),
 		holding:String = "???",
 		nature:String = "???",

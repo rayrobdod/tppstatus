@@ -15,6 +15,7 @@ object PageTemplates {
 	private object htmlDoctype extends ProcInstr("DOCTYPE", "html") {
 		override def toString = "<!DOCTYPE html>"  
 	}
+	private val editServer = "http://localhost:8086/edit.py"
 	
 	
 	def overallPage(pageData:PageData, isEditing:Boolean):Group[Node] = {
@@ -51,7 +52,7 @@ object PageTemplates {
 					Elem(htmlBinding, "form", Attributes(
 							"method" -> "POST",
 							"enctype" -> "application/x-www-form-urlencoded",
-							"action" -> "http://localhost:8086/edit.py"
+							"action" -> editServer
 					), (
 						Elem(htmlBinding, "input", Attributes("type" -> "text", "name" -> "authToken")) +:
 						Elem(htmlBinding, "input", Attributes("type" -> "hidden", "name" -> "identifier", "value" -> pageData.identifier)) +:
