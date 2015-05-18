@@ -47,11 +47,18 @@ object PageTemplates {
 		)
 		val dataInForm:Group[Node] = {
 			if (isEditing) {
-				Group(Elem(htmlBinding, "form", Attributes(
-						"method" -> "POST",
-						"enctype" -> "application/x-www-form-urlencoded",
-						"action" -> "path/to/url"
-				), data))
+				Group(
+					Elem(htmlBinding, "form", Attributes(
+							"method" -> "POST",
+							"enctype" -> "application/x-www-form-urlencoded",
+							"action" -> "http://localhost:8086/edit.py"
+					), (
+						Elem(htmlBinding, "input", Attributes("type" -> "text", "name" -> "authToken")) +:
+						Elem(htmlBinding, "input", Attributes("type" -> "hidden", "name" -> "identifier", "value" -> pageData.identifier)) +:
+						Elem(htmlBinding, "input", Attributes("type" -> "submit", "value" -> "submit")) +:
+						data)
+					)
+				)
 			} else {
 				data
 			}
@@ -142,7 +149,7 @@ object PageTemplates {
 			Elem(htmlBinding, "tr", Attributes("class" -> "moves"), Group.fromSeq(
 				list.zipWithIndex.map{x =>
 					Elem(htmlBinding, "td", Attributes(), Group(
-						MovesField(key + "_" + (startIndex + x._2) + "_moves", x._1.attacks, isEditing)
+						MovesField(key + "_" + (startIndex + x._2) + "_attacks", x._1.attacks, isEditing)
 					))
 				}
 			)),
@@ -185,14 +192,14 @@ object PageTemplates {
 			Elem(htmlBinding, "tr", Attributes("class" -> "name"), Group.fromSeq(
 				list.zipWithIndex.map{x => 
 					Elem(htmlBinding, "td", Attributes(), Group(
-						TextValue("badge_" + x._2 + "_name", x._1.name, isEditing)
+						TextValue("badges_" + x._2 + "_name", x._1.name, isEditing)
 					))
 				}
 			)),
 			Elem(htmlBinding, "tr", Attributes("class" -> "time"), Group.fromSeq(
 				list.zipWithIndex.map{x => 
 					Elem(htmlBinding, "td", Attributes(), Group(
-						TextValue("badge_" + x._2 + "_time", x._1.time, isEditing)
+						TextValue("badges_" + x._2 + "_time", x._1.time, isEditing)
 					))
 				}
 			)),
@@ -200,7 +207,7 @@ object PageTemplates {
 				list.zipWithIndex.map{x =>
 					Elem(htmlBinding, "td", Attributes(), Group(
 						Text("Attempts: "),
-						TextValue("badge_" + x._2 + "_time", x._1.attempts.toString, isEditing)
+						TextValue("badges_" + x._2 + "_attempts", x._1.attempts.toString, isEditing)
 					))
 				}
 			))
@@ -228,8 +235,8 @@ object PageTemplates {
 	private def NicknamesField(key:String, values:Seq[String], isEditing:Boolean) = {
 		if (isEditing) {
 			Elem(htmlBinding, "ul", Attributes(), Group.fromSeq(
-				(values ++ Seq("","","")).take(3).map{y => Elem(htmlBinding, "li", Attributes(), Group(
-					Elem(htmlBinding, "input", Attributes("name" -> key, "value" -> y, "type" -> "text"))
+				(values ++ Seq("","","")).take(3).zipWithIndex.map{y => Elem(htmlBinding, "li", Attributes(), Group(
+					Elem(htmlBinding, "input", Attributes("name" -> (key + "_" + y._2), "value" -> y._1, "type" -> "text"))
 				))}
 			))
 		} else {
@@ -242,9 +249,9 @@ object PageTemplates {
 	private def MovesField(key:String, values:Seq[String], isEditing:Boolean) = {
 		if (isEditing) {
 			Elem(htmlBinding, "ol", Attributes(), Group.fromSeq(
-				(values ++ Seq("","","","")).take(4).map{y =>
+				(values ++ Seq("","","","")).take(4).zipWithIndex.map{y =>
 					Elem(htmlBinding, "li", Attributes(), Group(
-						Elem(htmlBinding, "input", Attributes("name" -> key, "value" -> y, "type" -> "text"))
+						Elem(htmlBinding, "input", Attributes("name" -> (key + "_" + y._2), "value" -> y._1, "type" -> "text"))
 					))
 				}
 			))

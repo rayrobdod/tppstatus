@@ -30,7 +30,7 @@ package tpporg {
 	case class PageData(
 		monsterType:String = "Pokémon",
 		gameName:String = "Pokémon",
-		fileName:String = "sdf.html",
+		identifier:String = "sdf",
 		lastUpdate:String = "??d ??h ??m",
 		checkpoint:String = "???",
 		party:Seq[Pokemon] = Nil,
@@ -42,6 +42,8 @@ package tpporg {
 			val index = fileName.lastIndexOf('.')
 			fileName.substring(0, index) + "_edit" + fileName.substring(index)
 		}
+		
+		def fileName:String = identifier + ".xhtml"
 	}
 	
 	case class Badge(

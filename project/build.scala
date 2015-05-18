@@ -38,7 +38,7 @@ object MyBuild extends Build {
 					r = Files.newBufferedReader(fileName.toPath, UTF_8)
 					
 					new JsonParser(new PageDataBuilder()).parse(r)
-							.copy(fileName = baseDir.relativize(fileName.toPath).toString.dropRight(4) + "xhtml")
+							.copy(identifier = baseDir.relativize(fileName.toPath).toString.dropRight(5))
 				} catch {
 					case _:java.text.ParseException => {
 						streams.value.log.error("Could not read file " + fileName)
