@@ -1,12 +1,12 @@
 {
-	"lastUpdate":"7d 21h 00m",
+	"lastUpdate":"8d 5h 18m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
 	"name":"AAABBHM",
 	"idno":"29177",
 	
-	"checkpoint":"Lavender Town",
+	"checkpoint":"Cinnabar Island",
 
 	"party":[{
 		"species":"Cirno",
@@ -15,16 +15,16 @@
 		"nature":"Relaxed",
 		"gender":"Female",
 		"ingame":"BB",
-		"level":36,
+		"level":37,
 		"attacks":[
 			"Surf",
-			"Aurora Beam",
+			"Ice Ball",
 			"Ice Shard",
 			"Ice Punch"
 		],
 		"holding":"Nugget",
-		"nextAttack":"Ice Ball @ 37",
-		"nextAttacks":["Soar @ 40"],
+		"nextAttack":"Soar @ 40",
+		"nextAttacks":[],
 		"caughtTime":"4d 13h 26m"
 	},{
 		"species":"Satori",
@@ -33,7 +33,7 @@
 		"gender":"Male",
 		"ingame":"Chauzu",
 		"formerIngame":["XXXXXXXQk"],
-		"level":40,
+		"level":41,
 		"attacks":[
 			"Mirror Shot",
 			"Mana Burst",
@@ -58,10 +58,10 @@
 			"Water Pulse",
 			"Razor Wind",
 			"Extrasensory",
-			"---"
+			"Whirlwind"
 		],
-		"nextAttack":"Whirlwind @ 46",
-		"nextAttacks":["Heat Wave @ 50","Psych Up @ 54","Aeroblast @ 58"],
+		"nextAttack":"Heat Wave @ 50",
+		"nextAttacks":["Psych Up @ 54","Aeroblast @ 58"],
 		"caughtBall":"Easy",
 		"holding":"Nothing",
 		"nature":"Quiet",
@@ -73,7 +73,7 @@
 		"ability":"Intimidate",
 		"gender":"Male",
 		"ingame":"AUUUUABBBB",
-		"level":44,
+		"level":45,
 		"attacks":[
 			"Fury Cutter",
 			"Cut",
@@ -502,6 +502,48 @@
 		"level":-1,
 		"caughtTime":"7d 3h 3m",
 		"caughtBall":"easy"
+	},{
+		"species":"CByakuren",
+		"type1":"???",
+		"type2":"???",
+		"ability":"???",
+		"ingame":"???",
+		"gender":"female",
+		"level":5,
+		"caughtTime":"8d 0h 44m",
+		"caughtBall":"easy"
+	},{
+		"species":"CRin",
+		"type1":"???",
+		"ingame":"CRin",
+		"gender":"female",
+		"level":28,
+		"caughtTime":"8d 1h 27m",
+		"caughtBall":"normal"
+	},{
+		"species":"CRin",
+		"type1":"???",
+		"ingame":"CRin",
+		"gender":"female",
+		"level":28,
+		"caughtTime":"8d 1h 41m",
+		"caughtBall":"normal"
+	},{
+		"species":"CRin",
+		"type1":"???",
+		"ingame":"AM",
+		"gender":"male",
+		"level":32,
+		"caughtTime":"8d 1h 45m",
+		"caughtBall":"normal"
+	},{
+		"species":"CRin",
+		"type1":"???",
+		"ingame":"CRin",
+		"gender":"female",
+		"level":28,
+		"caughtTime":"8d 2h 16m",
+		"caughtBall":"normal"
 	}],
 	
 	"daycare":[{
