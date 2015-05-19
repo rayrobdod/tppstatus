@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"8d 5h 18m",
+	"lastUpdate":"8d 10h 00m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
@@ -9,31 +9,12 @@
 	"checkpoint":"Saffron City",
 	
 	"party":[{
-		"species":"Vileplume",
-		"type1":"Grass",
-		"type2":"Poison",
-		"ability":"Chlorophyll",
-		"gender":"Female",
-		"ingame":"AAACCCVV",
-		"level":23,
-		"attacks":[
-			"Stun Spore",
-			"Cut",
-			"Giga Drain (TM)",
-			"Sleep Powder"
-		],
-		"nextAttack":"Petal Dance @ 44",
-		"nextAttacks":[],
-		"holding":"Nugget",
-		"nature":"Hasty",
-		"nickname":[]
-	},{
 		"species":"Vaporeon",
 		"type1":"Water",
 		"ability":"Water Absorb",
 		"gender":"Female",
 		"ingame":"ACCCIOOWWW",
-		"level":49,
+		"level":50,
 		"attacks":[
 			"Water Pulse",
 			"Aurora Beam",
@@ -113,8 +94,8 @@
 		"type2":"Flying",
 		"ability":"Blaze",
 		"gender":"Female",
-		"ingame":"FFF&nbsp;&nbsp;&nbsp;",
-		"level":46,
+		"ingame":"FFF░░░",
+		"level":47,
 		"attacks":[
 			"Wing Attack",
 			"Ember",
@@ -240,7 +221,7 @@
 		"type1":"Normal",
 		"type2":"Flying",
 		"ability":"???",
-		"ingame":"ATTTTZ&nbsp;&nbsp;ST",
+		"ingame":"ATTTTZ░░ST",
 		"level":8,
 		"caughtTime":"2d 22h 13m"
 	},{
@@ -255,14 +236,14 @@
 		"type1":"Normal",
 		"type2":"Flying",
 		"ability":"???",
-		"ingame":"&nbsp;!♂6????♂_",
+		"ingame":"░!♂6????♂_",
 		"level":10,
 		"caughtTime":"2d 22h 34m"
 	},{
 		"species":"Ekans",
 		"type1":"Poison",
 		"ability":"???",
-		"ingame":"&nbsp;&nbsp;&nbsp;....&nbsp;..",
+		"ingame":"░░░....░..",
 		"level":10,
 		"caughtTime":"2d 2h 42m"
 	},{
@@ -375,7 +356,8 @@
 		"ability":"???",
 		"ingame":"Clefairy",
 		"gender":"female",
-		"level":-1,
+		"level":9,
+		"holding":"",
 		"caughtTime":"7d 7h 55m",
 		"caughtBall":"poke"
 	},{
@@ -390,9 +372,10 @@
 	},{
 		"species":"Ekans",
 		"type1":"???",
-		"ingame":"???",
+		"ingame":"Ekans",
 		"gender":"female",
-		"level":-1,
+		"holding":"",
+		"level":13,
 		"caughtTime":"???",
 		"caughtBall":"master"
 	},{
@@ -406,14 +389,14 @@
 	},{
 		"species":"Rattata",
 		"type1":"???",
-		"ingame":"&nbsp;",
+		"ingame":"░",
 		"gender":"female",
 		"level":10,
 		"caughtTime":"7d 17h 2m",
 		"caughtBall":"poke"
 	},{
 		"species":"Voltorb",
-		"type1":"???",
+		"type1":"Electric",
 		"ingame":"Voltorb",
 		"gender":"female",
 		"level":22,
@@ -421,31 +404,52 @@
 		"caughtBall":"poke"
 	},{
 		"species":"Electabuzz",
-		"type1":"???",
-		"ingame":"AAAYX",
+		"type1":"Electric",
+		"ingame":"AAAVX",
 		"gender":"female",
+		"holding":"",
 		"level":35,
+		"attacks":[
+			"Leer",
+			"ThunderPunch",
+			"Light Screen",
+			"Swift"
+		],
+		"nextAttack":"Screech @ 36",
+		"ability":"Static",
 		"caughtTime":"7d 20h 6m",
 		"caughtBall":"poke"
 	},{
 		"species":"Voltorb",
-		"type1":"???",
+		"type1":"Electric",
 		"ingame":"Voltorb",
 		"gender":"female",
+		"holding":"",
 		"level":22,
 		"caughtTime":"7d 20h 23m",
 		"caughtBall":"poke"
 	},{
 		"species":"Omanyte",
-		"type1":"???",
+		"type1":"Rock",
+		"type2":"Water",
 		"ingame":"Omanyte",
 		"gender":"female",
+		"holding":"",
 		"level":5,
+		"attacks":[
+			"Constrict",
+			"Withdraw",
+			"---",
+			"---"
+		],
+		"nextAttack":"Bite @ 13",
+		"holding":"",
 		"caughtTime":"8d 1h 49m",
 		"caughtBall":"poke"
 	},{
 		"species":"Aerodactyl",
-		"type1":"???",
+		"type1":"Rock",
+		"type2":"Flying",
 		"ingame":"A",
 		"gender":"female",
 		"level":5,
@@ -467,6 +471,41 @@
 		"level":30,
 		"caughtTime":"8d 4h 56m",
 		"caughtBall":"poke"
+	},{
+		"species":"Koffing",
+		"type1":"???",
+		"ingame":"A",
+		"gender":"female",
+		"level":28,
+		"caughtTime":"8d 8h 55m",
+		"caughtBall":"???"
+	},{
+		"species":"Koffing",
+		"type1":"???",
+		"ingame":"Koffing",
+		"gender":"female",
+		"level":30,
+		"caughtTime":"8d 9h 7m",
+		"caughtBall":"???"
+	},{
+		"species":"Vileplume",
+		"type1":"Grass",
+		"type2":"Poison",
+		"ability":"Chlorophyll",
+		"gender":"Female",
+		"ingame":"AAACCCVV",
+		"level":25,
+		"attacks":[
+			"Stun Spore",
+			"Cut",
+			"Giga Drain (TM)",
+			"Sleep Powder"
+		],
+		"nextAttack":"Petal Dance @ 44",
+		"nextAttacks":[],
+		"holding":"Awakening",
+		"nature":"Hasty",
+		"nickname":["All Cabbage Vehicle","All Cabbage Vileplume"]
 	}],
 	
 	"items":{
@@ -494,7 +533,7 @@
 			"HM2 Fly",
 			"HM3 Surf",
 			"HM4 Strength",
-			"TM04 ???",
+			"TM04 Calm Mind",
 			"TM06 Toxic",
 			"TM12 Taunt",
 			"TM28 Dig",

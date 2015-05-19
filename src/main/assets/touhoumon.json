@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"8d 5h 18m",
+	"lastUpdate":"8d 10h 00m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
@@ -33,15 +33,15 @@
 		"gender":"Male",
 		"ingame":"Chauzu",
 		"formerIngame":["XXXXXXXQk"],
-		"level":41,
+		"level":43,
 		"attacks":[
 			"Mirror Shot",
 			"Mana Burst",
-			"---",
+			"Dark Pulse",
 			"---"
 		],
-		"nextAttack":"Dark Pulse @ 42",
-		"nextAttacks":["Signal Beam @ 45", "Shadow Ball @ 48"],
+		"nextAttack":"Signal Beam @ 45",
+		"nextAttacks":["Shadow Ball @ 48"],
 		"holding":"Lunatic Orb",
 		"nature":"Calm",
 		"caughtBall":"Easy",
@@ -53,7 +53,7 @@
 		"ability":"Serene Grace",
 		"gender":"Female",
 		"ingame":"Sanae",
-		"level":45,
+		"level":47,
 		"attacks":[
 			"Water Pulse",
 			"Razor Wind",
@@ -93,7 +93,7 @@
 		"ingame":"A",
 		"gender":"Female",
 		"type1":"Flying",
-		"level":48,
+		"level":51,
 		"attacks":[
 			"Soar",
 			"Zen Headbutt",
@@ -543,6 +543,14 @@
 		"gender":"female",
 		"level":28,
 		"caughtTime":"8d 2h 16m",
+		"caughtBall":"normal"
+	},{
+		"species":"CRin",
+		"type1":"???",
+		"ingame":"CRin",
+		"gender":"male",
+		"level":32,
+		"caughtTime":"8d 6h 34m",
 		"caughtBall":"normal"
 	}],
 	
