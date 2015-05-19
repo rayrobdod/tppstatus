@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"8d 10h 00m",
+	"lastUpdate":"8d 10h 30m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
@@ -9,25 +9,62 @@
 	"checkpoint":"Saffron City",
 	
 	"party":[{
-		"species":"Vaporeon",
-		"type1":"Water",
-		"ability":"Water Absorb",
-		"gender":"Female",
-		"ingame":"ACCCIOOWWW",
-		"level":50,
+		"species":"Electabuzz",
+		"type1":"Electric",
+		"ingame":"AAAVX",
+		"gender":"female",
+		"holding":"Nothing",
+		"level":35,
 		"attacks":[
-			"Water Pulse",
-			"Aurora Beam",
-			"Surf",
-			"Quick Attack"
+			"Leer",
+			"ThunderPunch",
+			"Light Screen",
+			"Swift"
 		],
-		"holding":"Awakening",
-		"nextAttack":"Hydro Pump @ 52",
-		"nextAttacks":["--- @ --"],
-		"nature":"Quiet",
-		"nickname":["Accio"],
-		"caughtTime":"4d 23m 58m",
-		"caughtBall":"Poke"
+		"nextAttack":"Screech @ 36",
+		"nextAttacks":["Thunderbolt @ 47"],
+		"ability":"Static",
+		"caughtTime":"7d 20h 6m",
+		"caughtBall":"poke"
+	},{
+		"species":"Dugtrio",
+		"type1":"Ground",
+		"ability":"???",
+		"gender":"Female",
+		"ingame":"AHHHHHIIII",
+		"level":36,
+		"attacks":[
+			"Dig",
+			"Areal Ace (TM)",
+			"Rock Tomb (TM)",
+			"Fury Swipes"
+		],
+		"nextAttack":"Slash @ 38",
+		"nextAttacks":["Earthquake @ 51","Fissure @ 64"],
+		"holding":"Nothing",
+		"nature":"Brave",
+		"nickname":[],
+		"caughtTime":"3d 6h 2m"
+	},{
+		"species":"Pidgeot",
+		"type1":"Normal",
+		"type2":"Flying",
+		"ability":"Keen Eye",
+		"gender":"Female",
+		"ingame":"T",
+		"level":43,
+		"attacks":[
+			"Quick Attack",
+			"Fly",
+			"Wing Attack",
+			"Tackle"
+		],
+		"nextAttack":"Agility @ 48",
+		"nextAttacks":["Mirror Move @ 62"],
+		"caughtTime":"0d 3h 48m",
+		"holding":"Nothing",
+		"nature":"Lax",
+		"nickname":["Miss T"]
 	},{
 		"species":"Butterfree",
 		"type1":"Bug",
@@ -50,45 +87,6 @@
 		"nickname":["Butterbae"],
 		"caughtTime":"0d 7h 39m"
 	},{
-		"species":"Pidgeot",
-		"type1":"Normal",
-		"type2":"Flying",
-		"ability":"Keen Eye",
-		"gender":"Female",
-		"ingame":"T",
-		"level":43,
-		"attacks":[
-			"Quick Attack",
-			"Fly",
-			"Wing Attack",
-			"Tackle"
-		],
-		"nextAttack":"Agility @ 48",
-		"nextAttacks":["Mirror Move @ 62"],
-		"caughtTime":"0d 3h 48m",
-		"holding":"Nothing",
-		"nature":"Lax",
-		"nickname":["Miss T"]
-	},{
-		"species":"Dugtrio",
-		"type1":"Ground",
-		"ability":"???",
-		"gender":"Female",
-		"ingame":"AHHHHHIIII",
-		"level":36,
-		"attacks":[
-			"Dig",
-			"Areal Ace (TM)",
-			"Rock Tomb (TM)",
-			"Fury Swipes"
-		],
-		"nextAttack":"Slash @ 38",
-		"nextAttacks":["Earthquake @ 51","Fissure @ 64"],
-		"holding":"Nothing",
-		"nature":"Brave",
-		"nickname":[],
-		"caughtTime":"3d 6h 2m"
-	},{
 		"species":"Charizard",
 		"type1":"Fire",
 		"type2":"Flying",
@@ -107,6 +105,26 @@
 		"holding":"Potion",
 		"nature":"Naughty",
 		"nickname":["Effie", "White"],
+		"caughtBall":"Poke"
+	},{
+		"species":"Vaporeon",
+		"type1":"Water",
+		"ability":"Water Absorb",
+		"gender":"Female",
+		"ingame":"ACCCIOOWWW",
+		"level":50,
+		"attacks":[
+			"Water Pulse",
+			"Aurora Beam",
+			"Surf",
+			"Quick Attack"
+		],
+		"holding":"Awakening",
+		"nextAttack":"Hydro Pump @ 52",
+		"nextAttacks":["--- @ --"],
+		"nature":"Quiet",
+		"nickname":["Accio"],
+		"caughtTime":"4d 23m 58m",
 		"caughtBall":"Poke"
 	}],
 	
@@ -357,7 +375,7 @@
 		"ingame":"Clefairy",
 		"gender":"female",
 		"level":9,
-		"holding":"",
+		"holding":"Nothing",
 		"caughtTime":"7d 7h 55m",
 		"caughtBall":"poke"
 	},{
@@ -374,7 +392,7 @@
 		"type1":"???",
 		"ingame":"Ekans",
 		"gender":"female",
-		"holding":"",
+		"holding":"Nothing",
 		"level":13,
 		"caughtTime":"???",
 		"caughtBall":"master"
@@ -403,28 +421,11 @@
 		"caughtTime":"7d 19h 25m",
 		"caughtBall":"poke"
 	},{
-		"species":"Electabuzz",
-		"type1":"Electric",
-		"ingame":"AAAVX",
-		"gender":"female",
-		"holding":"",
-		"level":35,
-		"attacks":[
-			"Leer",
-			"ThunderPunch",
-			"Light Screen",
-			"Swift"
-		],
-		"nextAttack":"Screech @ 36",
-		"ability":"Static",
-		"caughtTime":"7d 20h 6m",
-		"caughtBall":"poke"
-	},{
 		"species":"Voltorb",
 		"type1":"Electric",
 		"ingame":"Voltorb",
 		"gender":"female",
-		"holding":"",
+		"holding":"Nothing",
 		"level":22,
 		"caughtTime":"7d 20h 23m",
 		"caughtBall":"poke"
@@ -434,7 +435,7 @@
 		"type2":"Water",
 		"ingame":"Omanyte",
 		"gender":"female",
-		"holding":"",
+		"holding":"Nothing",
 		"level":5,
 		"attacks":[
 			"Constrict",
@@ -443,7 +444,7 @@
 			"---"
 		],
 		"nextAttack":"Bite @ 13",
-		"holding":"",
+		"holding":"Nothing",
 		"caughtTime":"8d 1h 49m",
 		"caughtBall":"poke"
 	},{
