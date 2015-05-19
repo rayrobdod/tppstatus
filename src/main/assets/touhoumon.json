@@ -1,17 +1,18 @@
 {
-	"lastUpdate":"8d 10h 30m",
+	"lastUpdate":"8d 18h 00m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
 	"name":"AAABBHM",
 	"idno":"29177",
 	
-	"checkpoint":"Cinnabar Island",
+	"checkpoint":"One Island",
 
 	"party":[{
 		"species":"Cirno",
 		"type1":"Ice",
 		"type2":"Flying",
+		"ability":"Speed Boost",
 		"nature":"Relaxed",
 		"gender":"Female",
 		"ingame":"BB",
@@ -33,15 +34,15 @@
 		"gender":"Male",
 		"ingame":"Chauzu",
 		"formerIngame":["XXXXXXXQk"],
-		"level":43,
+		"level":44,
 		"attacks":[
 			"Mirror Shot",
 			"Mana Burst",
 			"Dark Pulse",
-			"---"
+			"Signal Beam"
 		],
-		"nextAttack":"Signal Beam @ 45",
-		"nextAttacks":["Shadow Ball @ 48"],
+		"nextAttack":"Shadow Ball @ 48",
+		"nextAttacks":[],
 		"holding":"Lunatic Orb",
 		"nature":"Calm",
 		"caughtBall":"Easy",
@@ -53,7 +54,7 @@
 		"ability":"Serene Grace",
 		"gender":"Female",
 		"ingame":"Sanae",
-		"level":47,
+		"level":48,
 		"attacks":[
 			"Water Pulse",
 			"Razor Wind",
@@ -552,6 +553,22 @@
 		"level":32,
 		"caughtTime":"8d 6h 34m",
 		"caughtBall":"normal"
+	},{
+		"species":"CParsee",
+		"type1":"???",
+		"ingame":"CParsee",
+		"gender":"???",
+		"level":-1,
+		"caughtTime":"8d 15h 36m",
+		"caughtBall":"normal"
+	},{
+		"species":"CRin",
+		"type1":"???",
+		"ingame":"AAAAAAAAAA",
+		"gender":"male",
+		"level":30,
+		"caughtTime":"8d 6h 34m",
+		"caughtBall":"normal"
 	}],
 	
 	"daycare":[{
@@ -581,7 +598,7 @@
 		{"name":"Rainbow","time":"5d 6h 37m", "attempts":1},
 		{"name":"Marsh",  "time":"7d 16h 20m","attempts":3},
 		{"name":"Soul",   "time":"6d 11h 37m","attempts":5},
-		{"name":"Volcano"},
+		{"name":"Volcano","time":"8d 17h 40m","attempts":1},
 		{"name":"Earth"}
 	],
 	
@@ -594,14 +611,20 @@
 			"Hyper Potion",
 			"Blaizer"
 		],
-		"Balls":["Normal Orb ×41"],
+		"Balls":["Normal Orb ×20"],
 		"Key":[
 			"...",
-			"Secret Key"
+			"Secret Key",
+			"Meteorite",
+			"Tri-Pass",
+			"Town Map"
 		],
 		"TMs":[
 			"...",
-			"TM4 Calm Mind"
+			"TM4 Calm Mind",
+			"TM14 Blizzard",
+			"TM22 Solarbeam",
+			"TM38 Solarbeam"
 		]
 	}
 }
