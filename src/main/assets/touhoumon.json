@@ -274,7 +274,7 @@
 		"gender":"male",
 		"level":26,
 		"caughtTime":"6d 7h 25m",
-		"caughtBall":"safari"
+		"caughtBall":"safari_t"
 	},{
 		"species":"CKogasa",
 		"type1":"???",
@@ -284,7 +284,7 @@
 		"gender":"female",
 		"level":-1,
 		"caughtTime":"6d 7h 34m",
-		"caughtBall":"safari"
+		"caughtBall":"safari_t"
 	},{
 		"species":"Hourai",
 		"type1":"Reason",
@@ -293,7 +293,7 @@
 		"gender":"male",
 		"level":22,
 		"caughtTime":"6d 7h 42m",
-		"caughtBall":"safari"
+		"caughtBall":"safari_t"
 	},{
 		"species":"Kedama",
 		"type1":"Nature",
@@ -302,7 +302,7 @@
 		"gender":"genderless",
 		"level":22,
 		"caughtTime":"6d 7h 48m",
-		"caughtBall":"safari"
+		"caughtBall":"safari_t"
 	},{
 		"species":"CKomachi",
 		"type1":"Water",
@@ -311,7 +311,7 @@
 		"gender":"female",
 		"level":25,
 		"caughtTime":"6d 7h 56m",
-		"caughtBall":"safari"
+		"caughtBall":"safari_t"
 	},{
 		"species":"CKomachi",
 		"type1":"Water",
@@ -320,7 +320,7 @@
 		"gender":"male",
 		"level":-1,
 		"caughtTime":"6d 8h 12m",
-		"caughtBall":"safari"
+		"caughtBall":"safari_t"
 	},{
 		"species":"CRan",
 		"type1":"???",
@@ -330,7 +330,7 @@
 		"gender":"male",
 		"level":25,
 		"caughtTime":"6d 8h 15m",
-		"caughtBall":"safari"
+		"caughtBall":"safari_t"
 	},{
 		"species":"CKomachi",
 		"type1":"Water",
@@ -339,7 +339,7 @@
 		"gender":"male",
 		"level":26,
 		"caughtTime":"6d 8h 22m",
-		"caughtBall":"safari"
+		"caughtBall":"safari_t"
 	},{
 		"species":"Hourai",
 		"type1":"Reason",
@@ -348,7 +348,7 @@
 		"gender":"???",
 		"level":27,
 		"caughtTime":"6d 8h 29m",
-		"caughtBall":"safari"
+		"caughtBall":"safari_t"
 	},{
 		"species":"Kedama",
 		"type1":"Nature",
@@ -357,7 +357,7 @@
 		"gender":"genderless",
 		"level":24,
 		"caughtTime":"6d 8h 45m",
-		"caughtBall":"safari"
+		"caughtBall":"safari_t"
 	},{
 		"species":"Kedama",
 		"type1":"Nature",
@@ -366,7 +366,7 @@
 		"gender":"genderless",
 		"level":25,
 		"caughtTime":"6d 8h 53m",
-		"caughtBall":"safari"
+		"caughtBall":"safari_t"
 	},{
 		"species":"Hourai",
 		"type1":"Reason",
@@ -375,7 +375,7 @@
 		"gender":"female",
 		"level":22,
 		"caughtTime":"6d 8h 59m",
-		"caughtBall":"safari"
+		"caughtBall":"safari_t"
 	},{
 		"species":"Kedama",
 		"type1":"Nature",
@@ -384,7 +384,7 @@
 		"gender":"genderless",
 		"level":30,
 		"caughtTime":"6d 9h 8m",
-		"caughtBall":"safari"
+		"caughtBall":"safari_t"
 	},{
 		"species":"Kedama",
 		"type1":"Nature",
@@ -393,7 +393,7 @@
 		"gender":"genderless",
 		"level":30,
 		"caughtTime":"6d 9h 19m",
-		"caughtBall":"safari"
+		"caughtBall":"safari_t"
 	},{
 		"species":"Hourai",
 		"type1":"Reason",
@@ -402,7 +402,7 @@
 		"gender":"female",
 		"level":27,
 		"caughtTime":"6d 9h 23m",
-		"caughtBall":"safari"
+		"caughtBall":"safari_t"
 	},{
 		"species":"Kedama",
 		"type1":"Nature",
@@ -411,7 +411,7 @@
 		"gender":"genderless",
 		"level":-1,
 		"caughtTime":"6d 9h 36m",
-		"caughtBall":"safari"
+		"caughtBall":"safari_t"
 	},{
 		"species":"CKeine",
 		"type1":"???",
