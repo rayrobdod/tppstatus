@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"9d 3h 30m",
+	"lastUpdate":"9d 4h 00m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
@@ -23,7 +23,7 @@
 			"Soar",
 			"Ice Punch"
 		],
-		"holding":"Nugget",
+		"holding":"Normal Orb",
 		"nextAttack":"Air Slash @ 44",
 		"nextAttacks":["Ice Beam @ 48", "Blizzard @ 52"],
 		"caughtTime":"4d 13h 26m"
@@ -43,7 +43,7 @@
 		],
 		"nextAttack":"Shadow Ball @ 48",
 		"nextAttacks":["Substitute @ 52"],
-		"holding":"Lunatic Orb",
+		"holding":"Nothing",
 		"nature":"Calm",
 		"caughtBall":"Easy",
 		"nickname":[]
@@ -618,6 +618,23 @@
 		"level":13,
 		"caughtTime":"9d 1h 0m",
 		"caughtBall":"normal"
+	},{
+		"species":"Mima",
+		"type1":"Ghost",
+		"type2":"Dark",
+		"ingame":"Mima",
+		"ability":"Pressure",
+		"gender":"female",
+		"level":50,
+		"attacks":[
+			"Shadow Dive",
+			"Shadow Hit",
+			"Dark Pulse",
+			"Scary Face"
+		],
+		"nextAttack":"Taunt @ 52",
+		"caughtTime":"9d 3h 31m",
+		"caughtBall":"lunatic"
 	}],
 	
 	"daycare":[{
