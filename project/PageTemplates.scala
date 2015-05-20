@@ -121,7 +121,7 @@ object PageTemplates {
 					Elem(htmlBinding, "td", Attributes(), Group(
 						Elem(htmlBinding, "ol", Attributes(), Group.fromSeq(
 							x.attacks.map{y => Elem(htmlBinding, "li", Attributes(), Group(
-								if (Set("Cut", "Surf", "Flash", "Strength", "Fly") contains y) {
+								if (Set("Cut", "Surf", "Flash", "Strength", "Fly", "Rock Smash") contains y) {
 									Elem(htmlBinding, "strong", Attributes(), Group(Text(y)))
 								} else {
 									Text(y)

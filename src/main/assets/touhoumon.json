@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"8d 18h 00m",
+	"lastUpdate":"9d 3h 30m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
@@ -16,16 +16,16 @@
 		"nature":"Relaxed",
 		"gender":"Female",
 		"ingame":"BB",
-		"level":37,
+		"level":42,
 		"attacks":[
 			"Surf",
 			"Ice Ball",
-			"Ice Shard",
+			"Soar",
 			"Ice Punch"
 		],
 		"holding":"Nugget",
-		"nextAttack":"Soar @ 40",
-		"nextAttacks":[],
+		"nextAttack":"Air Slash @ 44",
+		"nextAttacks":["Ice Beam @ 48", "Blizzard @ 52"],
 		"caughtTime":"4d 13h 26m"
 	},{
 		"species":"Satori",
@@ -34,7 +34,7 @@
 		"gender":"Male",
 		"ingame":"Chauzu",
 		"formerIngame":["XXXXXXXQk"],
-		"level":44,
+		"level":47,
 		"attacks":[
 			"Mirror Shot",
 			"Mana Burst",
@@ -42,7 +42,7 @@
 			"Signal Beam"
 		],
 		"nextAttack":"Shadow Ball @ 48",
-		"nextAttacks":[],
+		"nextAttacks":["Substitute @ 52"],
 		"holding":"Lunatic Orb",
 		"nature":"Calm",
 		"caughtBall":"Easy",
@@ -54,12 +54,12 @@
 		"ability":"Serene Grace",
 		"gender":"Female",
 		"ingame":"Sanae",
-		"level":48,
+		"level":49,
 		"attacks":[
 			"Water Pulse",
 			"Razor Wind",
 			"Extrasensory",
-			"Whirlwind"
+			"Thunder (TM)"
 		],
 		"nextAttack":"Heat Wave @ 50",
 		"nextAttacks":["Psych Up @ 54","Aeroblast @ 58"],
@@ -74,7 +74,7 @@
 		"ability":"Intimidate",
 		"gender":"Male",
 		"ingame":"AUUUUABBBB",
-		"level":45,
+		"level":47,
 		"attacks":[
 			"Fury Cutter",
 			"Cut",
@@ -94,33 +94,34 @@
 		"ingame":"A",
 		"gender":"Female",
 		"type1":"Flying",
-		"level":51,
+		"level":52,
 		"attacks":[
 			"Soar",
 			"Zen Headbutt",
 			"Roost",
-			"Quick Attack"
+			"Sky Attack"
 		],
-		"nextAttack":"Slash @ 48",
+		"nextAttack":"--- @ --",
 		"holding":"Nothing",
 		"nature":"Naive",
 		"nickname":["Book Jesus","Albumgeddon"]
 	},{
-		"species":"CMystia",
-		"type1":"Flying",
-		"nature":"Impish",
-		"ingame":"CMystia",
-		"gender":"Female",
-		"level":15,
+		"species":"CReimu",
+		"type1":"Faith",
+		"ability":"Hakurei Miko",
+		"ingame":"???",
+		"gender":"female",
+		"level":12,
 		"attacks":[
-			"Sand-Attack",
-			"Sing",
-			"<s>Gust</s> Fly",
-			"Wing Attack"
+			"Seal Needle",
+			"Rock Smash",
+			"Strength",
+			"Decision"
 		],
-		"nextAttack":"Agility @ 17",
-		"caughtTime":"6d 21h 15m",
-		"caughtBall":"normal"
+		"nextAttack":"Barrage @ 16",
+		"nextAttacks":["SmellingSalt @ 21","Jump Kick @ 27","Imprison @ 32"],
+		"caughtTime":"8d 0h 36m",
+		"caughtBall":"easy"
 	}],
 
 	"box":[{
@@ -569,6 +570,54 @@
 		"level":30,
 		"caughtTime":"8d 6h 34m",
 		"caughtBall":"normal"
+	},{
+		"species":"Yousei",
+		"type1":"???",
+		"ingame":"Yousei",
+		"gender":"male",
+		"level":37,
+		"caughtTime":"8d 21h 3m",
+		"caughtBall":"normal"
+	},{
+		"species":"CMedicine",
+		"type1":"???",
+		"ingame":"AATTTTUBBT",
+		"gender":"male",
+		"level":37,
+		"caughtTime":"8d 21h 6m",
+		"caughtBall":"normal"
+	},{
+		"species":"CEirinm",
+		"type1":"???",
+		"ingame":"AAAAA",
+		"gender":"female",
+		"level":32,
+		"caughtTime":"8d 23h 35m",
+		"caughtBall":"normal"
+	},{
+		"species":"CMystia",
+		"type1":"Flying",
+		"nature":"Impish",
+		"ingame":"CMystia",
+		"gender":"Female",
+		"level":18,
+		"attacks":[
+			"Sand-Attack",
+			"Sing",
+			"Fly",
+			"Wing Attack"
+		],
+		"nextAttack":"Agility @ 17",
+		"caughtTime":"6d 21h 15m",
+		"caughtBall":"normal"
+	},{
+		"species":"CMurasa",
+		"type1":"???",
+		"ingame":"AAAA",
+		"gender":"female",
+		"level":13,
+		"caughtTime":"9d 1h 0m",
+		"caughtBall":"normal"
 	}],
 	
 	"daycare":[{
@@ -604,14 +653,18 @@
 	
 	"items":{
 		"Normal":[
-			"...",
+			"Power Heart ×2",
+			"Nugget ×3",
+			"Cleanse Tag",
+			"Ninc",
+			"Max Potion ×2",
 			"Max Revive",
 			"SupportHeart",
 			"Burn Heal",
 			"Hyper Potion",
 			"Blaizer"
 		],
-		"Balls":["Normal Orb ×20"],
+		"Balls":[],
 		"Key":[
 			"...",
 			"Secret Key",
@@ -620,11 +673,26 @@
 			"Town Map"
 		],
 		"TMs":[
+			"HM1 Cut",
+			"HM2 Fly",
+			"HM3 Surf",
+			"HM4 Strength",
+			"HM5 Flash",
+			"HM6 Rock Smash",
+			"TM02 Water Pulse",
+			"TM04 Calm Mind",
+			"TM09 Decision",
 			"...",
-			"TM4 Calm Mind",
 			"TM14 Blizzard",
+			"TM19 Giga Drain",
 			"TM22 Solarbeam",
-			"TM38 Solarbeam"
+			"TM28 Dig",
+			"TM29 Mana Burst",
+			"TM31 Brick Break",
+			"TM38 Fire Blast",
+			"TM39 Rock Tomb",
+			"TM40 Swagger",
+			"..."
 		]
 	}
 }

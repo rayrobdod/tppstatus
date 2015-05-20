@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"8d 18h 00m",
+	"lastUpdate":"9d 3h 30m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
@@ -15,15 +15,15 @@
 		"nature":"Impish",
 		"gender":"female",
 		"holding":"Nothing",
-		"level":36,
+		"level":37,
 		"attacks":[
-			"Leer",
 			"ThunderPunch",
-			"Light Screen",
-			"Swift"
+			"Screech",
+			"Swift",
+			"Light Screen"
 		],
-		"nextAttack":"Screech @ 36",
-		"nextAttacks":["Thunderbolt @ 47"],
+		"nextAttack":"Thunderbolt @ 47",
+		"nextAttacks":[],
 		"ability":"Static",
 		"caughtTime":"7d 20h 6m",
 		"caughtBall":"poke"
@@ -74,7 +74,7 @@
 		"gender":"Female",
 		"ingame":"Butterbae",
 		"formerIngame":["BUTT", "Butterfree"],
-		"level":44,
+		"level":46,
 		"attacks":[
 			"Confusion",
 			"Psychic",
@@ -94,7 +94,7 @@
 		"ability":"Blaze",
 		"gender":"Female",
 		"ingame":"FFF░░░",
-		"level":47,
+		"level":49,
 		"attacks":[
 			"Wing Attack",
 			"Ember",
@@ -508,16 +508,64 @@
 		"holding":"Awakening",
 		"nature":"Hasty",
 		"nickname":["All Cabbage Vehicle","All Cabbage Vileplume"]
+	},{
+		"species":"Meowth",
+		"type1":"???",
+		"ingame":"GC",
+		"gender":"female",
+		"level":-1,
+		"caughtTime":"8d 19h 50m",
+		"caughtBall":"???"
+	},{
+		"species":"Pidgeotto",
+		"type1":"???",
+		"ingame":"A.!!'\"\"",
+		"gender":"female",
+		"level":37,
+		"caughtTime":"8d 21h 10m",
+		"caughtBall":"poke"
+	},{
+		"species":"Venonat",
+		"type1":"???",
+		"ingame":"a2░",
+		"gender":"female",
+		"level":37,
+		"caughtTime":"8d 21h 40m",
+		"caughtBall":"poke"
+	},{
+		"species":"Tentacool",
+		"type1":"???",
+		"ingame":"UUW………",
+		"gender":"female",
+		"level":10,
+		"caughtTime":"8d 23h 55m",
+		"caughtBall":"poke"
+	},{
+		"species":"Tangella",
+		"type1":"???",
+		"ingame":"TT",
+		"gender":"female",
+		"level":25,
+		"caughtTime":"8d 23h 58m",
+		"caughtBall":"poke"
+	},{
+		"species":"Pidgey",
+		"type1":"???",
+		"ingame":"Pidgey",
+		"gender":"female",
+		"level":3,
+		"caughtTime":"9d 2h 51m",
+		"caughtBall":"poke"
 	}],
 	
 	"items":{
 		"Normal":[
-			"Awakening",
 			"Nigget",
-			"Moon Stone ×2",
+			"Moon Stone ×3",
 			"Parlyz Heal",
 			"Burn Heal",
 			"BlackGlassses",
+			"Leaf Stone",
 			"..."
 		],
 		"Balls":[],
