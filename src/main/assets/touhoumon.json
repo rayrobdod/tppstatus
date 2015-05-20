@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"9d 19h 5m",
+	"lastUpdate":"10d 0h 25m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
@@ -94,7 +94,7 @@
 		"ingame":"A",
 		"gender":"Female",
 		"type1":"Flying",
-		"level":53,
+		"level":55,
 		"attacks":[
 			"Soar",
 			"Zen Headbutt",
@@ -673,7 +673,7 @@
 			"Power Heart ×3",
 			"Nugget ×3",
 			"Cleanse Tag",
-			"Ninc",
+			"Zinc",
 			"Max Potion ×2",
 			"Max Revive",
 			"SupportHeart",
@@ -697,6 +697,7 @@
 			"HM6 Rock Smash",
 			"TM02 Water Pulse",
 			"TM04 Calm Mind",
+			"TM07 Razor Wind",
 			"TM09 Decision",
 			"...",
 			"TM14 Blizzard",

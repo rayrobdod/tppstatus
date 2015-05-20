@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"9d 19h 5m",
+	"lastUpdate":"10d 0h 25m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
@@ -53,7 +53,7 @@
 		"ability":"Keen Eye",
 		"gender":"Female",
 		"ingame":"T",
-		"level":44,
+		"level":45,
 		"attacks":[
 			"Quick Attack",
 			"Fly",
@@ -74,7 +74,7 @@
 		"gender":"Female",
 		"ingame":"Butterbae",
 		"formerIngame":["BUTT", "Butterfree"],
-		"level":46,
+		"level":47,
 		"attacks":[
 			"Confusion",
 			"Psychic",
@@ -82,8 +82,8 @@
 			"Sleep Powder"
 		],
 		"holding":"Burn Heal",
-		"nextAttack":"Silver Wind @ 47",
-		"nextAttacks":["--- @ --"],
+		"nextAttack":"--- @ --",
+		"nextAttacks":[],
 		"nature":"Modest",
 		"nickname":["Butterbae"],
 		"caughtTime":"0d 7h 39m"
@@ -94,7 +94,7 @@
 		"ability":"Blaze",
 		"gender":"Female",
 		"ingame":"FFF░░░",
-		"level":49,
+		"level":50,
 		"attacks":[
 			"Wing Attack",
 			"Strength",
@@ -560,14 +560,15 @@
 	
 	"items":{
 		"Normal":[
-			"Nigget",
+			"Nugget",
 			"Moon Stone ×3",
 			"Parlyz Heal",
 			"Burn Heal",
 			"BlackGlassses",
 			"Leaf Stone",
 			"...",
-			"Potion"
+			"Potion",
+			"Max Revive"
 		],
 		"Balls":["Moe Balls ×124"],
 		"Key":[
@@ -589,6 +590,7 @@
 			"HM4 Strength",
 			"TM04 Calm Mind",
 			"TM06 Toxic",
+			"TM07 Hail",
 			"TM12 Taunt",
 			"TM14 Blizzard",
 			"TM22 Solarbeam",
