@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"9d 8h 00m",
+	"lastUpdate":"9d 19h 5m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
@@ -16,7 +16,7 @@
 		"nature":"Relaxed",
 		"gender":"Female",
 		"ingame":"BB",
-		"level":42,
+		"level":43,
 		"attacks":[
 			"Surf",
 			"Ice Ball",
@@ -34,15 +34,15 @@
 		"gender":"Male",
 		"ingame":"Chauzu",
 		"formerIngame":["XXXXXXXQk"],
-		"level":47,
+		"level":49,
 		"attacks":[
-			"Mirror Shot",
+			"Shadow Ball",
 			"Mana Burst",
 			"Dark Pulse",
 			"Signal Beam"
 		],
-		"nextAttack":"Shadow Ball @ 48",
-		"nextAttacks":["Substitute @ 52"],
+		"nextAttack":"Substitute @ 52",
+		"nextAttacks":[],
 		"holding":"Nothing",
 		"nature":"Calm",
 		"caughtBall":"Easy",
@@ -54,15 +54,15 @@
 		"ability":"Serene Grace",
 		"gender":"Female",
 		"ingame":"Sanae",
-		"level":49,
+		"level":50,
 		"attacks":[
 			"Water Pulse",
-			"Razor Wind",
+			"Heat Wave",
 			"Extrasensory",
 			"Thunder (TM)"
 		],
-		"nextAttack":"Heat Wave @ 50",
-		"nextAttacks":["Psych Up @ 54","Aeroblast @ 58"],
+		"nextAttack":"Psych Up @ 54",
+		"nextAttacks":["Aeroblast @ 58"],
 		"caughtBall":"Easy",
 		"holding":"Nothing",
 		"nature":"Quiet",
@@ -74,7 +74,7 @@
 		"ability":"Intimidate",
 		"gender":"Male",
 		"ingame":"AUUUUABBBB",
-		"level":47,
+		"level":48,
 		"attacks":[
 			"Fury Cutter",
 			"Cut",
@@ -82,8 +82,8 @@
 			"Crunch"
 		],
 		"caughtTime":"2d 4h 16m",
-		"nextAttack":"Swords Dance @ 48",
-		"nextAttacks":["Killing Bite @ 52", "Braver @ 56"],
+		"nextAttack":"Killing Bite @ 52",
+		"nextAttacks":["Braver @ 56"],
 		"holding":"Normal Orb",
 		"nature":"Bold",
 		"nickname":["AWOO", "Wood", "Anubis"]
@@ -94,7 +94,7 @@
 		"ingame":"A",
 		"gender":"Female",
 		"type1":"Flying",
-		"level":52,
+		"level":53,
 		"attacks":[
 			"Soar",
 			"Zen Headbutt",
@@ -106,22 +106,22 @@
 		"nature":"Naive",
 		"nickname":["Book Jesus","Albumgeddon"]
 	},{
-		"species":"Mima",
-		"type1":"Ghost",
-		"type2":"Dark",
-		"ingame":"Mima",
-		"ability":"Pressure",
+		"species":"CReimu",
+		"type1":"Faith",
+		"ability":"Hakurei Miko (Clear Body)",
+		"ingame":"???",
 		"gender":"female",
-		"level":50,
+		"level":12,
 		"attacks":[
-			"Shadow Dive",
-			"Shadow Hit",
-			"Dark Pulse",
-			"Scary Face"
+			"Seal Needle",
+			"Rock Smash",
+			"Strength",
+			"Decision"
 		],
-		"nextAttack":"Taunt @ 52",
-		"caughtTime":"9d 3h 31m",
-		"caughtBall":"lunatic"
+		"nextAttack":"Barrage @ 16",
+		"nextAttacks":["SmellingSalt @ 21","Jump Kick @ 27","Imprison @ 32"],
+		"caughtTime":"8d 0h 36m",
+		"caughtBall":"easy"
 	}],
 
 	"box":[{
@@ -619,22 +619,22 @@
 		"caughtTime":"9d 1h 0m",
 		"caughtBall":"normal"
 	},{
-		"species":"CReimu",
-		"type1":"Faith",
-		"ability":"Hakurei Miko (Clear Body)",
-		"ingame":"???",
+		"species":"Mima",
+		"type1":"Ghost",
+		"type2":"Dark",
+		"ingame":"Mima",
+		"ability":"Pressure",
 		"gender":"female",
-		"level":12,
+		"level":51,
 		"attacks":[
-			"Seal Needle",
-			"Rock Smash",
-			"Strength",
-			"Decision"
+			"Shadow Dive",
+			"Shadow Hit",
+			"Dark Pulse",
+			"Scary Face"
 		],
-		"nextAttack":"Barrage @ 16",
-		"nextAttacks":["SmellingSalt @ 21","Jump Kick @ 27","Imprison @ 32"],
-		"caughtTime":"8d 0h 36m",
-		"caughtBall":"easy"
+		"nextAttack":"Taunt @ 52",
+		"caughtTime":"9d 3h 31m",
+		"caughtBall":"lunatic"
 	}],
 	
 	"daycare":[{
@@ -665,12 +665,12 @@
 		{"name":"Marsh",  "time":"7d 16h 20m","attempts":3},
 		{"name":"Soul",   "time":"6d 11h 37m","attempts":5},
 		{"name":"Volcano","time":"8d 17h 40m","attempts":1},
-		{"name":"Earth"}
+		{"name":"Earth",  "time":"9d 13h 50m", "attempts":3}
 	],
 	
 	"items":{
 		"Normal":[
-			"Power Heart ×2",
+			"Power Heart ×3",
 			"Nugget ×3",
 			"Cleanse Tag",
 			"Ninc",
@@ -685,7 +685,6 @@
 		"Key":[
 			"...",
 			"Secret Key",
-			"Meteorite",
 			"Tri-Pass",
 			"Town Map"
 		],
@@ -703,6 +702,7 @@
 			"TM14 Blizzard",
 			"TM19 Giga Drain",
 			"TM22 Solarbeam",
+			"TM26 Earthquake",
 			"TM28 Dig",
 			"TM29 Mana Burst",
 			"TM31 Brick Break",

@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"9d 8h 00m",
+	"lastUpdate":"9d 19h 5m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
@@ -18,9 +18,9 @@
 		"level":37,
 		"attacks":[
 			"ThunderPunch",
-			"Screech",
+			"Thunder (TM)",
 			"Swift",
-			"Light Screen"
+			"Brick Break (TM)"
 		],
 		"nextAttack":"Thunderbolt @ 47",
 		"nextAttacks":[],
@@ -38,7 +38,7 @@
 			"Dig",
 			"Areal Ace (TM)",
 			"Rock Tomb (TM)",
-			"Fury Swipes"
+			"Earthquake (TM)"
 		],
 		"nextAttack":"Slash @ 38",
 		"nextAttacks":["Earthquake @ 51","Fissure @ 64"],
@@ -97,7 +97,7 @@
 		"level":49,
 		"attacks":[
 			"Wing Attack",
-			"Ember",
+			"Strength",
 			"Fly",
 			"Scratch"
 		],
@@ -113,7 +113,7 @@
 		"ability":"Water Absorb",
 		"gender":"Female",
 		"ingame":"ACCCIOOWWW",
-		"level":52,
+		"level":56,
 		"attacks":[
 			"Water Pulse",
 			"Aurora Beam",
@@ -121,8 +121,8 @@
 			"Quick Attack"
 		],
 		"holding":"Awakening",
-		"nextAttack":"Hydro Pump @ 52",
-		"nextAttacks":["--- @ --"],
+		"nextAttack":"--- @ --",
+		"nextAttacks":[],
 		"nature":"Quiet",
 		"nickname":["Accio"],
 		"caughtTime":"4d 23m 58m",
@@ -566,9 +566,10 @@
 			"Burn Heal",
 			"BlackGlassses",
 			"Leaf Stone",
-			"..."
+			"...",
+			"Potion"
 		],
-		"Balls":[],
+		"Balls":["Moe Balls ×124"],
 		"Key":[
 			"Teachy TV",
 			"TM Case",
@@ -592,7 +593,6 @@
 			"TM14 Blizzard",
 			"TM22 Solarbeam",
 			"TM28 Dig",
-			"TM31 Brick Break",
 			"TM38 Fire Blast",
 			"..."
 		]
@@ -608,6 +608,6 @@
 		{"name":"Marsh",  "time":"7d 21m 11m","attempts":1},
 		{"name":"Soul",   "time":"6d 4h 13m", "attempts":2},
 		{"name":"Volcano","time":"8d 15h 52m","attempts":1},
-		{"name":"Earth"}
+		{"name":"Earth",  "time":"9d 8h 18m", "attempts":1}
 	]
 }
