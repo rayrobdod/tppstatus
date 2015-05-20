@@ -33,6 +33,8 @@ package tpporg {
 		fileName:String = "sdf.html",
 		lastUpdate:String = "??d ??h ??m",
 		checkpoint:String = "???",
+		charName:String = "???",
+		charIdno:String = "???",
 		party:Seq[Pokemon] = Nil,
 		box:Seq[Pokemon] = Nil,
 		daycare:Seq[Pokemon] = Nil,
@@ -77,8 +79,8 @@ package tpporg {
 			case "lastUpdate" => t.copy(lastUpdate = value.toString)
 			case "gameName" => t.copy(gameName = value.toString)
 			case "checkpoint" => t.copy(checkpoint = value.toString)
-			case "name" => t
-			case "idno" => t
+			case "name" => t.copy(charName = value.toString)
+			case "idno" => t.copy(charIdno = value.toString)
 			case "items" => t
 			case "party" => t.copy(party = value.asInstanceOf[Seq[Pokemon]])
 			case "box" => t.copy(box = value.asInstanceOf[Seq[Pokemon]])

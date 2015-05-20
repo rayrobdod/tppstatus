@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"9d 4h 00m",
+	"lastUpdate":"9d 8h 00m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
@@ -106,22 +106,22 @@
 		"nature":"Naive",
 		"nickname":["Book Jesus","Albumgeddon"]
 	},{
-		"species":"CReimu",
-		"type1":"Faith",
-		"ability":"Hakurei Miko",
-		"ingame":"???",
+		"species":"Mima",
+		"type1":"Ghost",
+		"type2":"Dark",
+		"ingame":"Mima",
+		"ability":"Pressure",
 		"gender":"female",
-		"level":12,
+		"level":50,
 		"attacks":[
-			"Seal Needle",
-			"Rock Smash",
-			"Strength",
-			"Decision"
+			"Shadow Dive",
+			"Shadow Hit",
+			"Dark Pulse",
+			"Scary Face"
 		],
-		"nextAttack":"Barrage @ 16",
-		"nextAttacks":["SmellingSalt @ 21","Jump Kick @ 27","Imprison @ 32"],
-		"caughtTime":"8d 0h 36m",
-		"caughtBall":"easy"
+		"nextAttack":"Taunt @ 52",
+		"caughtTime":"9d 3h 31m",
+		"caughtBall":"lunatic"
 	}],
 
 	"box":[{
@@ -619,22 +619,22 @@
 		"caughtTime":"9d 1h 0m",
 		"caughtBall":"normal"
 	},{
-		"species":"Mima",
-		"type1":"Ghost",
-		"type2":"Dark",
-		"ingame":"Mima",
-		"ability":"Pressure",
+		"species":"CReimu",
+		"type1":"Faith",
+		"ability":"Hakurei Miko (Clear Body)",
+		"ingame":"???",
 		"gender":"female",
-		"level":50,
+		"level":12,
 		"attacks":[
-			"Shadow Dive",
-			"Shadow Hit",
-			"Dark Pulse",
-			"Scary Face"
+			"Seal Needle",
+			"Rock Smash",
+			"Strength",
+			"Decision"
 		],
-		"nextAttack":"Taunt @ 52",
-		"caughtTime":"9d 3h 31m",
-		"caughtBall":"lunatic"
+		"nextAttack":"Barrage @ 16",
+		"nextAttacks":["SmellingSalt @ 21","Jump Kick @ 27","Imprison @ 32"],
+		"caughtTime":"8d 0h 36m",
+		"caughtBall":"easy"
 	}],
 	
 	"daycare":[{

@@ -44,9 +44,17 @@ object PageTemplates {
 							Text("Last Updated: "),
 							Text(pageData.lastUpdate)
 						)),
-						Elem(htmlBinding, "div", Attributes("class" -> "checkpoint"), Group(
-							Text("Checkpoint: "),
-							Text(pageData.checkpoint)
+						Elem(htmlBinding, "table", Attributes("class" -> "props"), Group(
+							Elem(htmlBinding, "tr", Attributes(), Group(
+								Elem(htmlBinding, "th", Attributes(), Group(Text("Checkpoint"))),
+								Elem(htmlBinding, "th", Attributes(), Group(Text("Protagonist Name"))),
+								Elem(htmlBinding, "th", Attributes(), Group(Text("ID No")))
+							)),
+							Elem(htmlBinding, "tr", Attributes(), Group(
+								Elem(htmlBinding, "td", Attributes("class" -> "checkpoint"), Group(Text(pageData.checkpoint))),
+								Elem(htmlBinding, "td", Attributes("class" -> "charName"), Group(Text(pageData.charName))),
+								Elem(htmlBinding, "td", Attributes("class" -> "charIdno"), Group(Text(pageData.charIdno)))
+							))
 						)),
 						Elem(htmlBinding, "section", Attributes(), Group(
 							Elem(htmlBinding, "h2", Attributes(), Group(Text(pageData.monsterType + " in Party"))),
