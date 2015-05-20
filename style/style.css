@@ -11,6 +11,8 @@ table td ol {margin: 0px; padding: 0px;}
 table td li {display: block;}
 table.boxed tr.name td {border-top: 5px solid grey;}
 table.boxed {border-bottom: 5px solid grey;}
+table.props {min-width:0;}
+table.props td, table.props th {border:1px solid grey; padding:.25em 1em;}
 
 div.lastUpdated {display:block; float:right; font-size:150%;}
 
@@ -22,20 +24,21 @@ header nav a {color: black;}
 .type {padding: 2px;}
 .type.none{display:none;}
 .type.bug{background-color:#a8b820}
-.type.dark{background-color:#705848}
+.type.dark{background-color:#705848;color:white;}
 .type.dragon{background-color:#7038f8}
 .type.electric{background-color:#f8d030}
 .type.fairy{background-color:#ee99ac}
 .type.fighting{background-color:#c03028}
 .type.fire{background-color:#f08030}
 .type.flying{background-color:#a890f0}
-.type.ghost{background-color:#705898}
+.type.ghost{background-color:#705898;color:white}
 .type.grass{background-color:#78c850}
 .type.ground,
 .type.earth{background-color:#e0c068}
 .type.ice{background-color:#98d8d8}
+.type.dream,
 .type.normal{background-color:#a8a878}
-.type.poison{background-color:#a040a0}
+.type.poison{background-color:#a040a0;color:white}
 .type.psychic{background-color:#f85888}
 .type.rock{background-color:#b8a038}
 .type.steel{background-color:#b8b8d0}
@@ -43,7 +46,6 @@ header nav a {color: black;}
 .type.water{background-color:#6890f0}
 .type.faith{background-color:#f8b010}
 .type.wind{background-color: #d8e030}
-.type.dream{background-color:#a8a878;}
 .type.beast{background-color:#b8a038;}
 .type.heart{background-color:#f8a8b8;}
 .type.nature{background-color:#78c850;}
