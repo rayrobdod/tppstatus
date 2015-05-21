@@ -1,12 +1,12 @@
 {
-	"lastUpdate":"10d 4h 15m",
+	"lastUpdate":"10d 9h 0m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
 	"name":"AAtatat",
 	"idno":"42115",
 	
-	"checkpoint":"Indigo Plateau",
+	"checkpoint":"Fuschia City",
 	
 	"party":[{
 		"species":"Electabuzz",
@@ -15,7 +15,7 @@
 		"nature":"Impish",
 		"gender":"female",
 		"holding":"Moe Ball",
-		"level":37,
+		"level":39,
 		"attacks":[
 			"ThunderPunch",
 			"Thunder (TM)",
@@ -94,7 +94,7 @@
 		"ability":"Blaze",
 		"gender":"Female",
 		"ingame":"FFF░░░",
-		"level":51,
+		"level":52,
 		"attacks":[
 			"Wing Attack",
 			"Strength",
@@ -113,7 +113,7 @@
 		"ability":"Water Absorb",
 		"gender":"Female",
 		"ingame":"ACCCIOOWWW",
-		"level":58,
+		"level":59,
 		"attacks":[
 			"Water Pulse",
 			"Aurora Beam",
@@ -616,10 +616,10 @@
 	],
 	
 	"eliteFour":[
-		{"name":"Lorelei","wins":0,"losses":0,"firstWin":""},
-		{"name":"Bruno","wins":0,"losses":0,"firstWin":""},
-		{"name":"Agatha","wins":0,"losses":0,"firstWin":""},
-		{"name":"Lance","wins":0,"losses":0,"firstWin":""},
-		{"name":"Green","wins":0,"losses":0,"firstWin":""}
+		{"name":"Lorelei","wins":0,"losses":6,"firstWin":""},
+		{"name":"Bruno",  "wins":0,"losses":0,"firstWin":""},
+		{"name":"Agatha", "wins":0,"losses":0,"firstWin":""},
+		{"name":"Lance",  "wins":0,"losses":0,"firstWin":""},
+		{"name":"Green",  "wins":0,"losses":0,"firstWin":""}
 	]
 }

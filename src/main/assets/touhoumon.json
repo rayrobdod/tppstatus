@@ -1,12 +1,12 @@
 {
-	"lastUpdate":"10d 4h 15m",
+	"lastUpdate":"10d 9h 0m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
 	"name":"AAABBHM",
 	"idno":"29177",
 	
-	"checkpoint":"Indigo Plateau",
+	"checkpoint":"Fuschia City",
 
 	"party":[{
 		"species":"Cirno",
@@ -16,7 +16,7 @@
 		"nature":"Relaxed",
 		"gender":"Female",
 		"ingame":"BB",
-		"level":43,
+		"level":45,
 		"attacks":[
 			"Surf",
 			"Ice Ball",
@@ -27,46 +27,6 @@
 		"nextAttack":"Air Slash @ 44",
 		"nextAttacks":["Ice Beam @ 48", "Blizzard @ 52"],
 		"caughtTime":"4d 13h 26m"
-	},{
-		"species":"Satori",
-		"type1":"Heart",
-		"ability":"Trace",
-		"gender":"Male",
-		"ingame":"Chauzu",
-		"formerIngame":["XXXXXXXQk"],
-		"level":50,
-		"attacks":[
-			"Shadow Ball",
-			"Mana Burst",
-			"Dark Pulse",
-			"Signal Beam"
-		],
-		"nextAttack":"Substitute @ 52",
-		"nextAttacks":[],
-		"holding":"Nothing",
-		"nature":"Calm",
-		"caughtBall":"Easy",
-		"nickname":[]
-	},{
-		"species":"Sanae",
-		"type1":"Faith",
-		"type2":"Wind",
-		"ability":"Serene Grace",
-		"gender":"Female",
-		"ingame":"Sanae",
-		"level":51,
-		"attacks":[
-			"Water Pulse",
-			"Heat Wave",
-			"Extrasensory",
-			"Thunder (TM)"
-		],
-		"nextAttack":"Psych Up @ 54",
-		"nextAttacks":["Aeroblast @ 58"],
-		"caughtBall":"Easy",
-		"holding":"Nothing",
-		"nature":"Quiet",
-		"nickname":[]
 	},{
 		"species":"Momiji",
 		"type1":"Beast",
@@ -88,6 +48,46 @@
 		"nature":"Bold",
 		"nickname":["AWOO", "Wood", "Anubis"]
 	},{
+		"species":"Sanae",
+		"type1":"Faith",
+		"type2":"Wind",
+		"ability":"Serene Grace",
+		"gender":"Female",
+		"ingame":"Sanae",
+		"level":51,
+		"attacks":[
+			"Water Pulse",
+			"Heat Wave",
+			"Extrasensory",
+			"Thunder (TM)"
+		],
+		"nextAttack":"Psych Up @ 54",
+		"nextAttacks":["Aeroblast @ 58"],
+		"caughtBall":"Easy",
+		"holding":"Nothing",
+		"nature":"Quiet",
+		"nickname":[]
+	},{
+		"species":"Satori",
+		"type1":"Heart",
+		"ability":"Trace",
+		"gender":"Male",
+		"ingame":"Chauzu",
+		"formerIngame":["XXXXXXXQk"],
+		"level":51,
+		"attacks":[
+			"Shadow Ball",
+			"Mana Burst",
+			"Dark Pulse",
+			"Signal Beam"
+		],
+		"nextAttack":"Substitute @ 52",
+		"nextAttacks":[],
+		"holding":"???",
+		"nature":"Calm",
+		"caughtBall":"Easy",
+		"nickname":[]
+	},{
 		"species":"Tokiko",
 		"type1":"Flying",
 		"ability":"Limber",
@@ -96,10 +96,10 @@
 		"type1":"Flying",
 		"level":55,
 		"attacks":[
+			"Slash",
 			"Soar",
-			"Zen Headbutt",
 			"Roost",
-			"Sky Attack"
+			"Fly"
 		],
 		"nextAttack":"--- @ --",
 		"holding":"Nothing",
@@ -113,11 +113,11 @@
 		"ability":"Pressure",
 		"gender":"female",
 		"holding":"Nothing",
-		"level":51,
+		"level":52,
 		"attacks":[
 			"Shadow Dive",
 			"Shadow Hit",
-			"Dark Pulse",
+			"Taunt",
 			"Scary Face"
 		],
 		"nextAttack":"Taunt @ 52",
@@ -724,10 +724,10 @@
 	},
 	
 	"eliteFour":[
-		{"name":"Lorelei","wins":0,"losses":1,"firstWin":""},
-		{"name":"Bruno","wins":0,"losses":0,"firstWin":""},
-		{"name":"Agatha","wins":0,"losses":0,"firstWin":""},
-		{"name":"Lance","wins":0,"losses":0,"firstWin":""},
-		{"name":"Green","wins":0,"losses":0,"firstWin":""}
+		{"name":"Lorelei","wins":0,"losses":5,"firstWin":""},
+		{"name":"Bruno",  "wins":0,"losses":0,"firstWin":""},
+		{"name":"Agatha", "wins":0,"losses":0,"firstWin":""},
+		{"name":"Lance",  "wins":0,"losses":0,"firstWin":""},
+		{"name":"Green",  "wins":0,"losses":0,"firstWin":""}
 	]
 }
