@@ -1,12 +1,12 @@
 {
-	"lastUpdate":"10d 0h 25m",
+	"lastUpdate":"10d 3h 30m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
 	"name":"AAABBHM",
 	"idno":"29177",
 	
-	"checkpoint":"One Island",
+	"checkpoint":"Indigo Plateau",
 
 	"party":[{
 		"species":"Cirno",
@@ -34,7 +34,7 @@
 		"gender":"Male",
 		"ingame":"Chauzu",
 		"formerIngame":["XXXXXXXQk"],
-		"level":49,
+		"level":50,
 		"attacks":[
 			"Shadow Ball",
 			"Mana Burst",
@@ -675,11 +675,10 @@
 			"Cleanse Tag",
 			"Zinc",
 			"Max Potion ×2",
-			"Max Revive",
 			"SupportHeart",
-			"Burn Heal",
 			"Hyper Potion",
-			"Blaizer"
+			"Blaizer",
+			"Guard Spec"
 		],
 		"Balls":[],
 		"Key":[
@@ -710,7 +709,8 @@
 			"TM38 Fire Blast",
 			"TM39 Rock Tomb",
 			"TM40 Swagger",
-			"..."
+			"...",
+			"TM50 Mind Bomb"
 		]
 	}
 }

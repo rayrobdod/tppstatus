@@ -1,12 +1,12 @@
 {
-	"lastUpdate":"10d 0h 25m",
+	"lastUpdate":"10d 3h 30m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
 	"name":"AAtatat",
 	"idno":"42115",
 	
-	"checkpoint":"One Island",
+	"checkpoint":"Indigo Plateau",
 	
 	"party":[{
 		"species":"Electabuzz",
@@ -14,7 +14,7 @@
 		"ingame":"AAAVX",
 		"nature":"Impish",
 		"gender":"female",
-		"holding":"Nothing",
+		"holding":"Moe Ball",
 		"level":37,
 		"attacks":[
 			"ThunderPunch",
@@ -94,7 +94,7 @@
 		"ability":"Blaze",
 		"gender":"Female",
 		"ingame":"FFF░░░",
-		"level":50,
+		"level":51,
 		"attacks":[
 			"Wing Attack",
 			"Strength",
@@ -113,7 +113,7 @@
 		"ability":"Water Absorb",
 		"gender":"Female",
 		"ingame":"ACCCIOOWWW",
-		"level":56,
+		"level":57,
 		"attacks":[
 			"Water Pulse",
 			"Aurora Beam",
@@ -568,7 +568,7 @@
 			"Leaf Stone",
 			"...",
 			"Potion",
-			"Max Revive"
+			"Guard Spec"
 		],
 		"Balls":["Moe Balls ×124"],
 		"Key":[
