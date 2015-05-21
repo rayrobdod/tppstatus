@@ -61,6 +61,10 @@ object PageTemplates {
 							listOfPartyPokemon(pageData.party)
 						)),
 						Elem(htmlBinding, "section", Attributes(), Group(
+							Elem(htmlBinding, "h2", Attributes(), Group(Text("Elite Four"))),
+							listOfEliteFour(pageData.eliteFour)
+						)),
+						Elem(htmlBinding, "section", Attributes(), Group(
 							Elem(htmlBinding, "h2", Attributes(), Group(Text("Badges"))),
 							listOfBadges(pageData.badges)
 						)),
@@ -175,6 +179,27 @@ object PageTemplates {
 					Elem(htmlBinding, "td", Attributes(), Group(
 						Text("Attempts: "),
 						Text(x.attempts.toString)
+					))
+				}
+			))
+		))
+	}
+	
+	def listOfEliteFour(list:Seq[EliteFour]):Node = {
+		Elem(htmlBinding, "table", Attributes("class" -> "eliteFour"), Group(
+			Elem(htmlBinding, "tr", Attributes("class" -> "name"), Group.fromSeq(
+				list.map{x => wrapStringInTd(x.name)}
+			)),
+			Elem(htmlBinding, "tr", Attributes("class" -> "time"), Group.fromSeq(
+				list.map{x => wrapStringInTd(x.firstWin)}
+			)),
+			Elem(htmlBinding, "tr", Attributes("class" -> "attempts"), Group.fromSeq(
+				list.map{x =>
+					Elem(htmlBinding, "td", Attributes(), Group(
+						Text("Losses: "),
+						Text(x.losses.toString),
+						Text("; Wins: "),
+						Text(x.wins.toString)
 					))
 				}
 			))

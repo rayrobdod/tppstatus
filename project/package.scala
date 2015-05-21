@@ -23,6 +23,12 @@ package object tpporg {
 		Map()
 	)
 	
+	val EliteFourBuilder = new CaseClassBuilder(
+		classOf[EliteFour],
+		EliteFour(),
+		Map()
+	)
+	
 }
 
 package tpporg {
@@ -38,13 +44,21 @@ package tpporg {
 		party:Seq[Pokemon] = Nil,
 		box:Seq[Pokemon] = Nil,
 		daycare:Seq[Pokemon] = Nil,
-		badges:Seq[Badge] = Nil
+		badges:Seq[Badge] = Nil,
+		eliteFour:Seq[EliteFour] = Nil
 	)
 	
 	case class Badge(
 		name:String = "???",
 		time:String = "---",
 		attempts:Long = 0
+	)
+	
+	case class EliteFour(
+		name:String = "???",
+		firstWin:String = "---",
+		wins:Long = 0,
+		losses:Long = 0
 	)
 	
 	case class Pokemon(
@@ -90,6 +104,7 @@ package tpporg {
 			case "box" => t.copy(box = value.asInstanceOf[Seq[Pokemon]])
 			case "daycare" => t.copy(daycare = value.asInstanceOf[Seq[Pokemon]])
 			case "badges" => t.copy(badges = value.asInstanceOf[Seq[Badge]])
+			case "eliteFour" => t.copy(eliteFour = value.asInstanceOf[Seq[EliteFour]])
 			case _ => throw new IllegalArgumentException("PageDataBuilder apply key: " + key)
 		}
 		override def childBuilder(key:String) = key match { 
@@ -98,6 +113,7 @@ package tpporg {
 			case "daycare" => new SeqBuilder(PokemonBuilder)
 			case "badges" => new SeqBuilder(BadgeBuilder)
 			case "items" => new SeqBuilder
+			case "eliteFour" => new SeqBuilder(EliteFourBuilder)
 			case _ => throw new IllegalArgumentException("PageDataBuilder childBuilder key: " + key)
 		}
 		override def resultType = classOf[PageData]

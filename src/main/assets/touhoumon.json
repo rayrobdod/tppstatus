@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"10d 3h 30m",
+	"lastUpdate":"10d 4h 15m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
@@ -54,7 +54,7 @@
 		"ability":"Serene Grace",
 		"gender":"Female",
 		"ingame":"Sanae",
-		"level":50,
+		"level":51,
 		"attacks":[
 			"Water Pulse",
 			"Heat Wave",
@@ -106,22 +106,24 @@
 		"nature":"Naive",
 		"nickname":["Book Jesus","Albumgeddon"]
 	},{
-		"species":"CReimu",
-		"type1":"Faith",
-		"ability":"Hakurei Miko (Clear Body)",
-		"ingame":"???",
+		"species":"Mima",
+		"type1":"Ghost",
+		"type2":"Dark",
+		"ingame":"Mima",
+		"ability":"Pressure",
 		"gender":"female",
-		"level":12,
+		"holding":"Nothing",
+		"level":51,
 		"attacks":[
-			"Seal Needle",
-			"Rock Smash",
-			"Strength",
-			"Decision"
+			"Shadow Dive",
+			"Shadow Hit",
+			"Dark Pulse",
+			"Scary Face"
 		],
-		"nextAttack":"Barrage @ 16",
-		"nextAttacks":["SmellingSalt @ 21","Jump Kick @ 27","Imprison @ 32"],
-		"caughtTime":"8d 0h 36m",
-		"caughtBall":"easy"
+		"nextAttack":"Taunt @ 52",
+		"caughtTime":"9d 3h 31m",
+		"caughtBall":"lunatic",
+		"nickname":["Isamima"]
 	}],
 
 	"box":[{
@@ -400,6 +402,7 @@
 		"ability":"???",
 		"ingame":"AAAAAAAAAA",
 		"gender":"female",
+		"holding":"Nothing",
 		"level":27,
 		"caughtTime":"6d 9h 23m",
 		"caughtBall":"safari_t"
@@ -519,6 +522,7 @@
 		"type1":"???",
 		"ingame":"CRin",
 		"gender":"female",
+		"holding":"nothing",
 		"level":28,
 		"caughtTime":"8d 1h 27m",
 		"caughtBall":"normal"
@@ -583,6 +587,7 @@
 		"type1":"???",
 		"ingame":"AATTTTUBBT",
 		"gender":"male",
+		"holding":"Pecha Fruit",
 		"level":37,
 		"caughtTime":"8d 21h 6m",
 		"caughtBall":"normal"
@@ -592,6 +597,7 @@
 		"ingame":"AAAAA",
 		"gender":"female",
 		"level":32,
+		"holding":"Nothing",
 		"caughtTime":"8d 23h 35m",
 		"caughtBall":"normal"
 	},{
@@ -607,6 +613,7 @@
 			"Fly",
 			"Wing Attack"
 		],
+		"holding":"Normal Orb",
 		"nextAttack":"Agility @ 17",
 		"caughtTime":"6d 21h 15m",
 		"caughtBall":"normal"
@@ -615,26 +622,28 @@
 		"type1":"???",
 		"ingame":"AAAA",
 		"gender":"female",
+		"holding":"Green UFO",
 		"level":13,
 		"caughtTime":"9d 1h 0m",
 		"caughtBall":"normal"
 	},{
-		"species":"Mima",
-		"type1":"Ghost",
-		"type2":"Dark",
-		"ingame":"Mima",
-		"ability":"Pressure",
+		"species":"CReimu",
+		"type1":"Faith",
+		"ability":"Hakurei Miko (Clear Body)",
+		"ingame":"CReimu",
+		"nature":"Jolly",
 		"gender":"female",
-		"level":51,
+		"level":12,
 		"attacks":[
-			"Shadow Dive",
-			"Shadow Hit",
-			"Dark Pulse",
-			"Scary Face"
+			"Seal Needle",
+			"Rock Smash",
+			"Strength",
+			"Decision"
 		],
-		"nextAttack":"Taunt @ 52",
-		"caughtTime":"9d 3h 31m",
-		"caughtBall":"lunatic"
+		"nextAttack":"Barrage @ 16",
+		"nextAttacks":["SmellingSalt @ 21","Jump Kick @ 27","Imprison @ 32"],
+		"caughtTime":"8d 0h 36m",
+		"caughtBall":"easy"
 	}],
 	
 	"daycare":[{
@@ -712,5 +721,13 @@
 			"...",
 			"TM50 Mind Bomb"
 		]
-	}
+	},
+	
+	"eliteFour":[
+		{"name":"Lorelei","wins":0,"losses":1,"firstWin":""},
+		{"name":"Bruno","wins":0,"losses":0,"firstWin":""},
+		{"name":"Agatha","wins":0,"losses":0,"firstWin":""},
+		{"name":"Lance","wins":0,"losses":0,"firstWin":""},
+		{"name":"Green","wins":0,"losses":0,"firstWin":""}
+	]
 }

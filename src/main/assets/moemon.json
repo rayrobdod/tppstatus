@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"10d 3h 30m",
+	"lastUpdate":"10d 4h 15m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
@@ -113,7 +113,7 @@
 		"ability":"Water Absorb",
 		"gender":"Female",
 		"ingame":"ACCCIOOWWW",
-		"level":57,
+		"level":58,
 		"attacks":[
 			"Water Pulse",
 			"Aurora Beam",
@@ -567,6 +567,9 @@
 			"BlackGlassses",
 			"Leaf Stone",
 			"...",
+			"Rare Candy",
+			"Awakening",
+			"Max Ether",
 			"Potion",
 			"Guard Spec"
 		],
@@ -579,7 +582,6 @@
 			"Bicycle",
 			"SS Ticket",
 			"...",
-			"Meteorite",
 			"Tri-Pass",
 			"Town Map"
 		],
@@ -611,5 +613,13 @@
 		{"name":"Soul",   "time":"6d 4h 13m", "attempts":2},
 		{"name":"Volcano","time":"8d 15h 52m","attempts":1},
 		{"name":"Earth",  "time":"9d 8h 18m", "attempts":1}
+	],
+	
+	"eliteFour":[
+		{"name":"Lorelei","wins":0,"losses":0,"firstWin":""},
+		{"name":"Bruno","wins":0,"losses":0,"firstWin":""},
+		{"name":"Agatha","wins":0,"losses":0,"firstWin":""},
+		{"name":"Lance","wins":0,"losses":0,"firstWin":""},
+		{"name":"Green","wins":0,"losses":0,"firstWin":""}
 	]
 }
