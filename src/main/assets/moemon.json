@@ -1,12 +1,12 @@
 {
-	"lastUpdate":"10d 9h 0m",
+	"lastUpdate":"10d 22h 40m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
 	"name":"AAtatat",
 	"idno":"42115",
 	
-	"checkpoint":"Fuschia City",
+	"checkpoint":"Cinabar Island",
 	
 	"party":[{
 		"species":"Electabuzz",
@@ -15,7 +15,7 @@
 		"nature":"Impish",
 		"gender":"female",
 		"holding":"Moe Ball",
-		"level":39,
+		"level":43,
 		"attacks":[
 			"ThunderPunch",
 			"Thunder (TM)",
@@ -30,10 +30,10 @@
 	},{
 		"species":"Dugtrio",
 		"type1":"Ground",
-		"ability":"???",
+		"ability":"Arena Trap",
 		"gender":"Female",
 		"ingame":"AHHHHHIIII",
-		"level":37,
+		"level":42,
 		"attacks":[
 			"Dig",
 			"Areal Ace (TM)",
@@ -45,7 +45,8 @@
 		"holding":"Nothing",
 		"nature":"Brave",
 		"nickname":[],
-		"caughtTime":"3d 6h 2m"
+		"caughtTime":"3d 6h 2m",
+		"caughtBall":"poke"
 	},{
 		"species":"Pidgeot",
 		"type1":"Normal",
@@ -53,7 +54,7 @@
 		"ability":"Keen Eye",
 		"gender":"Female",
 		"ingame":"T",
-		"level":45,
+		"level":48,
 		"attacks":[
 			"Quick Attack",
 			"Fly",
@@ -74,7 +75,7 @@
 		"gender":"Female",
 		"ingame":"Butterbae",
 		"formerIngame":["BUTT", "Butterfree"],
-		"level":47,
+		"level":54,
 		"attacks":[
 			"Confusion",
 			"Psychic",
@@ -556,6 +557,30 @@
 		"level":3,
 		"caughtTime":"9d 2h 51m",
 		"caughtBall":"poke"
+	},{
+		"species":"Tentacool",
+		"type1":"???",
+		"ingame":"Tentacool",
+		"gender":"female",
+		"level":10,
+		"caughtTime":"10d 14h 59m",
+		"caughtBall":"poke"
+	},{
+		"species":"Voltorb",
+		"type1":"???",
+		"ingame":"A'77\"\"\"…….",
+		"gender":"female",
+		"level":14,
+		"caughtTime":"10d 16h 1m",
+		"caughtBall":"poke"
+	},{
+		"species":"Rattata",
+		"type1":"???",
+		"ingame":"G",
+		"gender":"female",
+		"level":28,
+		"caughtTime":"10d 21h 55m",
+		"caughtBall":"poke"
 	}],
 	
 	"items":{
@@ -573,7 +598,7 @@
 			"Potion",
 			"Guard Spec"
 		],
-		"Balls":["Moe Balls ×124"],
+		"Balls":["Moe Balls ×96"],
 		"Key":[
 			"Teachy TV",
 			"TM Case",
