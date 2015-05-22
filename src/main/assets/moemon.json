@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"10d 22h 40m",
+	"lastUpdate":"11d 5h 15m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
@@ -15,15 +15,15 @@
 		"nature":"Impish",
 		"gender":"female",
 		"holding":"Moe Ball",
-		"level":43,
+		"level":48,
 		"attacks":[
-			"ThunderPunch",
+			"Thunderbolt",
 			"Thunder (TM)",
 			"Swift",
 			"Brick Break (TM)"
 		],
-		"nextAttack":"Thunderbolt @ 47",
-		"nextAttacks":[],
+		"nextAttack":"Thunder @ 58",
+		"nextAttacks":["--- @ --"],
 		"ability":"Static",
 		"caughtTime":"7d 20h 6m",
 		"caughtBall":"poke"
@@ -33,7 +33,7 @@
 		"ability":"Arena Trap",
 		"gender":"Female",
 		"ingame":"AHHHHHIIII",
-		"level":42,
+		"level":43,
 		"attacks":[
 			"Dig",
 			"Areal Ace (TM)",
@@ -75,7 +75,7 @@
 		"gender":"Female",
 		"ingame":"Butterbae",
 		"formerIngame":["BUTT", "Butterfree"],
-		"level":54,
+		"level":49,
 		"attacks":[
 			"Confusion",
 			"Psychic",
@@ -580,6 +580,30 @@
 		"gender":"female",
 		"level":28,
 		"caughtTime":"10d 21h 55m",
+		"caughtBall":"poke"
+	},{
+		"species":"Golbat",
+		"type1":"???",
+		"ingame":"Aa",
+		"gender":"female",
+		"level":26,
+		"caughtTime":"11d 2h 59m",
+		"caughtBall":"poke"
+	},{
+		"species":"Psyduck",
+		"type1":"???",
+		"ingame":"cc____WVV…",
+		"gender":"female",
+		"level":32,
+		"caughtTime":"11d 4h 18m",
+		"caughtBall":"poke"
+	},{
+		"species":"Golduck",
+		"type1":"???",
+		"ingame":"AAAA..",
+		"gender":"female",
+		"level":-1,
+		"caughtTime":"11d 5h 2m",
 		"caughtBall":"poke"
 	}],
 	

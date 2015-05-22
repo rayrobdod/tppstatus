@@ -16,16 +16,16 @@
 		"nature":"Relaxed",
 		"gender":"Female",
 		"ingame":"BB",
-		"level":46,
+		"level":47,
 		"attacks":[
 			"Surf",
-			"Ice Ball",
+			"Facade (TM)",
 			"Soar",
 			"Ice Punch"
 		],
-		"holding":"Normal Orb",
-		"nextAttack":"Air Slash @ 44",
-		"nextAttacks":["Ice Beam @ 48", "Blizzard @ 52"],
+		"holding":"Hard Orb",
+		"nextAttack":"Ice Beam @ 48",
+		"nextAttacks":["Blizzard @ 52"],
 		"caughtTime":"4d 13h 26m",
 		"caughtBall":"Easy"
 	},{
@@ -35,7 +35,7 @@
 		"ability":"Intimidate",
 		"gender":"Male",
 		"ingame":"AUUUUABBBB",
-		"level":49,
+		"level":52,
 		"attacks":[
 			"Fury Cutter",
 			"Cut",
@@ -44,8 +44,8 @@
 		],
 		"caughtTime":"2d 4h 16m",
 		"caughtBall":"Easy",
-		"nextAttack":"Killing Bite @ 52",
-		"nextAttacks":["Braver @ 56"],
+		"nextAttack":"Braver @ 56",
+		"nextAttacks":[],
 		"holding":"Normal Orb",
 		"nature":"Bold",
 		"nickname":["AWOO", "Wood", "Anubis"]
@@ -646,6 +646,22 @@
 		"nextAttacks":["SmellingSalt @ 21","Jump Kick @ 27","Imprison @ 32"],
 		"caughtTime":"8d 0h 36m",
 		"caughtBall":"easy"
+	},{
+		"species":"CNitori",
+		"type1":"???",
+		"ingame":"Kappa",
+		"gender":"male",
+		"level":26,
+		"caughtTime":"11d 0h 0m",
+		"caughtBall":"???"
+	},{
+		"species":"CRumia",
+		"type1":"???",
+		"ingame":"CRumia",
+		"gender":"female",
+		"level":36,
+		"caughtTime":"11d 1h 24m",
+		"caughtBall":"hard"
 	}],
 	
 	"daycare":[{
