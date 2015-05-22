@@ -135,17 +135,21 @@
 	"box":[{
 		"species":"Rattata",
 		"type1":"Normal",
-		"ability":"???",
-		"ingame":"Rattata",
+		"nature":"Lax",
+		"ability":"Guts",
+		"ingame":"TTUUVVVVC",
 		"level":-1,
-		"caughtTime":"0d 3h 46m"
+		"caughtTime":"0d 3h 46m",
+		"caughtBall":"poke"
 	},{
 		"species":"Rattata",
 		"type1":"Normal",
 		"ability":"???",
+		"nature":"Calm",
 		"ingame":"Rattata",
 		"level":-1,
-		"caughtTime":"0d 4h 06m"
+		"caughtTime":"0d 4h 06m",
+		"caughtBall":"poke"
 	},{
 		"species":"Magikarp",
 		"type1":"Water",

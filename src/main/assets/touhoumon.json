@@ -131,54 +131,59 @@
 
 	"box":[{
 		"species":"CDaiyousei",
-		"type1":"???",
-		"type2":"???",
-		"ability":"???",
+		"type1":"Native",
+		"ability":"Run Away",
+		"nature":"Quiet",
+		"gender":"Female",
 		"ingame":"CDaiyousei",
 		"level":5,
-		"caughtTime":"0d 7h 38m"
+		"caughtTime":"0d 7h 38m",
+		"caughtBall":"easy"
 	},{
 		"species":"CNazrin",
 		"type1":"Beast",
 		"ability":"???",
 		"ingame":"???",
 		"level":4,
-		"caughtTime":"0d 7h 38m"
+		"nickname":["I hate chu"],
+		"caughtTime":"0d 7h 38m",
+		"caughtBall":"easy"
 	},{
 		"species":"CStar",
-		"type1":"???",
-		"type2":"???",
-		"ability":"???",
-		"ingame":"???",
+		"type1":"Water",
+		"ability":"Run Away",
+		"gender":"Female",
+		"nature":"Relaxed",
+		"ingame":"Aghicccccd",
 		"level":4,
-		"caughtTime":"0d 7h 38m"
+		"caughtTime":"0d 7h 38m",
+		"caughtBall":"easy"
 	},{
 		"species":"CSunny",
-		"type1":"???",
-		"type2":"???",
-		"ability":"???",
+		"type1":"Fire",
+		"ability":"Vital Spirit",
 		"ingame":"???",
 		"level":-1,
 		"caughtTime":"0d 7h 40m"
 	},{
 		"species":"CNarzin",
 		"type1":"Beast",
-		"ability":"???",
-		"ingame":"???",
+		"ability":"Pickup",
+		"nature":"Adamant",
+		"ingame":"CNazrin",
 		"level":-1,
-		"caughtTime":"0d 7h 46m"
+		"caughtTime":"0d 7h 46m",
+		"caughtBall":"easy"
 	},{
 		"species":"CSunny",
-		"type1":"???",
-		"type2":"???",
-		"ability":"???",
+		"type1":"Fire",
+		"ability":"Vital Spirit",
 		"ingame":"???",
 		"level":-1,
 		"caughtTime":"0d 7h 49m"
 	},{
 		"species":"CTokiko",
-		"type1":"???",
-		"type2":"???",
+		"type1":"Flying",
 		"ability":"???",
 		"ingame":"AAT",
 		"level":-1,
