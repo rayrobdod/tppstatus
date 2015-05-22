@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"10d 22h 40m",
+	"lastUpdate":"11d 7h 30m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
@@ -76,7 +76,7 @@
 		"gender":"Male",
 		"ingame":"Chauzu",
 		"formerIngame":["XXXXXXXQk"],
-		"level":53,
+		"level":54,
 		"attacks":[
 			"Shadow Ball",
 			"Mana Burst (TM)",
@@ -661,6 +661,22 @@
 		"gender":"female",
 		"level":36,
 		"caughtTime":"11d 1h 24m",
+		"caughtBall":"hard"
+	},{
+		"species":"CCirno",
+		"type1":"???",
+		"ingame":"CCirno",
+		"gender":"female",
+		"level":26,
+		"caughtTime":"11d 6h 27m",
+		"caughtBall":"hard"
+	},{
+		"species":"CCirno",
+		"type1":"???",
+		"ingame":"CCirno",
+		"gender":"female",
+		"level":26,
+		"caughtTime":"11d 7h 19m",
 		"caughtBall":"hard"
 	}],
 	

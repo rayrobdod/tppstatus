@@ -1,12 +1,12 @@
 {
-	"lastUpdate":"11d 5h 15m",
+	"lastUpdate":"11d 7h 30m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
 	"name":"AAtatat",
 	"idno":"42115",
 	
-	"checkpoint":"Cinabar Island",
+	"checkpoint":"Indigo League",
 	
 	"party":[{
 		"species":"Electabuzz",
@@ -15,7 +15,7 @@
 		"nature":"Impish",
 		"gender":"female",
 		"holding":"Moe Ball",
-		"level":48,
+		"level":50,
 		"attacks":[
 			"Thunderbolt",
 			"Thunder (TM)",
@@ -64,6 +64,7 @@
 		"nextAttack":"Agility @ 48",
 		"nextAttacks":["Mirror Move @ 62"],
 		"caughtTime":"0d 3h 48m",
+		"caughtBall":"Poke",
 		"holding":"Nothing",
 		"nature":"Lax",
 		"nickname":["Miss T"]
@@ -87,7 +88,8 @@
 		"nextAttacks":[],
 		"nature":"Modest",
 		"nickname":["Butterbae"],
-		"caughtTime":"0d 7h 39m"
+		"caughtTime":"0d 7h 39m",
+		"caughtBall":"Poke"
 	},{
 		"species":"Charizard",
 		"type1":"Fire",
@@ -95,15 +97,15 @@
 		"ability":"Blaze",
 		"gender":"Female",
 		"ingame":"FFF░░░",
-		"level":52,
+		"level":54,
 		"attacks":[
 			"Wing Attack",
 			"Strength",
 			"Fly",
 			"Scratch"
 		],
-		"nextAttack":"Dragon Rage @ 54",
-		"nextAttacks":["Fire Spin @ 64"],
+		"nextAttack":"Fire Spin @ 64",
+		"nextAttacks":[],
 		"holding":"Potion",
 		"nature":"Naughty",
 		"nickname":["Effie", "White"],
@@ -665,8 +667,8 @@
 	],
 	
 	"eliteFour":[
-		{"name":"Lorelei","wins":0,"losses":6,"firstWin":""},
-		{"name":"Bruno",  "wins":0,"losses":0,"firstWin":""},
+		{"name":"Lorelei","wins":1,"losses":9,"firstWin":"11d 7h 17m @ run 10"},
+		{"name":"Bruno",  "wins":0,"losses":1,"firstWin":""},
 		{"name":"Agatha", "wins":0,"losses":0,"firstWin":""},
 		{"name":"Lance",  "wins":0,"losses":0,"firstWin":""},
 		{"name":"Green",  "wins":0,"losses":0,"firstWin":""}
