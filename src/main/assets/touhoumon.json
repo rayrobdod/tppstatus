@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"11d 7h 30m",
+	"lastUpdate":"11d 8h 41m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
@@ -104,6 +104,7 @@
 			"Fly"
 		],
 		"nextAttack":"--- @ --",
+		"caughtBall":"Easy",
 		"holding":"Nothing",
 		"nature":"Naive",
 		"nickname":["Book Jesus","Albumgeddon"]
@@ -677,6 +678,15 @@
 		"gender":"female",
 		"level":26,
 		"caughtTime":"11d 7h 19m",
+		"caughtBall":"hard"
+	},{
+		"species":"CLetty",
+		"type1":"???",
+		"ability":"Damp",
+		"ingame":"ABBUUUUUUU",
+		"gender":"male",
+		"level":32,
+		"caughtTime":"11d 8h 24m",
 		"caughtBall":"hard"
 	}],
 	

@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"11d 7h 30m",
+	"lastUpdate":"11d 8h 41m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
@@ -15,7 +15,7 @@
 		"nature":"Impish",
 		"gender":"female",
 		"holding":"Moe Ball",
-		"level":50,
+		"level":52,
 		"attacks":[
 			"Thunderbolt",
 			"Thunder (TM)",
@@ -54,7 +54,7 @@
 		"ability":"Keen Eye",
 		"gender":"Female",
 		"ingame":"T",
-		"level":48,
+		"level":49,
 		"attacks":[
 			"Quick Attack",
 			"Fly",
@@ -116,7 +116,7 @@
 		"ability":"Water Absorb",
 		"gender":"Female",
 		"ingame":"ACCCIOOWWW",
-		"level":59,
+		"level":60,
 		"attacks":[
 			"Water Pulse",
 			"Aurora Beam",
@@ -667,9 +667,9 @@
 	],
 	
 	"eliteFour":[
-		{"name":"Lorelei","wins":1,"losses":9,"firstWin":"11d 7h 17m @ run 10"},
-		{"name":"Bruno",  "wins":0,"losses":1,"firstWin":""},
-		{"name":"Agatha", "wins":0,"losses":0,"firstWin":""},
+		{"name":"Lorelei","wins":3,"losses":10,"firstWin":"11d 7h 17m @ run 10"},
+		{"name":"Bruno",  "wins":1,"losses":2,"firstWin":"11d 8h 38m @ run 13"},
+		{"name":"Agatha", "wins":0,"losses":1,"firstWin":""},
 		{"name":"Lance",  "wins":0,"losses":0,"firstWin":""},
 		{"name":"Green",  "wins":0,"losses":0,"firstWin":""}
 	]
