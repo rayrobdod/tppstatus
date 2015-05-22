@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"11d 8h 41m",
+	"lastUpdate":"11d 20h 11m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
@@ -15,11 +15,11 @@
 		"nature":"Impish",
 		"gender":"female",
 		"holding":"Moe Ball",
-		"level":52,
+		"level":62,
 		"attacks":[
 			"Thunderbolt",
 			"Thunder (TM)",
-			"Swift",
+			"Shock Wave (TM)",
 			"Brick Break (TM)"
 		],
 		"nextAttack":"Thunder @ 58",
@@ -33,7 +33,7 @@
 		"ability":"Arena Trap",
 		"gender":"Female",
 		"ingame":"AHHHHHIIII",
-		"level":43,
+		"level":44,
 		"attacks":[
 			"Dig",
 			"Areal Ace (TM)",
@@ -59,7 +59,7 @@
 			"Quick Attack",
 			"Fly",
 			"Wing Attack",
-			"Tackle"
+			"Double-Edge (TM)"
 		],
 		"nextAttack":"Agility @ 48",
 		"nextAttacks":["Mirror Move @ 62"],
@@ -76,7 +76,7 @@
 		"gender":"Female",
 		"ingame":"Butterbae",
 		"formerIngame":["BUTT", "Butterfree"],
-		"level":49,
+		"level":50,
 		"attacks":[
 			"Confusion",
 			"Psychic",
@@ -97,7 +97,7 @@
 		"ability":"Blaze",
 		"gender":"Female",
 		"ingame":"FFF░░░",
-		"level":54,
+		"level":60,
 		"attacks":[
 			"Wing Attack",
 			"Strength",
@@ -116,12 +116,12 @@
 		"ability":"Water Absorb",
 		"gender":"Female",
 		"ingame":"ACCCIOOWWW",
-		"level":60,
+		"level":67,
 		"attacks":[
 			"Water Pulse",
 			"Aurora Beam",
 			"Surf",
-			"Quick Attack"
+			"Blizzard (TM)"
 		],
 		"holding":"Awakening",
 		"nextAttack":"--- @ --",
@@ -617,7 +617,6 @@
 		"Normal":[
 			"Nugget",
 			"Moon Stone ×3",
-			"Parlyz Heal",
 			"Burn Heal",
 			"BlackGlassses",
 			"Leaf Stone",
@@ -626,9 +625,10 @@
 			"Awakening",
 			"Max Ether",
 			"Potion",
-			"Guard Spec"
+			"Guard Spec",
+			"Full Restore ×4"
 		],
-		"Balls":["Moe Balls ×96"],
+		"Balls":[],
 		"Key":[
 			"Teachy TV",
 			"TM Case",
@@ -649,7 +649,6 @@
 			"TM06 Toxic",
 			"TM07 Hail",
 			"TM12 Taunt",
-			"TM14 Blizzard",
 			"TM22 Solarbeam",
 			"TM28 Dig",
 			"TM38 Fire Blast",
@@ -671,10 +670,10 @@
 	],
 	
 	"eliteFour":[
-		{"name":"Lorelei","wins":3,"losses":10,"firstWin":"11d 7h 17m @ run 10"},
-		{"name":"Bruno",  "wins":1,"losses":2,"firstWin":"11d 8h 38m @ run 13"},
-		{"name":"Agatha", "wins":0,"losses":1,"firstWin":""},
-		{"name":"Lance",  "wins":0,"losses":0,"firstWin":""},
+		{"name":"Lorelei","wins":14,"losses":13,"firstWin":"11d 7h 17m @ run 10 @ 9 losses"},
+		{"name":"Bruno",  "wins":10,"losses":4,"firstWin":"11d 8h 38m @ run 13 @ 2 losses"},
+		{"name":"Agatha", "wins":3,"losses":7,"firstWin":"11d 12h 11m @ run 19 @ 3 losses"},
+		{"name":"Lance",  "wins":0,"losses":3,"firstWin":""},
 		{"name":"Green",  "wins":0,"losses":0,"firstWin":""}
 	]
 }
