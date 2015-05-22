@@ -1,12 +1,12 @@
 {
-	"lastUpdate":"11d 8h 41m",
+	"lastUpdate":"11d 21h 7m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
 	"name":"AAABBHM",
 	"idno":"29177",
 	
-	"checkpoint":"Fuschia City",
+	"checkpoint":"Three Isle",
 
 	"party":[{
 		"species":"Cirno",
@@ -16,7 +16,7 @@
 		"nature":"Relaxed",
 		"gender":"Female",
 		"ingame":"BB",
-		"level":47,
+		"level":49,
 		"attacks":[
 			"Surf",
 			"Facade (TM)",
@@ -35,7 +35,7 @@
 		"ability":"Intimidate",
 		"gender":"Male",
 		"ingame":"AUUUUABBBB",
-		"level":52,
+		"level":54,
 		"attacks":[
 			"Fury Cutter",
 			"Cut",
@@ -56,15 +56,15 @@
 		"ability":"Serene Grace",
 		"gender":"Female",
 		"ingame":"Sanae",
-		"level":53,
+		"level":55,
 		"attacks":[
 			"Water Pulse",
 			"Heat Wave",
 			"Extrasensory",
 			"Thunder (TM)"
 		],
-		"nextAttack":"Psych Up @ 54",
-		"nextAttacks":["Aeroblast @ 58"],
+		"nextAttack":"Aeroblast @ 58",
+		"nextAttacks":[],
 		"caughtBall":"Easy",
 		"holding":"Nothing",
 		"nature":"Quiet",
@@ -76,7 +76,7 @@
 		"gender":"Male",
 		"ingame":"Chauzu",
 		"formerIngame":["XXXXXXXQk"],
-		"level":54,
+		"level":55,
 		"attacks":[
 			"Shadow Ball",
 			"Mana Burst (TM)",
@@ -96,7 +96,7 @@
 		"ingame":"A",
 		"gender":"Female",
 		"type1":"Flying",
-		"level":56,
+		"level":57,
 		"attacks":[
 			"Slash",
 			"Soar",
@@ -693,6 +693,57 @@
 		"level":32,
 		"caughtTime":"11d 8h 24m",
 		"caughtBall":"hard"
+	},{
+		"species":"CCirno",
+		"type1":"???",
+		"ingame":"CCirno",
+		"gender":"male",
+		"level":28,
+		"caughtTime":"11d 8h 45m",
+		"caughtBall":"???"
+	},{
+		"species":"CLetty",
+		"type1":"???",
+		"ability":"???",
+		"ingame":"AAA",
+		"gender":"female",
+		"level":32,
+		"caughtTime":"11d 8h 52m",
+		"caughtBall":"???"
+	},{
+		"species":"CLetty",
+		"type1":"???",
+		"ability":"???",
+		"ingame":"AaabauvVWW",
+		"gender":"male",
+		"level":32,
+		"caughtTime":"11d 10h 22m",
+		"caughtBall":"???"
+	},{
+		"species":"CRumia",
+		"type1":"???",
+		"ability":"???",
+		"ingame":"CRumia",
+		"gender":"female",
+		"level":32,
+		"caughtTime":"11d 10h 45m",
+		"caughtBall":"normal"
+	},{
+		"species":"CCirno",
+		"type1":"???",
+		"ingame":"CCirno",
+		"gender":"female",
+		"level":30,
+		"caughtTime":"11d 12h 13m",
+		"caughtBall":"???"
+	},{
+		"species":"CMedicine",
+		"type1":"???",
+		"ingame":"CCirno",
+		"gender":"male",
+		"level":31,
+		"caughtTime":"11d 15h 3m",
+		"caughtBall":"???"
 	}],
 	
 	"daycare":[{
@@ -738,7 +789,8 @@
 			"Blaizer",
 			"Guard Spec",
 			"Ice Heal",
-			"Skill Heart"
+			"Skill Heart",
+			"Max Repel"
 		],
 		"Balls":["Hard Orbs ×17","Normal Orbs ×11"],
 		"Key":[
