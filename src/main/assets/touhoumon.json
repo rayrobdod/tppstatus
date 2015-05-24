@@ -1,12 +1,12 @@
 {
-	"lastUpdate":"13d 0h 30m",
+	"lastUpdate":"13d 6h 17m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
 	"name":"AAABBHM",
 	"idno":"29177",
 	
-	"checkpoint":"Two Island",
+	"checkpoint":"Indigo Plateau",
 
 	"party":[{
 		"species":"Cirno",
@@ -16,7 +16,7 @@
 		"nature":"Relaxed",
 		"gender":"Female",
 		"ingame":"BB",
-		"level":55,
+		"level":57,
 		"attacks":[
 			"Surf",
 			"Blizzard",
@@ -35,7 +35,7 @@
 		"ability":"Intimidate",
 		"gender":"Male",
 		"ingame":"AUUUUABBBB",
-		"level":58,
+		"level":59,
 		"attacks":[
 			"Fury Cutter",
 			"Cut",
@@ -56,7 +56,7 @@
 		"ability":"Serene Grace",
 		"gender":"Female",
 		"ingame":"Sanae",
-		"level":65,
+		"level":69,
 		"attacks":[
 			"Water Pulse",
 			"Heat Wave",
@@ -76,7 +76,7 @@
 		"gender":"Male",
 		"ingame":"Chauzu",
 		"formerIngame":["XXXXXXXQk"],
-		"level":60,
+		"level":61,
 		"attacks":[
 			"Shadow Ball",
 			"Mana Burst",
@@ -96,7 +96,7 @@
 		"ingame":"A",
 		"gender":"Female",
 		"type1":"Flying",
-		"level":60,
+		"level":61,
 		"attacks":[
 			"Slash",
 			"Soar",
@@ -116,14 +116,14 @@
 		"ability":"Pressure",
 		"gender":"female",
 		"holding":"Nothing",
-		"level":55,
+		"level":56,
 		"attacks":[
 			"Shadow Dive",
 			"Shadow Hit",
 			"Dark Pulse",
-			"Scary Face"
+			"Shadow Ball"
 		],
-		"nextAttack":"Shadow Ball @ 56",
+		"nextAttack":"???",
 		"caughtTime":"9d 3h 31m",
 		"caughtBall":"lunatic",
 		"nickname":["Isamima"]
@@ -836,9 +836,9 @@
 	},
 	
 	"eliteFour":[
-		{"name":"Lorelei","wins":11,"losses":13,"firstWin":"12d 5h 56m @ run 6 \\w 5 losses"},
-		{"name":"Bruno",  "wins":1,"losses":10,"firstWin":"12d 22h 0m @ run 23 \\w 9 losses"},
-		{"name":"Agatha", "wins":0,"losses":1,"firstWin":""},
+		{"name":"Lorelei","wins":17:"losses":13,"firstWin":"12d 5h 56m @ run 6 \\w 5 losses"},
+		{"name":"Bruno",  "wins":4,"losses":13,"firstWin":"12d 22h 0m @ run 23 \\w 9 losses"},
+		{"name":"Agatha", "wins":0,"losses":4,"firstWin":""},
 		{"name":"Lance",  "wins":0,"losses":0,"firstWin":""},
 		{"name":"Green",  "wins":0,"losses":0,"firstWin":""}
 	]

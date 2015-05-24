@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"13d 0h 30m",
+	"lastUpdate":"13d 6h 17m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
@@ -938,6 +938,174 @@
 		"gender":"???",
 		"level":24,
 		"caughtTime":"12d 22h 55m",
+		"caughtBall":"safari"
+	},{
+		"species":"Mudkip",
+		"type1":"???",
+		"ingame":"MMUUUUUUUU",
+		"gender":"???",
+		"level":24,
+		"caughtTime":"13d 0h 37m",
+		"caughtBall":"safari"
+	},{
+		"species":"Spheal",
+		"type1":"???",
+		"ingame":"MMUUUUUUUU",
+		"gender":"Male",
+		"level":24,
+		"caughtTime":"13d 0h 54m",
+		"caughtBall":"safari"
+	},{
+		"species":"Magcargo",
+		"type1":"???",
+		"ingame":"AAAAAAA",
+		"gender":"???",
+		"level":22,
+		"caughtTime":"13d 0h 55m",
+		"caughtBall":"safari"
+	},{
+		"species":"Magikarp",
+		"type1":"???",
+		"ingame":"AAAAAAA",
+		"gender":"male",
+		"level":30,
+		"caughtTime":"13d 1h 5m",
+		"caughtBall":"safari"
+	},{
+		"species":"Magcargo",
+		"type1":"???",
+		"ingame":"GGGaaa",
+		"gender":"female",
+		"level":30,
+		"caughtTime":"13d 1h 20m",
+		"caughtBall":"safari"
+	},{
+		"species":"Skitty",
+		"type1":"???",
+		"ingame":"ccc88",
+		"gender":"male",
+		"level":23,
+		"caughtTime":"13d 1h 23m",
+		"caughtBall":"safari"
+	},{
+		"species":"Mudkip",
+		"type1":"???",
+		"ingame":"GRRRR ",
+		"gender":"male",
+		"level":24,
+		"caughtTime":"13d 1h 29m",
+		"caughtBall":"safari"
+	},{
+		"species":"Magikarp",
+		"type1":"???",
+		"ingame":"Magikarp",
+		"gender":"female",
+		"level":30,
+		"caughtTime":"13d 1h 33m",
+		"caughtBall":"safari"
+	},{
+		"species":"Marowak",
+		"type1":"???",
+		"ingame":"AAAGGGJ",
+		"gender":"female",
+		"level":22,
+		"caughtTime":"13d 2h 10m",
+		"caughtBall":"safari"
+	},{
+		"species":"Cascoon",
+		"type1":"???",
+		"ingame":"Cascoon",
+		"gender":"male",
+		"level":26,
+		"caughtTime":"13d 2h 13m",
+		"caughtBall":"safari"
+	},{
+		"species":"Cascoon",
+		"type1":"???",
+		"ingame":"Cascoon",
+		"gender":"male",
+		"level":26,
+		"caughtTime":"13d 2h 19m",
+		"caughtBall":"safari"
+	},{
+		"species":"Tyrogue",
+		"type1":"???",
+		"ingame":"FF",
+		"gender":"male",
+		"level":24,
+		"caughtTime":"13d 2h 21m",
+		"caughtBall":"safari"
+	},{
+		"species":"Cascoon",
+		"type1":"???",
+		"ingame":"Cascoon",
+		"gender":"female",
+		"level":25,
+		"caughtTime":"13d 2h 32m",
+		"caughtBall":"safari"
+	},{
+		"species":"Venasaur",
+		"type1":"???",
+		"ingame":"A",
+		"gender":"male",
+		"level":22,
+		"caughtTime":"13d 3h 25m",
+		"caughtBall":"safari"
+	},{
+		"species":"Mudkip",
+		"type1":"???",
+		"ingame":"Mudkip",
+		"gender":"male",
+		"level":24,
+		"caughtTime":"13d 3h 27m",
+		"caughtBall":"safari"
+	},{
+		"species":"Magcargo",
+		"type1":"???",
+		"ingame":"Magcargo",
+		"gender":"female",
+		"level":22,
+		"caughtTime":"13d 4h 3m",
+		"caughtBall":"safari"
+	},{
+		"species":"Spheal",
+		"type1":"???",
+		"ingame":"AAGG",
+		"gender":"male",
+		"level":31,
+		"caughtTime":"13d 4h 5m",
+		"caughtBall":"safari"
+	},{
+		"species":"Mudkip",
+		"type1":"???",
+		"ingame":"AAAAAAAA",
+		"gender":"male",
+		"level":-1,
+		"caughtTime":"13d 5h 12m",
+		"caughtBall":"safari"
+	},{
+		"species":"Mudkip",
+		"type1":"???",
+		"ingame":"DDPPPWWYYY",
+		"gender":"male",
+		"level":24,
+		"caughtTime":"13d 5h 59m",
+		"caughtBall":"safari"
+	},{
+		"species":"Magcargo",
+		"type1":"???",
+		"ingame":"Magcargo",
+		"gender":"male",
+		"level":22,
+		"caughtTime":"13d 6h 2m",
+		"caughtBall":"safari"
+	},{
+		"species":"Magikarp",
+		"type1":"???",
+		"ingame":"AATCDJJJK_",
+		"gender":"male",
+		"level":30,
+		"caughtTime":"13d 6h 7m",
 		"caughtBall":"safari"
 	}],
 	
