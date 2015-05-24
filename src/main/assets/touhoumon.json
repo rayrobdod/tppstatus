@@ -836,7 +836,7 @@
 	},
 	
 	"eliteFour":[
-		{"name":"Lorelei","wins":17:"losses":13,"firstWin":"12d 5h 56m @ run 6 \\w 5 losses"},
+		{"name":"Lorelei","wins":17,"losses":13,"firstWin":"12d 5h 56m @ run 6 \\w 5 losses"},
 		{"name":"Bruno",  "wins":4,"losses":13,"firstWin":"12d 22h 0m @ run 23 \\w 9 losses"},
 		{"name":"Agatha", "wins":0,"losses":4,"firstWin":""},
 		{"name":"Lance",  "wins":0,"losses":0,"firstWin":""},

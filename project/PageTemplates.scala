@@ -97,9 +97,16 @@ object PageTemplates {
 		Group(
 			Elem(htmlBinding, "tr", Attributes("class" -> "name"), Group.fromSeq(
 				list.map{x =>
+					val (sexText, sexColor) = x.gender.toLowerCase match {
+						case "male" => ("♂", "blue")
+						case "female" => ("♀", "red")
+						case _ => ("", "grey")
+					}
+					
 					Elem(htmlBinding, "td", Attributes(), Group(
 						Text(x.ingame),
 						Elem(htmlBinding, "img", Attributes("width" -> "16", "height" -> "16", "alt" -> x.caughtBall, "src" -> x.caughtBallUrl)),
+						Elem(htmlBinding, "span", Attributes("style" -> ("color:" + sexColor)), Group(Text(sexText))),
 						Elem(htmlBinding, "br"),
 						Text("(" + x.species + ")"),
 						Elem(htmlBinding, "br"),
