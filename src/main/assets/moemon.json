@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"13d 6h 17m",
+	"lastUpdate":"13d 12h 0m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
@@ -990,7 +990,7 @@
 	},{
 		"species":"Mudkip",
 		"type1":"???",
-		"ingame":"GRRRR ",
+		"ingame":"GRRRR░",
 		"gender":"male",
 		"level":24,
 		"caughtTime":"13d 1h 29m",
@@ -1107,11 +1107,115 @@
 		"level":30,
 		"caughtTime":"13d 6h 7m",
 		"caughtBall":"safari"
+	},{
+		"species":"Magcargo",
+		"type1":"???",
+		"ingame":"NGK",
+		"gender":"female",
+		"level":22,
+		"caughtTime":"13d 6h 24m",
+		"caughtBall":"safari"
+	},{
+		"species":"Magcargo",
+		"type1":"???",
+		"ingame":"CEAH",
+		"gender":"male",
+		"level":22,
+		"caughtTime":"13d 6h 38m",
+		"caughtBall":"safari"
+	},{
+		"species":"Spheal",
+		"type1":"???",
+		"ingame":"TMTMMG",
+		"gender":"male",
+		"level":31,
+		"caughtTime":"13d 6h 40m",
+		"caughtBall":"safari"
+	},{
+		"species":"Grovyle",
+		"type1":"???",
+		"ingame":"Grobyle",
+		"gender":"female",
+		"level":25,
+		"caughtTime":"13d 7h 4m",
+		"caughtBall":"safari"
+	},{
+		"species":"Magcargo",
+		"type1":"???",
+		"ingame":"jjjjj",
+		"gender":"female",
+		"level":22,
+		"caughtTime":"13d 7h 22m",
+		"caughtBall":"safari"
+	},{
+		"species":"Linoone",
+		"type1":"???",
+		"ingame":"…………………………",
+		"gender":"male",
+		"level":32,
+		"caughtTime":"13d 7h 30m",
+		"caughtBall":"safari"
+	},{
+		"species":"Baltoy",
+		"type1":"???",
+		"ingame":"AAAAATTTTT",
+		"gender":"male",
+		"level":-1,
+		"caughtTime":"13d 7h 45m",
+		"caughtBall":"safari"
+	},{
+		"species":"Illumise",
+		"type1":"???",
+		"ingame":"MONhtttt",
+		"gender":"female",
+		"level":30,
+		"caughtTime":"13d 7h 51m",
+		"caughtBall":"safari"
+	},{
+		"species":"Wheezing",
+		"type1":"???",
+		"ingame":"TTT",
+		"gender":"female",
+		"level":27,
+		"caughtTime":"13d 7h 54m",
+		"caughtBall":"safari"
+	},{
+		"species":"Illumise",
+		"type1":"???",
+		"ingame":"AAAAAAAABB",
+		"gender":"female",
+		"level":30,
+		"caughtTime":"13d 9h 40m",
+		"caughtBall":"safari"
+	},{
+		"species":"Mudkip",
+		"type1":"???",
+		"ingame":"AMGGAAATMA",
+		"gender":"male",
+		"level":25,
+		"caughtTime":"13d 10h 2m",
+		"caughtBall":"safari"
+	},{
+		"species":"Venasaur",
+		"type1":"???",
+		"ingame":"AAAAAAAAAT",
+		"gender":"female",
+		"level":22,
+		"caughtTime":"13d 10h 6m",
+		"caughtBall":"safari"
+	},{
+		"species":"Shedinja",
+		"type1":"???",
+		"ingame":"WWOVOOOIII",
+		"gender":"genderless",
+		"level":26,
+		"caughtTime":"13d 10h 19m",
+		"caughtBall":"safari"
 	}],
 	
 	"items":{
 		"Normal":[
-			"Nugget",
+			"Nugget ×2",
 			"Moon Stone ×3",
 			"Burn Heal",
 			"BlackGlassses",
