@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"12d 11h 56m",
+	"lastUpdate":"12d 17h 00m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
@@ -22,8 +22,8 @@
 			"Shock Wave (TM)",
 			"Brick Break (TM)"
 		],
-		"nextAttack":"Thunder @ 58",
-		"nextAttacks":["--- @ --"],
+		"nextAttack":"--- @ --",
+		"nextAttacks":[],
 		"ability":"Static",
 		"caughtTime":"7d 20h 6m",
 		"caughtBall":"poke"
@@ -40,8 +40,8 @@
 			"Rock Tomb (TM)",
 			"Cut (TM)"
 		],
-		"nextAttack":"Slash @ 38",
-		"nextAttacks":["Earthquake @ 51","Fissure @ 64"],
+		"nextAttack":"Earthquake @ 51",
+		"nextAttacks":["Fissure @ 64"],
 		"holding":"Nothing",
 		"nature":"Brave",
 		"nickname":[],
@@ -611,6 +611,198 @@
 		"level":-1,
 		"caughtTime":"11d 5h 2m",
 		"caughtBall":"poke"
+	},{
+		"species":"Cacturne",
+		"type1":"???",
+		"ingame":"AAA. Y--",
+		"gender":"female",
+		"level":6,
+		"caughtTime":"12d 12h 44m",
+		"caughtBall":"ultra"
+	},{
+		"species":"Venusaur",
+		"type1":"???",
+		"ingame":"AM",
+		"gender":"male",
+		"level":22,
+		"caughtTime":"12d 13h 55m",
+		"caughtBall":"safari"
+	},{
+		"species":"Spheal",
+		"type1":"???",
+		"ingame":"AANNNHCEKK",
+		"gender":"female",
+		"level":31,
+		"caughtTime":"12d 13h 58m",
+		"caughtBall":"safari"
+	},{
+		"species":"Magikarp",
+		"type1":"???",
+		"ingame":"AAAIIJJ",
+		"gender":"male",
+		"level":30,
+		"caughtTime":"12d 14h 0m",
+		"caughtBall":"safari"
+	},{
+		"species":"Grovyle",
+		"type1":"???",
+		"ingame":"AATTTTTTTT",
+		"gender":"male",
+		"level":25,
+		"caughtTime":"12d 14h 15m",
+		"caughtBall":"safari"
+	},{
+		"species":"Venusaur",
+		"type1":"???",
+		"ingame":"Venusaur",
+		"gender":"male",
+		"level":22,
+		"caughtTime":"12d 14h 28m",
+		"caughtBall":"safari"
+	},{
+		"species":"Grovyle",
+		"type1":"???",
+		"ingame":"AATUMPJ",
+		"gender":"male",
+		"level":25,
+		"caughtTime":"12d 14h 37m",
+		"caughtBall":"safari"
+	},{
+		"species":"Spheal",
+		"type1":"???",
+		"ingame":"AAMzz",
+		"gender":"female",
+		"level":31,
+		"caughtTime":"12d 14h 43m",
+		"caughtBall":"safari"
+	},{
+		"species":"Grovyle",
+		"type1":"???",
+		"ingame":"MMM",
+		"gender":"male",
+		"level":25,
+		"caughtTime":"12d 14h 47m",
+		"caughtBall":"safari"
+	},{
+		"species":"Ivysaur",
+		"type1":"???",
+		"ingame":"AAA",
+		"gender":"male",
+		"level":33,
+		"caughtTime":"12d 14h 54m",
+		"caughtBall":"safari"
+	},{
+		"species":"Cascoon",
+		"type1":"???",
+		"ingame":"Cascoon",
+		"gender":"male",
+		"level":26,
+		"caughtTime":"12d 14h 56m",
+		"caughtBall":"safari"
+	},{
+		"species":"Shedinja",
+		"type1":"???",
+		"ingame":"VVV",
+		"gender":"genderless",
+		"level":26,
+		"caughtTime":"12d 15h 21m",
+		"caughtBall":"safari"
+	},{
+		"species":"Jumpluff",
+		"type1":"???",
+		"ingame":"AATT8KKLLL",
+		"gender":"male",
+		"level":30,
+		"caughtTime":"12d 15h 24m",
+		"caughtBall":"safari"
+	},{
+		"species":"Illumise",
+		"type1":"???",
+		"ingame":"Illumise",
+		"gender":"female",
+		"level":30,
+		"caughtTime":"12d 15h 29m",
+		"caughtBall":"safari"
+	},{
+		"species":"Jumpluff",
+		"type1":"???",
+		"ingame":"Aaahh5A",
+		"gender":"female",
+		"level":30,
+		"caughtTime":"12d 15h 31m",
+		"caughtBall":"safari"
+	},{
+		"species":"Baltoy",
+		"type1":"???",
+		"ingame":"Baltoy",
+		"gender":"genderless",
+		"level":23,
+		"caughtTime":"12d 15h 37m",
+		"caughtBall":"safari"
+	},{
+		"species":"Weezing",
+		"type1":"???",
+		"ingame":"Weezing",
+		"gender":"male",
+		"level":25,
+		"caughtTime":"12d 15h 39m",
+		"caughtBall":"safari"
+	},{
+		"species":"Wurmple",
+		"type1":"???",
+		"ingame":"AABci222u",
+		"gender":"female",
+		"level":26,
+		"caughtTime":"12d 15h 42m",
+		"caughtBall":"safari"
+	},{
+		"species":"Spheal",
+		"type1":"???",
+		"ingame":"3333DDDDD",
+		"gender":"male",
+		"level":31,
+		"caughtTime":"12d 16h 39m",
+		"caughtBall":"safari"
+	},{
+		"species":"Venusaur",
+		"type1":"???",
+		"ingame":"AUUNNNNNNN",
+		"gender":"male",
+		"level":22,
+		"caughtTime":"12d 16h 53m",
+		"caughtBall":"safari"
+	},{
+		"species":"Magcargo",
+		"type1":"???",
+		"ingame":"AAAAAAAATT",
+		"gender":"female",
+		"level":22,
+		"caughtTime":"12d 16h 56m",
+		"caughtBall":"safari"
+	},{
+		"species":"Magikarp",
+		"type1":"???",
+		"ingame":"UU",
+		"gender":"female",
+		"level":30,
+		"caughtTime":"12d 16h 58m",
+		"caughtBall":"safari"
+	},{
+		"species":"Spheal",
+		"type1":"???",
+		"ingame":"Spheal",
+		"gender":"male",
+		"level":31,
+		"caughtTime":"12d 16h 58m",
+		"caughtBall":"safari"
+	},{
+		"species":"Magikarp",
+		"type1":"???",
+		"ingame":"Magikarp",
+		"gender":"female",
+		"level":30,
+		"caughtTime":"12d 16h 59m",
+		"caughtBall":"safari"
 	}],
 	
 	"items":{

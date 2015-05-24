@@ -1,12 +1,12 @@
 {
-	"lastUpdate":"12d 11h 56m",
+	"lastUpdate":"12d 17h 00m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
 	"name":"AAABBHM",
 	"idno":"29177",
 	
-	"checkpoint":"Indigo League",
+	"checkpoint":"Two Island",
 
 	"party":[{
 		"species":"Cirno",
@@ -16,16 +16,16 @@
 		"nature":"Relaxed",
 		"gender":"Female",
 		"ingame":"BB",
-		"level":50,
+		"level":55,
 		"attacks":[
 			"Surf",
-			"Facade (TM)",
+			"Blizzard",
 			"Soar",
 			"Ice Punch"
 		],
 		"holding":"Hard Orb",
-		"nextAttack":"Ice Beam @ 48",
-		"nextAttacks":["Blizzard @ 52"],
+		"nextAttack":"Sheer Cold @ 56",
+		"nextAttacks":["--- @ --"],
 		"caughtTime":"4d 13h 26m",
 		"caughtBall":"Easy"
 	},{
@@ -35,7 +35,7 @@
 		"ability":"Intimidate",
 		"gender":"Male",
 		"ingame":"AUUUUABBBB",
-		"level":55,
+		"level":56,
 		"attacks":[
 			"Fury Cutter",
 			"Cut",
@@ -44,7 +44,7 @@
 		],
 		"caughtTime":"2d 4h 16m",
 		"caughtBall":"Easy",
-		"nextAttack":"Braver @ 56",
+		"nextAttack":"--- @ --",
 		"nextAttacks":[],
 		"holding":"Normal Orb",
 		"nature":"Bold",
@@ -63,8 +63,8 @@
 			"Extrasensory",
 			"Thunder (TM)"
 		],
-		"nextAttack":"???",
-		"nextAttacks":[],
+		"nextAttack":"Silver wind @ 62",
+		"nextAttacks":["--- @ --"],
 		"caughtBall":"Easy",
 		"holding":"Nothing",
 		"nature":"Quiet",
@@ -120,7 +120,7 @@
 		"attacks":[
 			"Shadow Dive",
 			"Shadow Hit",
-			"Taunt",
+			"Dark Pulse",
 			"Scary Face"
 		],
 		"nextAttack":"Shadow Ball @ 56",
@@ -501,6 +501,7 @@
 		"type1":"???",
 		"ability":"???",
 		"ingame":"CMurasa",
+		"holding":"Nothing",
 		"gender":"male",
 		"level":5,
 		"caughtTime":"7d 0h 37m",
