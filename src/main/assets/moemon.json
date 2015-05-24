@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"12d 0h 9m",
+	"lastUpdate":"12d 4h 51m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
@@ -15,7 +15,7 @@
 		"nature":"Impish",
 		"gender":"female",
 		"holding":"Moe Ball",
-		"level":62,
+		"level":71,
 		"attacks":[
 			"Thunderbolt",
 			"Thunder (TM)",
@@ -76,7 +76,7 @@
 		"gender":"Female",
 		"ingame":"Butterbae",
 		"formerIngame":["BUTT", "Butterfree"],
-		"level":50,
+		"level":51,
 		"attacks":[
 			"Confusion",
 			"Psychic",
@@ -97,7 +97,7 @@
 		"ability":"Blaze",
 		"gender":"Female",
 		"ingame":"FFF░░░",
-		"level":62,
+		"level":63,
 		"attacks":[
 			"Wing Attack",
 			"Strength",
@@ -116,7 +116,7 @@
 		"ability":"Water Absorb",
 		"gender":"Female",
 		"ingame":"ACCCIOOWWW",
-		"level":72,
+		"level":81,
 		"attacks":[
 			"Water Pulse",
 			"Aurora Beam",
@@ -670,10 +670,10 @@
 	],
 	
 	"eliteFour":[
-		{"name":"Lorelei","wins":20,"losses":13,"firstWin":"11d 7h 17m @ run 10 @ 9 losses"},
-		{"name":"Bruno",  "wins":14,"losses":6,"firstWin":"11d 8h 38m @ run 13 @ 2 losses"},
-		{"name":"Agatha", "wins":6,"losses":8,"firstWin":"11d 12h 11m @ run 19 @ 3 losses"},
-		{"name":"Lance",  "wins":0,"losses":6,"firstWin":""},
-		{"name":"Green",  "wins":0,"losses":0,"firstWin":""}
+		{"name":"Lorelei","wins":27,"losses":13,"firstWin":"11d 7h 17m @ run 10 @ 9 losses"},
+		{"name":"Bruno",  "wins":21,"losses":6,"firstWin":"11d 8h 38m @ run 13 @ 2 losses"},
+		{"name":"Agatha", "wins":12,"losses":9,"firstWin":"11d 12h 11m @ run 19 @ 3 losses"},
+		{"name":"Lance",  "wins":2,"losses":10,"firstWin":"12d 4h 5m @ run 39 @ 10 losses"},
+		{"name":"Green",  "wins":1,"losses":1,"firstWin":"12d 4h 51m @ run 40 @ 1 losses"}
 	]
 }

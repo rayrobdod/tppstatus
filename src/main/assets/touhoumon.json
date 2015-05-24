@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"12d 0h 9m",
+	"lastUpdate":"12d 4h 51m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
@@ -76,15 +76,15 @@
 		"gender":"Male",
 		"ingame":"Chauzu",
 		"formerIngame":["XXXXXXXQk"],
-		"level":55,
+		"level":56,
 		"attacks":[
 			"Shadow Ball",
 			"Mana Burst (TM)",
 			"Dark Pulse",
 			"Signal Beam"
 		],
-		"nextAttack":"Encore @ 56",
-		"nextAttacks":["Psych Up @ 60","PsychoBoost @ 64","--- @ --"],
+		"nextAttack":"Psych Up @ 60",
+		"nextAttacks":["PsychoBoost @ 64","--- @ --"],
 		"holding":"???",
 		"nature":"Calm",
 		"caughtBall":"Easy",
