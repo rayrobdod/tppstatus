@@ -1,12 +1,12 @@
 {
-	"lastUpdate":"12d 4h 51m",
+	"lastUpdate":"12d 11h 56m",
 	"gameName":"Moémon",
 	"monsterType":"Moémon",
 	
 	"name":"AAtatat",
 	"idno":"42115",
 	
-	"checkpoint":"Indigo League",
+	"checkpoint":"Vermilion",
 	
 	"party":[{
 		"species":"Electabuzz",
@@ -38,7 +38,7 @@
 			"Dig",
 			"Areal Ace (TM)",
 			"Rock Tomb (TM)",
-			"Earthquake (TM)"
+			"Cut (TM)"
 		],
 		"nextAttack":"Slash @ 38",
 		"nextAttacks":["Earthquake @ 51","Fissure @ 64"],
@@ -54,7 +54,7 @@
 		"ability":"Keen Eye",
 		"gender":"Female",
 		"ingame":"T",
-		"level":50,
+		"level":51,
 		"attacks":[
 			"Quick Attack",
 			"Fly",

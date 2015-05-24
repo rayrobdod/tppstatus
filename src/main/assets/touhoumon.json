@@ -1,12 +1,12 @@
 {
-	"lastUpdate":"12d 4h 51m",
+	"lastUpdate":"12d 11h 56m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
 	"name":"AAABBHM",
 	"idno":"29177",
 	
-	"checkpoint":"Three Isle",
+	"checkpoint":"Indigo League",
 
 	"party":[{
 		"species":"Cirno",
@@ -16,7 +16,7 @@
 		"nature":"Relaxed",
 		"gender":"Female",
 		"ingame":"BB",
-		"level":49,
+		"level":50,
 		"attacks":[
 			"Surf",
 			"Facade (TM)",
@@ -35,7 +35,7 @@
 		"ability":"Intimidate",
 		"gender":"Male",
 		"ingame":"AUUUUABBBB",
-		"level":54,
+		"level":55,
 		"attacks":[
 			"Fury Cutter",
 			"Cut",
@@ -56,14 +56,14 @@
 		"ability":"Serene Grace",
 		"gender":"Female",
 		"ingame":"Sanae",
-		"level":55,
+		"level":60,
 		"attacks":[
 			"Water Pulse",
 			"Heat Wave",
 			"Extrasensory",
 			"Thunder (TM)"
 		],
-		"nextAttack":"Aeroblast @ 58",
+		"nextAttack":"???",
 		"nextAttacks":[],
 		"caughtBall":"Easy",
 		"holding":"Nothing",
@@ -76,7 +76,7 @@
 		"gender":"Male",
 		"ingame":"Chauzu",
 		"formerIngame":["XXXXXXXQk"],
-		"level":56,
+		"level":58,
 		"attacks":[
 			"Shadow Ball",
 			"Mana Burst (TM)",
@@ -96,7 +96,7 @@
 		"ingame":"A",
 		"gender":"Female",
 		"type1":"Flying",
-		"level":57,
+		"level":59,
 		"attacks":[
 			"Slash",
 			"Soar",
@@ -835,8 +835,8 @@
 	},
 	
 	"eliteFour":[
-		{"name":"Lorelei","wins":0,"losses":5,"firstWin":""},
-		{"name":"Bruno",  "wins":0,"losses":0,"firstWin":""},
+		{"name":"Lorelei","wins":6,"losses":9,"firstWin":"12d 5h 56m @ run 6 w/ 5 losses"},
+		{"name":"Bruno",  "wins":0,"losses":6,"firstWin":""},
 		{"name":"Agatha", "wins":0,"losses":0,"firstWin":""},
 		{"name":"Lance",  "wins":0,"losses":0,"firstWin":""},
 		{"name":"Green",  "wins":0,"losses":0,"firstWin":""}
