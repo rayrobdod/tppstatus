@@ -759,21 +759,22 @@
 	"daycare":[{
 		"species":"CMeiling",
 		"type1":"Dream",
-		"ability":"???",
+		"ability":"Gate Keeper",
 		"gender":"Female",
 		"ingame":"AM",
-		"level":21,
+		"level":40,
 		"attacks":[
-			"Energy Ball",
-			"Strength",
 			"Low Kick",
-			"Force Palm"
+			"Force Palm",
+			"Rolling Kick",
+			"Block"
 		],
-		"nextAttack":"Rolling Kick @ 25",
-		"nextAttacks":["Block @ 29"],
-		"holding":"Easy Orb",
-		"nature":"???",
-		"nickname":[]
+		"nextAttack":"--- @ --",
+		"nextAttacks":[],
+		"holding":"Awakening",
+		"nature":"Careful",
+		"nickname":[],
+		"caughtBall":"hard"
 	}],
 	
 	"badges":[
