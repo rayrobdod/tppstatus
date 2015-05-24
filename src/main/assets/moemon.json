@@ -862,10 +862,10 @@
 	],
 	
 	"eliteFour":[
-		{"name":"Lorelei","wins":27,"losses":13,"firstWin":"11d 7h 17m @ run 10 @ 9 losses"},
-		{"name":"Bruno",  "wins":21,"losses":6,"firstWin":"11d 8h 38m @ run 13 @ 2 losses"},
-		{"name":"Agatha", "wins":12,"losses":9,"firstWin":"11d 12h 11m @ run 19 @ 3 losses"},
-		{"name":"Lance",  "wins":2,"losses":10,"firstWin":"12d 4h 5m @ run 39 @ 10 losses"},
-		{"name":"Green",  "wins":1,"losses":1,"firstWin":"12d 4h 51m @ run 40 @ 1 losses"}
+		{"name":"Lorelei","wins":27,"losses":13,"firstWin":"11d 7h 17m  @ run 10 \\w 9 losses"},
+		{"name":"Bruno",  "wins":21,"losses":6, "firstWin":"11d 8h 38m  @ run 13 \\w 2 losses"},
+		{"name":"Agatha", "wins":12,"losses":9, "firstWin":"11d 12h 11m @ run 19 \\w 3 losses"},
+		{"name":"Lance",  "wins":2, "losses":10,"firstWin":"12d 4h 5m   @ run 39 \\w 10 losses"},
+		{"name":"Green",  "wins":1, "losses":1, "firstWin":"12d 4h 51m  @ run 40 \\w 1 losses"}
 	]
 }
