@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"12d 17h 00m",
+	"lastUpdate":"13d 0h 30m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
@@ -20,12 +20,12 @@
 		"attacks":[
 			"Surf",
 			"Blizzard",
-			"Soar",
+			"Sheer Cold",
 			"Ice Punch"
 		],
 		"holding":"Hard Orb",
-		"nextAttack":"Sheer Cold @ 56",
-		"nextAttacks":["--- @ --"],
+		"nextAttack":"--- @ --",
+		"nextAttacks":[],
 		"caughtTime":"4d 13h 26m",
 		"caughtBall":"Easy"
 	},{
@@ -35,7 +35,7 @@
 		"ability":"Intimidate",
 		"gender":"Male",
 		"ingame":"AUUUUABBBB",
-		"level":56,
+		"level":58,
 		"attacks":[
 			"Fury Cutter",
 			"Cut",
@@ -56,15 +56,15 @@
 		"ability":"Serene Grace",
 		"gender":"Female",
 		"ingame":"Sanae",
-		"level":60,
+		"level":65,
 		"attacks":[
 			"Water Pulse",
 			"Heat Wave",
 			"Extrasensory",
 			"Thunder (TM)"
 		],
-		"nextAttack":"Silver wind @ 62",
-		"nextAttacks":["--- @ --"],
+		"nextAttack":"--- @ --",
+		"nextAttacks":[],
 		"caughtBall":"Easy",
 		"holding":"Nothing",
 		"nature":"Quiet",
@@ -76,15 +76,15 @@
 		"gender":"Male",
 		"ingame":"Chauzu",
 		"formerIngame":["XXXXXXXQk"],
-		"level":58,
+		"level":60,
 		"attacks":[
 			"Shadow Ball",
-			"Mana Burst (TM)",
+			"Mana Burst",
 			"Dark Pulse",
 			"Signal Beam"
 		],
-		"nextAttack":"Psych Up @ 60",
-		"nextAttacks":["PsychoBoost @ 64","--- @ --"],
+		"nextAttack":"PsychoBoost @ 64",
+		"nextAttacks":["--- @ --"],
 		"holding":"???",
 		"nature":"Calm",
 		"caughtBall":"Easy",
@@ -96,7 +96,7 @@
 		"ingame":"A",
 		"gender":"Female",
 		"type1":"Flying",
-		"level":59,
+		"level":60,
 		"attacks":[
 			"Slash",
 			"Soar",
@@ -116,7 +116,7 @@
 		"ability":"Pressure",
 		"gender":"female",
 		"holding":"Nothing",
-		"level":52,
+		"level":55,
 		"attacks":[
 			"Shadow Dive",
 			"Shadow Hit",
@@ -836,9 +836,9 @@
 	},
 	
 	"eliteFour":[
-		{"name":"Lorelei","wins":6,"losses":9,"firstWin":"12d 5h 56m @ run 6 \\w 5 losses"},
-		{"name":"Bruno",  "wins":0,"losses":6,"firstWin":""},
-		{"name":"Agatha", "wins":0,"losses":0,"firstWin":""},
+		{"name":"Lorelei","wins":11,"losses":13,"firstWin":"12d 5h 56m @ run 6 \\w 5 losses"},
+		{"name":"Bruno",  "wins":1,"losses":10,"firstWin":"12d 22h 0m @ run 23 \\w 9 losses"},
+		{"name":"Agatha", "wins":0,"losses":1,"firstWin":""},
 		{"name":"Lance",  "wins":0,"losses":0,"firstWin":""},
 		{"name":"Green",  "wins":0,"losses":0,"firstWin":""}
 	]
