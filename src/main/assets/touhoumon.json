@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"11d 21h 7m",
+	"lastUpdate":"12d 0h 9m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
@@ -743,6 +743,14 @@
 		"gender":"male",
 		"level":31,
 		"caughtTime":"11d 15h 3m",
+		"caughtBall":"???"
+	},{
+		"species":"CMedicine",
+		"type1":"???",
+		"ingame":"CCirno",
+		"gender":"male",
+		"level":-1,
+		"caughtTime":"11d 21h 59m",
 		"caughtBall":"???"
 	}],
 	
