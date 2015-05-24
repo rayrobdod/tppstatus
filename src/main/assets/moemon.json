@@ -9,25 +9,6 @@
 	"checkpoint":"Vermilion",
 	
 	"party":[{
-		"species":"Electabuzz",
-		"type1":"Electric",
-		"ingame":"AAAVX",
-		"nature":"Impish",
-		"gender":"female",
-		"holding":"Moe Ball",
-		"level":71,
-		"attacks":[
-			"Thunderbolt",
-			"Thunder (TM)",
-			"Shock Wave (TM)",
-			"Brick Break (TM)"
-		],
-		"nextAttack":"--- @ --",
-		"nextAttacks":[],
-		"ability":"Static",
-		"caughtTime":"7d 20h 6m",
-		"caughtBall":"poke"
-	},{
 		"species":"Dugtrio",
 		"type1":"Ground",
 		"ability":"Arena Trap",
@@ -47,6 +28,26 @@
 		"nickname":[],
 		"caughtTime":"3d 6h 2m",
 		"caughtBall":"poke"
+	},{
+		"species":"Vaporeon",
+		"type1":"Water",
+		"ability":"Water Absorb",
+		"gender":"Female",
+		"ingame":"ACCCIOOWWW",
+		"level":81,
+		"attacks":[
+			"Water Pulse",
+			"Aurora Beam",
+			"Surf",
+			"Blizzard (TM)"
+		],
+		"holding":"Awakening",
+		"nextAttack":"--- @ --",
+		"nextAttacks":[],
+		"nature":"Quiet",
+		"nickname":["Accio"],
+		"caughtTime":"4d 23m 58m",
+		"caughtBall":"Poke"
 	},{
 		"species":"Pidgeot",
 		"type1":"Normal",
@@ -111,25 +112,24 @@
 		"nickname":["Effie", "White"],
 		"caughtBall":"Poke"
 	},{
-		"species":"Vaporeon",
-		"type1":"Water",
-		"ability":"Water Absorb",
-		"gender":"Female",
-		"ingame":"ACCCIOOWWW",
-		"level":81,
+		"species":"Electabuzz",
+		"type1":"Electric",
+		"ingame":"AAAVX",
+		"nature":"Impish",
+		"gender":"female",
+		"holding":"Moe Ball",
+		"level":71,
 		"attacks":[
-			"Water Pulse",
-			"Aurora Beam",
-			"Surf",
-			"Blizzard (TM)"
+			"Thunderbolt",
+			"Thunder (TM)",
+			"Shock Wave (TM)",
+			"Brick Break (TM)"
 		],
-		"holding":"Awakening",
 		"nextAttack":"--- @ --",
 		"nextAttacks":[],
-		"nature":"Quiet",
-		"nickname":["Accio"],
-		"caughtTime":"4d 23m 58m",
-		"caughtBall":"Poke"
+		"ability":"Static",
+		"caughtTime":"7d 20h 6m",
+		"caughtBall":"poke"
 	}],
 	
 	"box":[{

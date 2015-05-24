@@ -9,6 +9,26 @@
 	"checkpoint":"Indigo Plateau",
 
 	"party":[{
+		"species":"Sanae",
+		"type1":"Faith",
+		"type2":"Wind",
+		"ability":"Serene Grace",
+		"gender":"Female",
+		"ingame":"Sanae",
+		"level":79,
+		"attacks":[
+			"Water Pulse",
+			"Heat Wave",
+			"Extrasensory",
+			"Thunder (TM)"
+		],
+		"nextAttack":"--- @ --",
+		"nextAttacks":[],
+		"caughtBall":"Easy",
+		"holding":"Nothing",
+		"nature":"Quiet",
+		"nickname":[]
+	},{
 		"species":"Cirno",
 		"type1":"Ice",
 		"type2":"Flying",
@@ -50,41 +70,21 @@
 		"nature":"Bold",
 		"nickname":["AWOO", "Wood", "Anubis"]
 	},{
-		"species":"Sanae",
-		"type1":"Faith",
-		"type2":"Wind",
-		"ability":"Serene Grace",
-		"gender":"Female",
-		"ingame":"Sanae",
-		"level":79,
-		"attacks":[
-			"Water Pulse",
-			"Heat Wave",
-			"Extrasensory",
-			"Thunder (TM)"
-		],
-		"nextAttack":"--- @ --",
-		"nextAttacks":[],
-		"caughtBall":"Easy",
-		"holding":"Nothing",
-		"nature":"Quiet",
-		"nickname":[]
-	},{
 		"species":"Satori",
 		"type1":"Heart",
 		"ability":"Trace",
 		"gender":"Male",
 		"ingame":"Chauzu",
 		"formerIngame":["XXXXXXXQk"],
-		"level":63,
+		"level":64,
 		"attacks":[
 			"Shadow Ball",
 			"Mana Burst",
 			"Dark Pulse",
 			"Signal Beam"
 		],
-		"nextAttack":"PsychoBoost @ 64",
-		"nextAttacks":["--- @ --"],
+		"nextAttack":"--- @ --",
+		"nextAttacks":[],
 		"holding":"Blazer",
 		"nature":"Calm",
 		"caughtBall":"Easy",
@@ -117,14 +117,14 @@
 		"ability":"Pressure",
 		"gender":"female",
 		"holding":"Nothing",
-		"level":58,
+		"level":59,
 		"attacks":[
 			"Shadow Dive",
 			"Shadow Hit",
 			"Dark Pulse",
 			"Shadow Ball"
 		],
-		"nextAttack":"???",
+		"nextAttack":"Curse @ 60",
 		"caughtTime":"9d 3h 31m",
 		"caughtBall":"lunatic",
 		"nickname":["Isamima"]
