@@ -1,5 +1,5 @@
 {
-	"lastUpdate":"13d 12h 0m",
+	"lastUpdate":"13d 15h 44m",
 	"gameName":"Touhoumon Puppet Play",
 	"monsterType":"Bokéna",
 	
@@ -16,7 +16,7 @@
 		"nature":"Relaxed",
 		"gender":"Female",
 		"ingame":"BB",
-		"level":59,
+		"level":60,
 		"attacks":[
 			"Surf",
 			"Blizzard",
@@ -35,7 +35,7 @@
 		"ability":"Intimidate",
 		"gender":"Male",
 		"ingame":"AUUUUABBBB",
-		"level":61,
+		"level":64,
 		"attacks":[
 			"Fury Cutter",
 			"Cut",
@@ -56,7 +56,7 @@
 		"ability":"Serene Grace",
 		"gender":"Female",
 		"ingame":"Sanae",
-		"level":75,
+		"level":79,
 		"attacks":[
 			"Water Pulse",
 			"Heat Wave",
@@ -85,7 +85,7 @@
 		],
 		"nextAttack":"PsychoBoost @ 64",
 		"nextAttacks":["--- @ --"],
-		"holding":"???",
+		"holding":"Blazer",
 		"nature":"Calm",
 		"caughtBall":"Easy",
 		"nickname":[]
@@ -96,7 +96,7 @@
 		"ingame":"A",
 		"gender":"Female",
 		"type1":"Flying",
-		"level":62,
+		"level":63,
 		"attacks":[
 			"Slash",
 			"Soar",
@@ -113,6 +113,7 @@
 		"type1":"Ghost",
 		"type2":"Dark",
 		"ingame":"Mima",
+		"nature":"Naughty",
 		"ability":"Pressure",
 		"gender":"female",
 		"holding":"Nothing",
@@ -836,10 +837,10 @@
 	},
 	
 	"eliteFour":[
-		{"name":"Lorelei","wins":26,"losses":13,"firstWin":"12d 5h 56m @ run 6 \\w 5 losses"},
-		{"name":"Bruno",  "wins":10,"losses":16,"firstWin":"12d 22h 0m @ run 23 \\w 9 losses"},
-		{"name":"Agatha", "wins":0,"losses":10,"firstWin":""},
-		{"name":"Lance",  "wins":0,"losses":0,"firstWin":""},
-		{"name":"Green",  "wins":0,"losses":0,"firstWin":""}
+		{"name":"Lorelei","wins":31,"losses":13,"firstWin":"12d 5h 56m @ run 6 \\w 5 losses"},
+		{"name":"Bruno",  "wins":13,"losses":18,"firstWin":"12d 22h 0m @ run 23 \\w 9 losses"},
+		{"name":"Agatha", "wins":2,"losses":11,"firstWin":"13d 13h 40m @ run 42 \\w 11 losses"},
+		{"name":"Lance",  "wins":1,"losses":1,"firstWin":"13d 15h 36m @ run 44 \\w 1 loss"},
+		{"name":"Green",  "wins":1,"losses":0,"firstWin":"13d 15h 44m @ run 44 \\w 0 losses"}
 	]
 }
