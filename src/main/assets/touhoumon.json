@@ -167,7 +167,7 @@
 		"level":-1,
 		"caughtTime":"0d 7h 40m"
 	},{
-		"species":"CNarzin",
+		"species":"CNazrin",
 		"type1":"Beast",
 		"ability":"Pickup",
 		"nature":"Adamant",
@@ -198,7 +198,7 @@
 		"level":17,
 		"caughtTime":"3d 8h 29m"
 	},{
-		"species":"CMystica",
+		"species":"CMystia",
 		"type1":"???",
 		"type2":"???",
 		"ability":"???",
@@ -602,7 +602,7 @@
 		"caughtTime":"8d 21h 6m",
 		"caughtBall":"normal"
 	},{
-		"species":"CEirinm",
+		"species":"CEirin",
 		"type1":"???",
 		"ingame":"AAAAA",
 		"gender":"female",

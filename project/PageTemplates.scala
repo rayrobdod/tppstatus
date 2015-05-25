@@ -217,5 +217,68 @@ object PageTemplates {
 	private def wrapStringInTd(x:String) = {
 		Elem(htmlBinding, "td",  Attributes(), Group(Text(x)))
 	}
+	
+	/**************************************************************/
+	
+	def tppOrgSql(pageData:PageData):String = {
+		val ballSuffix = if (pageData.monsterType == "Bokéna") {" Orb"} else {" Ball"}
+		
+		"INSERT INTO `pokemon` (`id`, `pokemon`, `name`, `level`, `nickname`, `gender`, `hold_item`, `status`, `box_id`, `poke_ball`, `party_order`, `comment`, `date_created`) VALUES" +
+		(
+			pageData.party.zipWithIndex.map{x => tppOrgSqlPokemonRow(1 + x._2, 1, x._1, ballSuffix, x._2)} ++
+			pageData.daycare.zipWithIndex.map{x => tppOrgSqlPokemonRow(10 + x._2, 6, x._1, ballSuffix)} ++
+			pageData.box.zipWithIndex.map{x => tppOrgSqlPokemonRow(20 + x._2, 2, x._1, ballSuffix)}
+		).foldLeft(""){_ + ",\n" + _}.tail +
+		"\n\n\n\n" +
+		"INSERT INTO `badge` (`id`, `name`, `leader`, `time`, `attempts`, `order_id`) VALUES" +
+		pageData.badges.zipWithIndex.map{x => tppOrgSqlBadgeRow(1 + x._2, x._1)}.foldLeft(""){_ + ",\n" + _}.tail
+		
+	}
+	
+	/*
+	INSERT INTO `status` (`id`, `status`) VALUES
+	(1, 'In party'),
+	(2, 'In box'),
+	(3, 'Released'),
+	(4, 'Traded'),
+	(5, 'Evolved'),
+	(6, 'Daycare'),
+	(7, 'Hatched'),
+	(9, 'Lost');
+	*/
+	
+	private def tppOrgSqlPokemonRow(id:Int, status:Int, pkmn:Pokemon, ballSuffix:String, partyOrder:Int = 999):String = {
+		val hasIngameBool:Boolean = (pkmn.ingame != pkmn.species);
+		val hasIngameStr:String = if (hasIngameBool) {"'" + pkmn.ingame + "'"} else {"NULL"}
+		val nicknameStr:String = if (pkmn.nickname.isEmpty) {"NULL"} else {"'" + pkmn.nickname.foldLeft("")(_ + "%" + _).tail + "'"}
+		val genderStr:String = if (pkmn.gender.toLowerCase == "male") {"'m'"} else if (pkmn.gender.toLowerCase == "female") {"'f'"} else {"NULL"}
+		val ball = pkmn.caughtBall.head.toString.toUpperCase + pkmn.caughtBall.split("_").apply(0).tail.toLowerCase + ballSuffix
+		
+		"(" +
+			id + ", '" + pkmn.species + "', " + hasIngameStr + ", " +
+			pkmn.level + ", " + nicknameStr + ", " + genderStr + ", '" +
+			pkmn.holding + "', " + status + ", NULL, '" + ball + "', " +
+			partyOrder + ", '" + pkmn.caughtTime + "', '0000-00-00 00:00:00'" +
+		")"
+	}
+	
+	private def tppOrgSqlBadgeRow(id:Int, badge:Badge):String = {
+		val leader = badge.name match {
+			case "Boulder" => "Brock"
+			case "Cascade" => "Misty"
+			case "Thunder" => "Lt. Surge"
+			case "Rainbow" => "Erika"
+			case "Soul" => "Koga"
+			case "Marsh" => "Sabrina"
+			case "Volcano" => "Blaine"
+			case "Earth" => "Giovanni"
+		}
+		val time = ""
+		
+		"(" +
+			id + ", '" + badge.name + "', '" + leader + "', '" +
+			time + "', " + badge.attempts + ", " + id +
+		")"
+	}
 }
 

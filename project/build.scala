@@ -11,6 +11,7 @@ object MyBuild extends Build {
 	
 	val dataFiles = TaskKey[Seq[File]]("dataFiles")
 	val dataObjects = TaskKey[Seq[PageData]]("dataObjects")
+	val sql = TaskKey[Seq[File]]("sql")
 	val pages = TaskKey[Seq[File]]("pages")
 	
 	
@@ -55,7 +56,7 @@ object MyBuild extends Build {
 		},
 		pages in Assets := {
 			val pageInfos = (dataObjects in Assets).value
-			streams.value.log.info("Creating " + pageInfos.size + " pages")
+			streams.value.log.info("Creating " + pageInfos.size + " html pages")
 			
 			pageInfos.map({(pageInfo:PageData) =>
 				val fileName = (resourceManaged in Assets).value / pageInfo.fileName
@@ -64,6 +65,20 @@ object MyBuild extends Build {
 				
 				IO.createDirectory(fileName.getParentFile)
 				IO.write(fileName, elem.toString, UTF_8)
+				fileName
+			})
+		},
+		sql := {
+			val pageInfos = (dataObjects in Assets).value
+			streams.value.log.info("Creating " + pageInfos.size + " sql script pages")
+			
+			pageInfos.map({(pageInfo:PageData) =>
+				val fileName = (target).value / "sql" / pageInfo.fileName.replace(".xhtml", ".sql")
+				
+				val str = PageTemplates.tppOrgSql(pageInfo).replace("\r\n", "\n").replace("\n", "\r\n")
+				
+				IO.createDirectory(fileName.getParentFile)
+				IO.write(fileName, str, UTF_8)
 				fileName
 			})
 		},

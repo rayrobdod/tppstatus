@@ -1,0 +1,48 @@
+val obj = {
+      import com.rayrobdod.tpporg.PageDataBuilder
+      import com.rayrobdod.json.parser.JsonParser
+      
+      {
+        var r:java.io.Reader = new java.io.StringReader("{}"); 
+        try {
+          r = Files.newBufferedReader(fileName.toPath, UTF_8)
+          
+          new JsonParser(new PageDataBuilder()).parse(r)
+        } catch {
+          case _:java.text.ParseException => {
+            null
+          }
+          case e:IllegalArgumentException => {
+            null
+          }
+        } finally {
+          r.close();
+        }
+      }
+}
+
+
+(obj.party ++ obj.box ++ obj.daycare).map{_.species}.to[scala.collection.immutable.TreeSet].map{x =>
+  ((x,
+    if (x == "CSunny") {"C-Sunny_Milk"} else
+    if (x == "CStar") {"C-Star_Sapphire"} else
+    if (x == "CRin") {"Chibi_Rin"} else
+    if (x == "CEirin") {"Chibi_Eirin"} else
+    if (x == "CYousei") {"C-Daiyousei"} else
+    if (x == "Yousei") {"Daiyousei"} else
+    if (x == "CByakuren") {"C-Hijiri"} else
+    if (x == "Cirno") {"Cirno"} else
+    if (x.head == 'C') {"C-" + x.tail} else
+    {x}
+  ))
+}.toSeq.map{x => ((
+  new java.io.File("""C:\Users\Raymond\AppData\Local\Temp\Iron\touhoumon\""" + x._1 + ".png"),
+  new java.net.URL("""http://thpp.supersanctuary.net/w//images/""" + x._2 + ".png")
+))}.foreach{x =>
+  System.out.println(x)
+  val (to, from) = x;
+  val fromStream = from.openStream()
+  val toPath = to.toPath
+  java.nio.file.Files.copy(fromStream, toPath, java.nio.file.StandardCopyOption.REPLACE_EXISTING)
+}
+
