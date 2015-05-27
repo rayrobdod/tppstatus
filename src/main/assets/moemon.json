@@ -110,6 +110,7 @@
 		"holding":"Potion",
 		"nature":"Naughty",
 		"nickname":["Effie", "White"],
+		"caughtTime":"0d 0h 6m",
 		"caughtBall":"Poke"
 	},{
 		"species":"Electabuzz",
@@ -133,29 +134,139 @@
 	}],
 	
 	"box":[{
-		"species":"Rattata",
-		"type1":"Normal",
-		"nature":"Lax",
-		"ability":"Guts",
-		"ingame":"TTUUVVVVC",
-		"level":-1,
-		"caughtTime":"0d 3h 46m",
-		"caughtBall":"poke"
+		"species":"Zubat",
+		"type1":"Poison",
+		"type2":"Flying",
+		"gender":"Female",
+		"nature":"Bold",
+		"ability":"Inner Focus",
+		"ingame":"Zubat",
+		"holding":"Nothing",
+		"level":9,
+		"caughtTime":"1d 12h 58m",
+		"caughtBall":"Poke"
+	},{
+		"species":"Zubat",
+		"type1":"Poison",
+		"type2":"Flying",
+		"gender":"Female",
+		"nature":"Adamaant",
+		"ability":"Inner Focus",
+		"ingame":"AAAABBNNNN",
+		"holding":"Nothing",
+		"level":9,
+		"caughtTime":"1d 14h 16m",
+		"caughtBall":"Poke"
+	},{
+		"species":"Geodude",
+		"type1":"Rock",
+		"type2":"Ground",
+		"gender":"Female",
+		"nature":"Modest",
+		"ability":"Sturdy",
+		"ingame":"5",
+		"holding":"Nothing",
+		"level":9,
+		"caughtTime":"1d 14h 34m",
+		"caughtBall":"Poke"
+	},{
+		"species":"Zubat",
+		"type1":"Poison",
+		"type2":"Flying",
+		"gender":"Female",
+		"nature":"Relaxed",
+		"ability":"Inner Focus",
+		"ingame":"Zubat",
+		"level":11,
+		"caughtTime":"1d 14h 36m",
+		"caughtBall":"Poke"
+	},{
+		"species":"Zubat",
+		"type1":"Poison",
+		"type2":"Flying",
+		"gender":"Female",
+		"nature":"Hasty",
+		"ability":"Inner Focus",
+		"ingame":"MMMGGAUUUO",
+		"level":10,
+		"caughtTime":"1d 14h 45m",
+		"caughtBall":"Poke"
 	},{
 		"species":"Rattata",
 		"type1":"Normal",
-		"ability":"???",
+		"gender":"Female",
+		"ability":"Run Away",
 		"nature":"Calm",
 		"ingame":"Rattata",
-		"level":-1,
+		"holding":"Nothing",
+		"level":6,
 		"caughtTime":"0d 4h 06m",
 		"caughtBall":"poke"
 	},{
+		"species":"Ekans",
+		"type1":"Poison",
+		"gender":"Female",
+		"nature":"Gentle",
+		"ability":"Intimidate",
+		"ingame":"Ekans",
+		"holding":"Nothing",
+		"level":6,
+		"caughtTime":"2d 2h 39m",
+		"caughtBall":"Poke"
+	},{
+		"species":"Ekans",
+		"type1":"Poison",
+		"gender":"Female",
+		"nature":"Gentle",
+		"ability":"Shed Skin",
+		"ingame":"Ekans",
+		"holding":"Nothing",
+		"level":8,
+		"caughtTime":"2d 2h 55m",
+		"caughtBall":"Poke"
+	},{
+		"species":"Pidgey",
+		"type1":"Normal",
+		"type2":"Flying",
+		"gender":"Female",
+		"nature":"Relaxed",
+		"ability":"Keen Eye",
+		"holding":"Nothing",
+		"ingame":"Pidgey",
+		"level":15,
+		"caughtTime":"2d 8h 17m",
+		"caughtBall":"Poke"
+	},{
+		"species":"Abra",
+		"type1":"Psychic",
+		"gender":"Female",
+		"nature":"Timid",
+		"ability":"Inner Focus",
+		"holding":"Nothing",
+		"ingame":"Abra",
+		"level":8,
+		"caughtTime":"2d 17h 57m",
+		"caughtBall":"Poke"
+	},{
+		"species":"Weedle",
+		"type1":"Bug",
+		"type2":"Poison",
+		"gender":"Female",
+		"nature":"Docile",
+		"ability":"Shield Dust",
+		"ingame":"AACBBBHCCC",
+		"level":7,
+		"caughtTime":"2d 18h 3m",
+		"caughtBall":"Poke"
+	},{
 		"species":"Magikarp",
 		"type1":"Water",
-		"ability":"???",
+		"gender":"Female",
+		"nature":"Hasty",
+		"ability":"Swift Swim",
 		"ingame":"AA",
 		"level":6,
+		"holding":"TM09 (Bullet Seed)",
 		"caughtTime":"0d 23h 22m",
 		"caughtBall":"Poke",
 		"attacks":[
@@ -165,129 +276,107 @@
 			"---"
 		]
 	},{
-		"species":"Zubat",
-		"type1":"Poison",
-		"type2":"Flying",
-		"ability":"???",
-		"ingame":"Zubat",
-		"level":-1,
-		"caughtTime":"1d 14h 16m"
-	},{
-		"species":"Geodude",
-		"type1":"???",
-		"type2":"???",
-		"ability":"???",
-		"ingame":"Geodude",
-		"level":9,
-		"caughtTime":"1d 14h 34m"
-	},{
-		"species":"Zubat",
-		"type1":"Poison",
-		"type2":"Flying",
-		"ability":"???",
-		"ingame":"Zubat",
-		"level":11,
-		"caughtTime":"1d 14h 36m"
-	},{
-		"species":"Zubat",
-		"type1":"Poison",
-		"type2":"Flying",
-		"ability":"???",
-		"ingame":"MMMGGAUUUO",
-		"level":10,
-		"caughtTime":"1d 14h 45m"
-	},{
 		"species":"Ekans",
 		"type1":"Poison",
-		"ability":"???",
+		"gender":"Female",
+		"nature":"Impish",
+		"ability":"Intimidate",
 		"ingame":"A",
-		"level":-1,
-		"caughtTime":"2d 2h 33m"
-	},{
-		"species":"Ekans",
-		"type1":"Poison",
-		"ability":"???",
-		"ingame":"Ekans",
-		"level":8,
-		"caughtTime":"2d 2h 55m"
-	},{
-		"species":"Pidgey",
-		"type1":"Normal",
-		"type2":"Flying",
-		"ability":"???",
-		"ingame":"Pidgey",
-		"level":15,
-		"caughtTime":"2d 8h 17m"
-	},{
-		"species":"Abra",
-		"type1":"???",
-		"type2":"???",
-		"ability":"???",
-		"ingame":"Abra",
-		"level":8,
-		"caughtTime":"2d 17h 57m"
-	},{
-		"species":"Weedle",
-		"type1":"???",
-		"type2":"???",
-		"ability":"???",
-		"ingame":"AACBBBHCCC",
-		"level":7,
-		"caughtTime":"2d 18h 3m"
-	},{
-		"species":"Pidgey",
-		"type1":"Normal",
-		"type2":"Flying",
-		"ability":"???",
-		"ingame":"AAAAATTTTT",
-		"level":11,
-		"caughtTime":"2d 20h 32m"
+		"holding":"Moe Ball",
+		"level":6,
+		"caughtTime":"2d 2h 33m",
+		"caughtBall":"Poke"
 	},{
 		"species":"Spearow",
 		"type1":"Normal",
 		"type2":"Flying",
-		"ability":"???",
+		"gender":"Female",
+		"nature":"Modest",
+		"ability":"Keen Eye",
+		"holding":"Nothing",
 		"ingame":"ATTTTZ░░ST",
 		"level":8,
-		"caughtTime":"2d 22h 13m"
+		"caughtTime":"2d 22h 13m",
+		"caughtBall":"Poke"
 	},{
 		"species":"Rattata",
 		"type1":"Normal",
-		"ability":"???",
+		"gender":"Female",
+		"nature":"Relaxed",
+		"ability":"Run Away",
+		"holding":"Nothing",
 		"ingame":"Rattata",
 		"level":10,
-		"caughtTime":"2d 22h 21m"
+		"caughtTime":"2d 22h 21m",
+		"caughtBall":"Poke"
 	},{
 		"species":"Spearow",
 		"type1":"Normal",
 		"type2":"Flying",
-		"ability":"???",
+		"gender":"Female",
+		"nature":"Docile",
+		"ability":"Keen Eye",
+		"holding":"Nothing",
 		"ingame":"░!♂6????♂_",
 		"level":10,
-		"caughtTime":"2d 22h 34m"
+		"caughtTime":"2d 22h 34m",
+		"caughtBall":"Poke"
 	},{
 		"species":"Ekans",
 		"type1":"Poison",
-		"ability":"???",
+		"gender":"Female",
+		"nature":"Sassy",
+		"ability":"Shed Skin",
+		"holding":"Nothing",
 		"ingame":"░░░....░..",
 		"level":10,
-		"caughtTime":"2d 2h 42m"
+		"caughtTime":"2d 2h 42m",
+		"caughtBall":"Poke"
 	},{
 		"species":"Pikachu",
-		"type1":"???",
-		"type2":"???",
-		"ability":"???",
+		"type1":"Electric",
+		"gender":"Female",
+		"nature":"Serious",
+		"ability":"Static",
+		"holding":"Nothing",
 		"ingame":"bbD",
 		"level":3,
-		"caughtTime":"3d 7h 46m"
+		"caughtTime":"3d 7h 46m",
+		"caughtBall":"Poke"
+	},{
+		"species":"Pidgey",
+		"type1":"Normal",
+		"type2":"Flying",
+		"gender":"Female",
+		"nature":"Brave",
+		"ability":"Keen Eye",
+		"holding":"Nothing",
+		"ingame":"AAAAATTTTT",
+		"level":11,
+		"caughtTime":"2d 20h 32m",
+		"caughtBall":"Poke"
+	},{
+		"species":"Rattata",
+		"type1":"Normal",
+		"gender":"Female",
+		"nature":"Lax",
+		"ability":"Guts",
+		"holding":"Nothing",
+		"ingame":"TTUUVVVVC",
+		"level":11,
+		"caughtTime":"0d 3h 46m",
+		"caughtBall":"poke"
 	},{
 		"species":"Hitmonchan",
 		"type1":"Fighting",
-		"ability":"Keen Eye",
 		"gender":"Male",
+		"nature":"Serious",
+		"ability":"Keen Eye",
+		"holding":"Nothing",
 		"ingame":"Fff",
 		"level":25,
-		"caughtTime":"5d 12h 46m"
+		"caughtTime":"5d 12h 46m",
+		"caughtBall":"poke"
 	},{
 		"species":"Exeggcute",
 		"type1":"Grass",
