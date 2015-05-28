@@ -41,8 +41,8 @@ object MyBuild extends Build {
 					new JsonParser(new PageDataBuilder()).parse(r)
 							.copy(fileName = baseDir.relativize(fileName.toPath).toString.dropRight(4) + "xhtml")
 				} catch {
-					case _:java.text.ParseException => {
-						streams.value.log.error("Could not read file " + fileName)
+					case e:java.text.ParseException => {
+						streams.value.log.error("Could not read file " + fileName + "\n" + e.getMessage)
 						null
 					}
 					case e:IllegalArgumentException => {

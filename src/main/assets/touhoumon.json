@@ -24,6 +24,7 @@
 		],
 		"nextAttack":"--- @ --",
 		"nextAttacks":[],
+		"caughtTime":"0d 0h 7m",
 		"caughtBall":"Easy",
 		"holding":"Nothing",
 		"nature":"Quiet",
@@ -104,6 +105,7 @@
 			"Fly"
 		],
 		"nextAttack":"--- @ --",
+		"caughtTime":"0d 4h 6m",
 		"caughtBall":"Easy",
 		"holding":"Nothing",
 		"nature":"Naive",
@@ -129,25 +131,75 @@
 		"caughtBall":"lunatic",
 		"nickname":["Isamima"]
 	}],
-
+	
 	"box":[{
-		"species":"CDaiyousei",
-		"type1":"Native",
-		"ability":"Run Away",
-		"nature":"Quiet",
+		"species":"CSunny",
+		"type1":"Fire",
 		"gender":"Female",
-		"ingame":"CDaiyousei",
-		"level":5,
-		"caughtTime":"0d 7h 38m",
-		"caughtBall":"easy"
+		"nature":"Modest",
+		"ability":"Vital Spirit",
+		"ingame":"CSunny",
+		"holding":"Nothing",
+		"level":4,
+		"caughtTime":"0d 7h 40m",
+		"caughtBall":"Easy"
+	},{
+		"species":"CSunny",
+		"type1":"Fire",
+		"gender":"Male",
+		"nature":"Serious",
+		"ability":"Vital Spirit",
+		"ingame":"CSunny",
+		"holding":"Nothing",
+		"level":3,
+		"caughtTime":"0d 7h 49m",
+		"caughtBall":"Easy"
+	},{
+		"species":"CTokiko",
+		"type1":"Flying",
+		"nature":"Mild",
+		"ability":"'Keen Eye' (Spearow)",
+		"ingame":"AAT",
+		"gender":"Male",
+		"holding":"Nothing",
+		"level":3,
+		"caughtTime":"0d 8h 39m",
+		"caughtBall":"Easy"
+	},{
+		"species":"CNarzin",
+		"type1":"Beast",
+		"nature":"Bashful",
+		"ability":"Sand Veil",
+		"ingame":",",
+		"gender":"Female",
+		"holding":"Nothing",
+		"level":2,
+		"attacks":["Tackle", "---", "---", "---"],
+		"caughtTime":"?d ?h ??m",
+		"caughtBall":"Easy"
+	},{
+		"species":"CParsee",
+		"type1":"Heart",
+		"gender":"Female",
+		"nature":"Adamant",
+		"ability":"???",
+		"holding":"Nothing",
+		"ingame":"UU",
+		"level":19,
+		"caughtTime":"3d 8h 29m",
+		"caughtBall":"Easy"
 	},{
 		"species":"CNazrin",
 		"type1":"Beast",
-		"ability":"???",
+		"nature":"Naive",
+		"gender":"Female",
+		"ability":"Pickup",
+		"holding":"Nothing",
 		"ingame":"AHHIHATUUU",
-		"level":4,
+		"level":5,
+		"attacks":["Tackle", "Tail Whip", "---", "---"],
 		"nickname":["I hate chu"],
-		"caughtTime":"0d 7h 38m",
+		"caughtTime":"0d 3h 46m",
 		"caughtBall":"easy"
 	},{
 		"species":"CStar",
@@ -155,116 +207,110 @@
 		"ability":"Run Away",
 		"gender":"Female",
 		"nature":"Relaxed",
+		"holding":"Nothing",
 		"ingame":"Aghicccccd",
-		"level":4,
+		"attacks":["Bubble", "Pound", "Growl", "---"],
+		"level":7,
 		"caughtTime":"0d 7h 38m",
 		"caughtBall":"easy"
 	},{
-		"species":"CSunny",
-		"type1":"Fire",
-		"ability":"Vital Spirit",
-		"ingame":"???",
-		"level":-1,
-		"caughtTime":"0d 7h 40m"
+		"species":"CLyrica",
+		"type1":"Ghost",
+		"gender":"female",
+		"nature":"Bold",
+		"ability":"Soundproof",
+		"holding":"Nothing",
+		"ingame":"AAGGGG",
+		"level":16,
+		"caughtTime":"5d 2h 35m",
+		"caughtBall":"easy"
+	},{
+		"species":"CDaiyousei",
+		"type1":"Nature",
+		"ability":"Run Away",
+		"nature":"Quiet",
+		"gender":"Female",
+		"ingame":"Buh",
+		"formerIngame":["49KKJJJICC", "Yousei"],
+		"attacks":["Attract", "Pound", "\"razor wind\"", "Wrap"],
+		"level":12,
+		"holding":"'Pokeball'",
+		"caughtTime":"0d 4h 6m",
+		"caughtBall":"easy"
 	},{
 		"species":"CNazrin",
 		"type1":"Beast",
+		"nature":"Quiet",
+		"gender":"Female",
 		"ability":"Pickup",
 		"nature":"Adamant",
 		"ingame":"CNazrin",
-		"level":-1,
-		"caughtTime":"0d 7h 46m",
+		"attacks":["Tail Whip", "Tackle", "Cut", "---"],
+		"holding":"'tinymushroom'",
+		"level":7,
+		"caughtTime":"0d 7h 38m",
 		"caughtBall":"easy"
 	},{
-		"species":"CSunny",
-		"type1":"Fire",
-		"ability":"Vital Spirit",
-		"ingame":"???",
-		"level":-1,
-		"caughtTime":"0d 7h 49m"
-	},{
-		"species":"CTokiko",
-		"type1":"Flying",
-		"ability":"???",
-		"ingame":"AAT",
-		"level":-1,
-		"caughtTime":"0d 8h 39m"
-	},{
-		"species":"CParsee",
-		"type1":"???",
-		"type2":"???",
-		"ability":"???",
-		"ingame":"UU",
-		"level":17,
-		"caughtTime":"3d 8h 29m"
-	},{
 		"species":"CMystia",
-		"type1":"???",
-		"type2":"???",
+		"type1":"Flying",
+		"gender":"Female",
+		"nature":"Hasty",
 		"ability":"???",
 		"ingame":"ag66ITTTT",
-		"level":16,
-		"caughtTime":"3d 16h 27m"
-	},{
-		"species":"CMeiling",
-		"type1":"Dream",
-		"ability":"???",
-		"ingame":"AM",
-		"level":-1,
-		"caughtTime":"4d 0h 31m"
+		"holding":"Nothing",
+		"level":17,
+		"caughtTime":"3d 16h 27m",
+		"caughtBall":"easy"
 	},{
 		"species":"CMystia",
-		"type1":"???",
-		"type2":"???",
+		"type1":"Flying",
+		"gender":"Female",
+		"nature":"Naughty",
 		"ability":"???",
-		"ingame":"???",
-		"level":-1,
-		"caughtTime":"4d 13h 24m"
-	},{
-		"species":"CLunasa",
-		"type1":"???",
-		"type2":"???",
-		"ability":"???",
-		"ingame":"CLunasa",
-		"level":16,
-		"caughtTime":"4d 23h 09m"
-	},{
-		"species":"CLyrica",
-		"type1":"???",
-		"type2":"???",
-		"ability":"???",
-		"ingame":"AAGGGG",
+		"ingame":"CMystia",
+		"holding":"Nothing",
 		"level":18,
-		"caughtTime":"5d 2h 35m"
+		"caughtTime":"4d 13h 24m",
+		"caughtBall":"easy"
 	},{
 		"species":"CMerlin",
-		"type1":"???",
-		"type2":"???",
-		"ability":"???",
+		"type1":"Ghost",
+		"gender":"???",
+		"ability":"Soundproof",
+		"nature":"Docile",
+		"holding":"Nothing",
 		"ingame":"G",
 		"level":19,
-		"caughtTime":"5d 0h 3m"
+		"caughtTime":"5d 0h 3m",
+		"caughtBall":"easy"
 	},{
 		"species":"CYuyuko",
-		"type1":"???",
-		"type2":"???",
-		"ability":"???",
+		"type1":"Ghost",
+		"gender":"Female",
+		"ability":"Levitate",
+		"nature":"Calm",
+		"holding":"Nothing",
 		"ingame":"CYuyuko",
 		"level":17,
+		"caughtBall":"easy",
 		"caughtTime":"5d 2h 22m"
 	},{
 		"species":"CLyrica",
-		"type1":"???",
-		"type2":"???",
-		"ability":"???",
+		"type1":"Ghost",
+		"gender":"Male",
+		"nature":"Docile",
+		"holding":"Nothing",
+		"ability":"Soundproof",
 		"ingame":"AAAUU",
 		"level":17,
-		"caughtTime":"5d 2h 35m"
+		"caughtTime":"5d 2h 35m",
+		"caughtBall":"easy"
 	},{
 		"species":"CLunasa",
 		"type1":"Ghost",
 		"ability":"Soundproof",
 		"ingame":"CLunasa",
+		"gender":"male",
 		"level":16,
 		"attacks":[
 			"Astonish",
@@ -272,28 +318,31 @@
 			"Night Shade",
 			"Helping Hand"
 		],
+		"caughtTime":"4d 23h 09m",
 		"caughtBall":"Easy",
 		"holding":"Nothing",
-		"nature":"???",
+		"nature":"Serious",
 		"nickname":[]
 	},{
 		"species":"CKogasa",
-		"type1":"???",
-		"type2":"???",
-		"ability":"???",
+		"type1":"Ghost",
+		"nature":"Sassy",
+		"ability":"Intimidate",
+		"holding":"'tinymushroom'",
 		"ingame":"AAAAAAAAAA",
 		"gender":"male",
-		"level":26,
+		"level":28,
 		"caughtTime":"6d 7h 25m",
 		"caughtBall":"safari_t"
 	},{
 		"species":"CKogasa",
-		"type1":"???",
-		"type2":"???",
-		"ability":"???",
+		"type1":"Ghost",
+		"nature":"Mild",
+		"ability":"Intimidate",
 		"ingame":"AAAAAAAAAA",
+		"holding":"Nothing",
 		"gender":"female",
-		"level":-1,
+		"level":25,
 		"caughtTime":"6d 7h 34m",
 		"caughtBall":"safari_t"
 	},{
@@ -435,7 +484,7 @@
 		"caughtBall":"hard"
 	},{
 		"species":"CKogasa",
-		"type1":"???",
+		"type1":"Ghost",
 		"ability":"???",
 		"ingame":"???",
 		"gender":"female",
@@ -774,6 +823,7 @@
 		"holding":"Awakening",
 		"nature":"Careful",
 		"nickname":[],
+		"caughtTime":"4d 0h 31m",
 		"caughtBall":"hard"
 	}],
 	
