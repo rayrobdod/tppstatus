@@ -185,7 +185,7 @@
 		"ability":"???",
 		"holding":"Nothing",
 		"ingame":"UU",
-		"level":19,
+		"level":17,
 		"caughtTime":"3d 8h 29m",
 		"caughtBall":"Easy"
 	},{
@@ -221,7 +221,7 @@
 		"ability":"Soundproof",
 		"holding":"Nothing",
 		"ingame":"AAGGGG",
-		"level":16,
+		"level":18,
 		"caughtTime":"4d 23h 57m",
 		"caughtBall":"easy"
 	},{
@@ -258,7 +258,7 @@
 		"ability":"???",
 		"ingame":"ag66ITTTT",
 		"holding":"Nothing",
-		"level":17,
+		"level":16,
 		"caughtTime":"3d 16h 27m",
 		"caughtBall":"easy"
 	},{
@@ -269,7 +269,7 @@
 		"ability":"???",
 		"ingame":"CMystia",
 		"holding":"Nothing",
-		"level":18,
+		"level":-1,
 		"caughtTime":"4d 13h 24m",
 		"caughtBall":"easy"
 	},{
@@ -318,7 +318,7 @@
 			"Night Shade",
 			"Helping Hand"
 		],
-		"caughtTime":"4d 23h 09m",
+		"caughtTime":"4d 23h 9m",
 		"caughtBall":"Easy",
 		"holding":"Nothing",
 		"nature":"Serious",
@@ -331,7 +331,7 @@
 		"holding":"'tinymushroom'",
 		"ingame":"AAAAAAAAAA",
 		"gender":"male",
-		"level":28,
+		"level":26,
 		"caughtTime":"6d 7h 25m",
 		"caughtBall":"safari_t"
 	},{
@@ -398,7 +398,7 @@
 		"ingame":"CRan",
 		"gender":"male",
 		"level":25,
-		"caughtTime":"6d 8h 15m",
+		"caughtTime":"6d 8h 17m",
 		"caughtBall":"safari_t"
 	},{
 		"species":"CKomachi",
@@ -431,7 +431,7 @@
 		"ingame":"AAAAAAAAAA",
 		"gender":"genderless",
 		"level":24,
-		"caughtTime":"6d 8h 45m",
+		"caughtTime":"6d 8h 46m",
 		"caughtBall":"safari_t"
 	},{
 		"species":"Kedama",
@@ -548,7 +548,7 @@
 		"holding":"Nothing",
 		"ingame":"ABAaaX",
 		"gender":"female",
-		"level":28,
+		"level":31,
 		"caughtTime":"6d 21h 51m",
 		"caughtBall":"normal"
 	},{
@@ -616,7 +616,7 @@
 		"nature":"Mild",
 		"ingame":"Rinnosuke",
 		"gender":"male",
-		"level":21,
+		"level":-1,
 		"caughtTime":"7d 3h 3m",
 		"caughtBall":"easy"
 	},{
