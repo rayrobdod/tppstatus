@@ -200,6 +200,12 @@
 		"ingame":"Rattata",
 		"holding":"Nothing",
 		"level":6,
+		"attacks":[
+			"Tackle",
+			"Tail Whip",
+			"---",
+			"---"
+		],
 		"caughtTime":"0d 4h 06m",
 		"caughtBall":"poke"
 	},{
@@ -284,6 +290,12 @@
 		"ingame":"A",
 		"holding":"Moe Ball",
 		"level":6,
+		"attacks":[
+			"Leer",
+			"Wrap",
+			"---",
+			"---"
+		],
 		"caughtTime":"2d 2h 33m",
 		"caughtBall":"Poke"
 	},{
@@ -353,6 +365,12 @@
 		"holding":"Nothing",
 		"ingame":"AAAAATTTTT",
 		"level":11,
+		"attacks":[
+			"Tackle",
+			"Sand-Attack",
+			"Gust",
+			"---"
+		],
 		"caughtTime":"2d 20h 32m",
 		"caughtBall":"Poke"
 	},{
@@ -364,6 +382,12 @@
 		"holding":"Nothing",
 		"ingame":"TTUUVVVVC",
 		"level":11,
+		"attacks":[
+			"Tackle",
+			"Quick Attack",
+			"Tail Whip",
+			"Cut"
+		],
 		"caughtTime":"0d 3h 46m",
 		"caughtBall":"poke"
 	},{
@@ -381,19 +405,23 @@
 		"species":"Exeggcute",
 		"type1":"Grass",
 		"type2":"Psychic",
-		"ability":"???",
+		"nature":"Sassy",
+		"ability":"Chlorophyll",
 		"ingame":"AAAAAAAAAA",
+		"holding":"Nothing",
 		"gender":"female",
 		"level":23,
 		"caughtTime":"6d 7h 34m",
 		"caughtBall":"safari"
 	},{
 		"species":"Dodou",
-		"type1":"???",
-		"type2":"???",
-		"ability":"???",
+		"type1":"Normal",
+		"type2":"Flying",
+		"nature":"Quiet",
+		"ability":"Early Bird",
 		"ingame":"BCCCCCCCC",
 		"gender":"female",
+		"holding":"Nothing",
 		"level":26,
 		"caughtTime":"6d 7h 42m",
 		"caughtBall":"safari"
@@ -401,7 +429,9 @@
 		"species":"Paras",
 		"type1":"Bug",
 		"type2":"Grass",
-		"ability":"???",
+		"nature":"Bashful",
+		"ability":"Effect Spore",
+		"holding":"Nothing",
 		"ingame":"AAAAAAAAAA",
 		"gender":"female",
 		"level":22,
@@ -410,7 +440,9 @@
 	},{
 		"species":"Nidoran♂",
 		"type1":"Poison",
-		"ability":"???",
+		"nature":"Gentle",
+		"ability":"Poison Point",
+		"holding":"Nothing",
 		"ingame":"AAAAAAAAAA",
 		"gender":"male",
 		"level":30,
@@ -419,7 +451,9 @@
 	},{
 		"species":"Nidorino",
 		"type1":"Poison",
-		"ability":"???",
+		"nature":"Naive",
+		"ability":"Poison Point",
+		"holding":"Nothing",
 		"ingame":"AAAAAAAAAA",
 		"gender":"male",
 		"level":33,
@@ -429,7 +463,9 @@
 		"species":"Paras",
 		"type1":"Bug",
 		"type2":"Grass",
-		"ability":"???",
+		"nature":"Naive",
+		"ability":"Effect Spore",
+		"holding":"Tinymushroom",
 		"ingame":"AAAAAAAAAA",
 		"gender":"female",
 		"level":22,
@@ -439,7 +475,9 @@
 		"species":"Paras",
 		"type1":"Bug",
 		"type2":"Grass",
-		"ability":"???",
+		"nature":"Naive",
+		"ability":"Effect Spore",
+		"holding":"Tinymushroom",
 		"ingame":"AAAAAAAAAA",
 		"gender":"female",
 		"level":22,
@@ -449,7 +487,9 @@
 		"species":"Exeggcute",
 		"type1":"Grass",
 		"type2":"Psychic",
-		"ability":"???",
+		"nature":"Quiet",
+		"ability":"Chlorophyll",
+		"holding":"Nothing",
 		"ingame":"AAAAAAAAAA",
 		"gender":"female",
 		"level":27,
@@ -457,18 +497,22 @@
 		"caughtBall":"safari"
 	},{
 		"species":"Rhyhorn",
-		"type1":"???",
-		"type2":"???",
-		"ability":"???",
+		"type1":"Rock",
+		"type2":"Ground",
+		"nature":"Hardy",
+		"ability":"Lightningrod",
+		"holding":"Nothing",
 		"ingame":"Rhyhorn",
 		"gender":"female",
-		"level":-1,
+		"level":26,
 		"caughtTime":"6d 9h 29m",
 		"caughtBall":"safari"
 	},{
 		"species":"Clefairy",
 		"type1":"Normal",
-		"ability":"???",
+		"nature":"Docile",
+		"ability":"Cute Charm",
+		"holding":"Nothing",
 		"ingame":"Clefairy",
 		"gender":"female",
 		"level":9,
@@ -477,16 +521,22 @@
 		"caughtBall":"poke"
 	},{
 		"species":"Lapras",
-		"type1":"Normal",
-		"ability":"???",
+		"type1":"Water",
+		"type2":"Ice",
+		"nature":"Mild",
+		"ability":"Water Absorb",
+		"holding":"Nothing",
 		"ingame":"AMMOOOOii9",
 		"gender":"female",
-		"level":-1,
+		"level":25,
 		"caughtTime":"7d 11h 34m",
 		"caughtBall":"poke"
 	},{
 		"species":"Ekans",
-		"type1":"???",
+		"type1":"Poison",
+		"nature":"Bashful",
+		"ability":"Intimidate",
+		"holding":"Nothing",
 		"ingame":"Ekans",
 		"gender":"female",
 		"holding":"Nothing",
@@ -495,16 +545,34 @@
 		"caughtBall":"master"
 	},{
 		"species":"Spearow",
-		"type1":"???",
+		"type1":"Normal",
+		"type2":"Flying",
+		"nature":"Jolly",
+		"ability":"Keen Eye",
+		"holding":"Nothing",
 		"ingame":"Spearow",
 		"gender":"female",
 		"level":12,
+		"caughtTime":"7d 16h 59m",
+		"caughtBall":"poke"
+	},{
+		"species":"Rattata",
+		"type1":"Normal",
+		"nature":"Impish",
+		"ability":"Run Away",
+		"holding":"Nothing",
+		"ingame":"Rattata",
+		"gender":"female",
+		"level":10,
 		"caughtTime":"7d 17h 0m",
 		"caughtBall":"poke"
 	},{
 		"species":"Rattata",
-		"type1":"???",
-		"ingame":"░",
+		"type1":"Normal",
+		"nature":"Bold",
+		"ability":"Run Away",
+		"holding":"Nothing",
+		"ingame":"Rattata",
 		"gender":"female",
 		"level":10,
 		"caughtTime":"7d 17h 2m",
@@ -512,16 +580,32 @@
 	},{
 		"species":"Voltorb",
 		"type1":"Electric",
+		"nature":"Gentle",
+		"ability":"Static",
+		"holding":"Nothing",
 		"ingame":"Voltorb",
 		"gender":"female",
 		"level":22,
 		"caughtTime":"7d 19h 25m",
 		"caughtBall":"poke"
 	},{
+		"species":"Meowth",
+		"type1":"Normal",
+		"ingame":"Gc",
+		"nature":"Calm",
+		"ability":"Pickup",
+		"holding":"Nothing",
+		"gender":"female",
+		"level":31,
+		"caughtTime":"8d 19h 50m",
+		"caughtBall":"poke"
+	},{
 		"species":"Voltorb",
 		"type1":"Electric",
 		"ingame":"Voltorb",
 		"gender":"female",
+		"nature":"Impish",
+		"ability":"Static",
 		"holding":"Nothing",
 		"level":22,
 		"caughtTime":"7d 20h 23m",
@@ -532,6 +616,8 @@
 		"type2":"Water",
 		"ingame":"Omanyte",
 		"gender":"female",
+		"nature":"Bold",
+		"ability":"Shell Armor",
 		"holding":"Nothing",
 		"level":5,
 		"attacks":[
@@ -550,41 +636,67 @@
 		"type2":"Flying",
 		"ingame":"A",
 		"gender":"female",
+		"nature":"Adamant",
+		"ability":"Rock Head",
+		"holding":"Nothing",
 		"level":5,
 		"caughtTime":"8d 2h 1m",
 		"caughtBall":"poke"
 	},{
 		"species":"Grimer",
-		"type1":"???",
+		"type1":"Poison",
 		"ingame":"Grimer",
+		"nature":"Adamant",
+		"ability":"Sticky Hold",
+		"holding":"Nothing",
 		"gender":"female",
 		"level":28,
 		"caughtTime":"8d 4h 52m",
 		"caughtBall":"poke"
 	},{
 		"species":"Growlithe",
-		"type1":"???",
+		"type1":"Fire",
+		"nature":"Jolly",
+		"ability":"Intimidate",
+		"holding":"Nothing",
 		"ingame":"Growlithe",
 		"gender":"female",
 		"level":30,
 		"caughtTime":"8d 4h 56m",
 		"caughtBall":"poke"
 	},{
+		"species":"Growlithe",
+		"type1":"Fire",
+		"nature":"Quiet",
+		"ability":"Intimidate",
+		"holding":"Nothing",
+		"ingame":"AAAA..,,,,",
+		"gender":"female",
+		"level":30,
+		"caughtTime":"?d ?h ??m",
+		"caughtBall":"poke"
+	},{
 		"species":"Koffing",
-		"type1":"???",
+		"type1":"Poison",
+		"nature":"Lax",
+		"ability":"Levitate",
+		"holding":"Nothing",
 		"ingame":"A",
 		"gender":"female",
 		"level":28,
 		"caughtTime":"8d 8h 55m",
-		"caughtBall":"???"
+		"caughtBall":"Poke"
 	},{
 		"species":"Koffing",
-		"type1":"???",
+		"type1":"Poison",
+		"nature":"Timid",
+		"ability":"Levitate",
+		"holding":"Nothing",
 		"ingame":"Koffing",
 		"gender":"female",
 		"level":30,
 		"caughtTime":"8d 9h 7m",
-		"caughtBall":"???"
+		"caughtBall":"Poke"
 	},{
 		"species":"Vileplume",
 		"type1":"Grass",
@@ -601,20 +713,18 @@
 		],
 		"nextAttack":"Petal Dance @ 44",
 		"nextAttacks":[],
+		"caughtTime":"2d 19h 15m",
+		"caughtBall":"Poke",
 		"holding":"Awakening",
 		"nature":"Hasty",
 		"nickname":["All Cabbage Vehicle","All Cabbage Vileplume"]
 	},{
-		"species":"Meowth",
-		"type1":"???",
-		"ingame":"GC",
-		"gender":"female",
-		"level":-1,
-		"caughtTime":"8d 19h 50m",
-		"caughtBall":"???"
-	},{
 		"species":"Pidgeotto",
-		"type1":"???",
+		"type1":"Normal",
+		"type2":"Flying",
+		"nature":"Bashful",
+		"ability":"Keen Eye",
+		"holding":"Nothing",
 		"ingame":"A.!!'\"\"",
 		"gender":"female",
 		"level":37,
@@ -622,15 +732,23 @@
 		"caughtBall":"poke"
 	},{
 		"species":"Venonat",
-		"type1":"???",
+		"type1":"Bug",
+		"type2":"Poison",
+		"nature":"Relaxed",
+		"ability":"CompoundEyes",
+		"holding":"Nothing",
 		"ingame":"a2░",
 		"gender":"female",
-		"level":37,
+		"level":34,
 		"caughtTime":"8d 21h 40m",
 		"caughtBall":"poke"
 	},{
 		"species":"Tentacool",
-		"type1":"???",
+		"type1":"Water",
+		"type2":"Poison",
+		"nature":"Rash",
+		"ability":"Clear Body",
+		"holding":"Nothing",
 		"ingame":"UUW………",
 		"gender":"female",
 		"level":10,
@@ -638,7 +756,10 @@
 		"caughtBall":"poke"
 	},{
 		"species":"Tangella",
-		"type1":"???",
+		"type1":"Grass",
+		"nature":"Bold",
+		"ability":"Chlorophyll",
+		"holding":"Nothing",
 		"ingame":"TT",
 		"gender":"female",
 		"level":25,
@@ -646,7 +767,11 @@
 		"caughtBall":"poke"
 	},{
 		"species":"Pidgey",
-		"type1":"???",
+		"type1":"Normal",
+		"type2":"Flying",
+		"nature":"Calm",
+		"ability":"Keen Eye",
+		"holding":"Nothing",
 		"ingame":"Pidgey",
 		"gender":"female",
 		"level":3,
@@ -654,7 +779,11 @@
 		"caughtBall":"poke"
 	},{
 		"species":"Tentacool",
-		"type1":"???",
+		"type1":"Water",
+		"type2":"Poison",
+		"nature":"Naive",
+		"ability":"Liquid Ooze",
+		"holding":"Nothing",
 		"ingame":"Tentacool",
 		"gender":"female",
 		"level":10,
@@ -662,7 +791,10 @@
 		"caughtBall":"poke"
 	},{
 		"species":"Voltorb",
-		"type1":"???",
+		"type1":"Electric",
+		"nature":"Serious",
+		"ability":"Static",
+		"holding":"Nothing",
 		"ingame":"A'77\"\"\"…….",
 		"gender":"female",
 		"level":14,
@@ -670,7 +802,10 @@
 		"caughtBall":"poke"
 	},{
 		"species":"Rattata",
-		"type1":"???",
+		"type1":"Normal",
+		"nature":"Bashful",
+		"ability":"Guts",
+		"holding":"Nothing",
 		"ingame":"G",
 		"gender":"female",
 		"level":28,
@@ -678,7 +813,11 @@
 		"caughtBall":"poke"
 	},{
 		"species":"Golbat",
-		"type1":"???",
+		"type2":"Flying",
+		"type1":"Poison",
+		"nature":"Impish",
+		"ability":"Inner Focus",
+		"holding":"Nothing",
 		"ingame":"Aa",
 		"gender":"female",
 		"level":26,
@@ -686,18 +825,24 @@
 		"caughtBall":"poke"
 	},{
 		"species":"Psyduck",
-		"type1":"???",
+		"type1":"Water",
+		"nature":"Jolly",
+		"ability":"Damp",
+		"holding":"Nothing",
 		"ingame":"cc____WVV…",
 		"gender":"female",
 		"level":32,
 		"caughtTime":"11d 4h 18m",
 		"caughtBall":"poke"
 	},{
-		"species":"Golduck",
-		"type1":"???",
+		"species":"Psyduck",
+		"type1":"Water",
+		"nature":"Rash",
+		"ability":"Damp",
+		"holding":"Nothing",
 		"ingame":"AAAA..",
 		"gender":"female",
-		"level":-1,
+		"level":32,
 		"caughtTime":"11d 5h 2m",
 		"caughtBall":"poke"
 	},{
