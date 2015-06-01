@@ -38,6 +38,7 @@ header nav a {color: black;}
 .type.ice{background-color:#98d8d8}
 .type.dream,
 .type.normal{background-color:#a8a878}
+.type.miasma,
 .type.poison{background-color:#a040a0;color:white}
 .type.psychic{background-color:#f85888}
 .type.rock{background-color:#b8a038}
@@ -48,5 +49,5 @@ header nav a {color: black;}
 .type.wind{background-color: #d8e030}
 .type.beast{background-color:#b8a038;}
 .type.heart{background-color:#f8a8b8;}
-.type.nature{background-color:#78c850;}
+.type.native{background-color:#78c850;}
 .type.reason{background-color:#f85888;}
