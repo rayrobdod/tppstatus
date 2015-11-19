@@ -58,7 +58,7 @@ object PageTemplates {
 						)),
 						Elem(htmlBinding, "section", Attributes(), Group(
 							Elem(htmlBinding, "h2", Attributes(), Group(Text(pageData.monsterType + " in Party"))),
-							listOfPartyPokemon(pageData.party)
+							listOfPartyPokemon(pageData.genderElemFunc, pageData.party)
 						)),
 						Elem(htmlBinding, "section", Attributes(), Group(
 							Elem(htmlBinding, "h2", Attributes(), Group(Text("Elite Four"))),
@@ -70,11 +70,11 @@ object PageTemplates {
 						)),
 						Elem(htmlBinding, "section", Attributes(), Group(
 							Elem(htmlBinding, "h2", Attributes(), Group(Text("Daycare"))),
-							listOfBoxedPokemon(pageData.daycare)
+							listOfBoxedPokemon(pageData.genderElemFunc, pageData.daycare)
 						)),
 						Elem(htmlBinding, "section", Attributes(), Group(
 							Elem(htmlBinding, "h2", Attributes(), Group(Text("Boxed"))),
-							listOfBoxedPokemon(pageData.box)
+							listOfBoxedPokemon(pageData.genderElemFunc, pageData.box)
 						))
 					))
 				))
@@ -82,31 +82,26 @@ object PageTemplates {
 		)
 	}
 	
-	def listOfPartyPokemon(list:Seq[Pokemon]):Node = {
-		Elem(htmlBinding, "table", Attributes("class" -> "party"), rowOfPokemon(list))
+	def listOfPartyPokemon(genderElem:Function1[String, Elem], list:Seq[Pokemon]):Node = {
+		Elem(htmlBinding, "table", Attributes("class" -> "party"), rowOfPokemon(genderElem, list))
 	}
 	
-	def listOfBoxedPokemon(list:Seq[Pokemon]):Node = {
+	def listOfBoxedPokemon(genderElem:Function1[String, Elem], list:Seq[Pokemon]):Node = {
 		val rows = list.grouped(6)
 		Elem(htmlBinding, "table", Attributes("class" -> "boxed"), Group.fromSeq(
-			rows.flatMap(rowOfPokemon(_)).toList
+			rows.flatMap(rowOfPokemon(genderElem, _)).toList
 		))
 	}
 	
-	def rowOfPokemon(list:Seq[Pokemon]):Group[Node] = {
+	def rowOfPokemon(genderElem:Function1[String, Elem], list:Seq[Pokemon]):Group[Node] = {
 		Group(
 			Elem(htmlBinding, "tr", Attributes("class" -> "name"), Group.fromSeq(
 				list.map{x =>
-					val (sexText, sexColor) = x.gender.toLowerCase match {
-						case "male" => ("♂", "blue")
-						case "female" => ("♀", "red")
-						case _ => ("", "grey")
-					}
 					
 					Elem(htmlBinding, "td", Attributes(), Group(
 						Text(x.ingame),
 						Elem(htmlBinding, "img", Attributes("width" -> "16", "height" -> "16", "alt" -> x.caughtBall, "src" -> x.caughtBallUrl)),
-						Elem(htmlBinding, "span", Attributes("style" -> ("color:" + sexColor)), Group(Text(sexText))),
+						genderElem(x.gender.toLowerCase),
 						Elem(htmlBinding, "br"),
 						Text("(" + x.species + ")"),
 						Elem(htmlBinding, "br"),

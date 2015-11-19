@@ -2,6 +2,7 @@ package com.rayrobdod
 
 import sbt._
 import java.nio.file.Files
+import com.codecommit.antixml.Elem
 import com.rayrobdod.json.builder.{Builder, SeqBuilder, CaseClassBuilder}
 
 package object tpporg {
@@ -45,7 +46,8 @@ package tpporg {
 		box:Seq[Pokemon] = Nil,
 		daycare:Seq[Pokemon] = Nil,
 		badges:Seq[Badge] = Nil,
-		eliteFour:Seq[EliteFour] = Nil
+		eliteFour:Seq[EliteFour] = Nil,
+		genderElemFunc:Function1[String,Elem] = GenderElemFunctions.normal
 	)
 	
 	case class Badge(
@@ -119,5 +121,29 @@ package tpporg {
 		override def resultType = classOf[PageData]
 	}
 	
-}
+	
+	object GenderElemFunctions {
+		import com.codecommit.antixml.{Elem, NamespaceBinding, Attributes, Group, Text}
+		private val HTML_NAMESPACE = "http://www.w3.org/1999/xhtml"
+		private val htmlBinding = NamespaceBinding(HTML_NAMESPACE)
+		
+		def normal:Function1[String,Elem] = {gender:String =>
+			val (sexText, sexColor) = gender.toLowerCase match {
+				case "male" => ("♂", "blue")
+				case "female" => ("♀", "red")
+				case _ => ("", "grey")
+			}
+			Elem(htmlBinding, "span", Attributes("style" -> ("color:" + sexColor)), Group(Text(sexText)))
+		}
+		
+		def yinyang:Function1[String,Elem] = {gender:String =>
+			val (alt, img) = gender.toLowerCase match {
+				case "male" => ("♂", "yang")
+				case "female" => ("♀", "yin")
+				case _ => ("", "neither")
+			}
+			Elem(htmlBinding, "img", Attributes("width" -> "16", "height" -> "16", "alt" -> alt, "src" -> ("images/gender/" + img + ".png")))
+		}
+	}
 
+}

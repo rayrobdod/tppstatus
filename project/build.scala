@@ -39,7 +39,10 @@ object MyBuild extends Build {
 					r = Files.newBufferedReader(fileName.toPath, UTF_8)
 					
 					new JsonParser(new PageDataBuilder()).parse(r)
-							.copy(fileName = baseDir.relativize(fileName.toPath).toString.dropRight(4) + "xhtml")
+							.copy(
+								fileName = baseDir.relativize(fileName.toPath).toString.dropRight(4) + "xhtml",
+								genderElemFunc = (if (fileName.toPath.toString.endsWith("touhoumon.json")) {GenderElemFunctions.yinyang} else {GenderElemFunctions.normal})
+							)
 				} catch {
 					case e:java.text.ParseException => {
 						streams.value.log.error("Could not read file " + fileName + "\n" + e.getMessage)
