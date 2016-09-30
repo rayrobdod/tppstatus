@@ -8,26 +8,26 @@ import com.rayrobdod.json.builder.{Builder, SeqBuilder, CaseClassBuilder}
 package object tpporg {
 	
 	val PokemonBuilder = new CaseClassBuilder(
-		classOf[Pokemon],
 		Pokemon(),
 		Map(
 			"attacks" -> new SeqBuilder(),
 			"nickname" -> new SeqBuilder(),
 			"nextAttacks" -> new SeqBuilder(),
 			"formerIngame" -> new SeqBuilder()
-		)
+		))(
+		classOf[Pokemon]
 	)
 	
 	val BadgeBuilder = new CaseClassBuilder(
-		classOf[Badge],
 		Badge(),
-		Map()
+		Map())(
+		classOf[Badge]
 	)
 	
 	val EliteFourBuilder = new CaseClassBuilder(
-		classOf[EliteFour],
 		EliteFour(),
-		Map()
+		Map())(
+		classOf[EliteFour]
 	)
 	
 }

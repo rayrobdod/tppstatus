@@ -12,4 +12,4 @@ resolvers += "com.rayrobdod" at "http://ivy.rayrobdod.name/"
 
 libraryDependencies += ("no.arktekk" %% "anti-xml" % "0.6.0")
 
-libraryDependencies += ("com.rayrobdod" %% "json" % "2.0-RC1")
+libraryDependencies += ("com.rayrobdod" %% "json" % "2.0")
