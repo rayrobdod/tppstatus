@@ -7,7 +7,7 @@
 ## The basic flow to update run data
 
 0. checkout/clone/etc repository
-1. edit the [*.json](http://json.org/) files in the `src/main/assets` directory
+1. edit the [*.json](http://json.org/) files in the `src/main/database` directory
 2. in the repository's root directory, run the command `sbt web-stage`
   * this will create the `target/web/stage` directory and files in that directory
 3. commit/push the root directory (the .gitignore should catch any files
@@ -23,7 +23,7 @@
   * build.scala, build.sbt, plugins.sbt - information about the sbt build process
 * src
   * main
-    * assets - the run data in json form
+    * database - the run data in json form
     * public - static assets (images, css, etc)
 * target - not put in repository
   * web

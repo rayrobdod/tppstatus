@@ -1,149 +1,149 @@
 package com.rayrobdod
 
-import sbt._
-import java.nio.file.Files
-import com.codecommit.antixml.Elem
-import com.rayrobdod.json.builder.{Builder, SeqBuilder, CaseClassBuilder}
-
 package object tpporg {
-	
-	val PokemonBuilder = new CaseClassBuilder(
-		Pokemon(),
-		Map(
-			"attacks" -> new SeqBuilder(),
-			"nickname" -> new SeqBuilder(),
-			"nextAttacks" -> new SeqBuilder(),
-			"formerIngame" -> new SeqBuilder()
-		))(
-		classOf[Pokemon]
-	)
-	
-	val BadgeBuilder = new CaseClassBuilder(
-		Badge(),
-		Map())(
-		classOf[Badge]
-	)
-	
-	val EliteFourBuilder = new CaseClassBuilder(
-		EliteFour(),
-		Map())(
-		classOf[EliteFour]
-	)
-	
+	import org.json4s.JsonAST._
+
+	def extractPageData(value:JValue):PageData = {
+		implicit def format = org.json4s.DefaultFormats
+		PageData(
+			monsterType = extractString(value \ "monsterType"),
+			lastUpdate = extractString(value \ "lastUpdate"),
+			gameName = extractString(value \ "gameName"),
+			checkpoint = extractString(value \ "checkpoint"),
+			charName = extractString(value \ "name"),
+			charIdno = extractString(value \ "idno"),
+			party = extractArray(value \ "party", extractPokemon _),
+			box = extractArray(value \ "box", extractPokemon _),
+			daycare = extractArray(value \ "daycare", extractPokemon _),
+			badges = (value \ "badges").extract[List[Badge]],
+			eliteFour = (value \ "eliteFour").extract[List[EliteFour]],
+		)
+	}
+
+	def extractPokemon(value:JValue):Pokemon = {
+		Pokemon(
+			species = extractString(value \ "species"),
+			type1 = extractString(value \ "type1"),
+			type2 = extractOptionalString(value \ "type2", "None"),
+			ability = extractOptionalString(value \ "ability", "???"),
+			ingame = extractOptionalString(value \ "ingame", "???"),
+			formerIngame = extractArray(value \ "formerIngame", extractString _),
+			level = extractInt(value \ "level"),
+			attacks = extractArrayWithDefault(value \ "attacks", extractString _, List("???","???","???","???")),
+			holding = extractOptionalString(value \ "holding", "???"),
+			nature = extractOptionalString(value \ "nature", "???"),
+			nickname = extractArray(value \ "nickname", extractString _),
+			nextAttack = extractOptionalString(value \ "nextAttack", "???"),
+			nextAttacks = extractArray(value \ "nextAttacks", extractString _),
+			gender = extractOptionalString(value \ "gender", "???"),
+			caughtTime = extractOptionalString(value \ "caughtTime", "???"),
+			caughtBall = extractOptionalString(value \ "caughtBall", "???"),
+		)
+	}
+
+	def extractArray[Z](value:JValue, mapping:Function1[JValue, Z]):List[Z] = value match {
+		case JArray(arr) => arr.map(mapping)
+		case JNothing => Nil
+		case _ => throw new IllegalArgumentException(s"${value}")
+	}
+
+	def extractArrayWithDefault[Z](value:JValue, mapping:Function1[JValue, Z], default:List[Z]):List[Z] = value match {
+		case JArray(arr) => arr.map(mapping)
+		case JNothing => default
+		case _ => throw new IllegalArgumentException(s"${value}")
+	}
+
+	def extractString(value:JValue):String = value match {
+		case JString(s) => s
+		case _ => throw new IllegalArgumentException(s"${value}")
+	}
+
+	def extractOptionalString(value:JValue, default:String):String = value match {
+		case JString(s) => s
+		case JNothing => default
+		case _ => throw new IllegalArgumentException(s"${value}")
+	}
+
+	def extractInt(value:JValue):Int = {
+		value.asInstanceOf[JInt].num.intValue
+	}
 }
 
 package tpporg {
-	
 	case class PageData(
-		monsterType:String = "Pokémon",
-		gameName:String = "Pokémon",
+		monsterType:String,
+		gameName:String,
+		lastUpdate:String,
+		checkpoint:String,
+		charName:String,
+		charIdno:String,
+		party:Seq[Pokemon],
+		box:Seq[Pokemon],
+		daycare:Seq[Pokemon],
+		badges:Seq[Badge],
+		eliteFour:Seq[EliteFour],
 		fileName:String = "sdf.html",
-		lastUpdate:String = "??d ??h ??m",
-		checkpoint:String = "???",
-		charName:String = "???",
-		charIdno:String = "???",
-		party:Seq[Pokemon] = Nil,
-		box:Seq[Pokemon] = Nil,
-		daycare:Seq[Pokemon] = Nil,
-		badges:Seq[Badge] = Nil,
-		eliteFour:Seq[EliteFour] = Nil,
-		genderElemFunc:Function1[String,Elem] = GenderElemFunctions.normal
+		genderElemFunc:Function1[String, scalatags.Text.Frag] = GenderElemFunctions.normal
 	)
-	
+
 	case class Badge(
-		name:String = "???",
-		time:String = "---",
-		attempts:Long = 0
+		name:String,
+		time:String,
+		attempts:Long,
 	)
-	
+
 	case class EliteFour(
-		name:String = "???",
-		firstWin:String = "---",
-		wins:Long = 0,
-		losses:Long = 0
+		name:String,
+		firstWin:String,
+		wins:Long,
+		losses:Long,
 	)
-	
+
 	case class Pokemon(
-		species:String = "???",
-		type1:String = "???",
-		type2:String = "None",
-		ability:String = "???",
-		ingame:String = "???",
-		formerIngame:Seq[String] = Nil,
-		level:Long = -1,
-		attacks:Seq[String] = Seq("???","???","???","???"),
-		holding:String = "???",
-		nature:String = "???",
-		nickname:Seq[String] = Nil,
-		nextAttack:String = "???",
-		nextAttacks:Seq[String] = Nil,
-		gender:String = "???",
-		caughtTime:String = "???",
-		caughtBall:String = "???"
+		species:String,
+		type1:String,
+		type2:String,
+		ability:String,
+		ingame:String,
+		formerIngame:Seq[String],
+		level:Long,
+		attacks:Seq[String],
+		holding:String,
+		nature:String,
+		nickname:Seq[String],
+		nextAttack:String,
+		nextAttacks:Seq[String],
+		gender:String,
+		caughtTime:String,
+		caughtBall:String,
 	) {
 		def caughtBallUrl:String = {
 			"images/balls/" + caughtBall.toLowerCase + ".png"
 		}
 	}
-	
-	
-	
-	
-	
-	
-	
-	class PageDataBuilder() extends Builder[PageData] {
-		override val init = PageData()
-		override def apply(t:PageData, key:String, value:Any) = key match {
-			case "monsterType" => t.copy(monsterType = value.toString)
-			case "lastUpdate" => t.copy(lastUpdate = value.toString)
-			case "gameName" => t.copy(gameName = value.toString)
-			case "checkpoint" => t.copy(checkpoint = value.toString)
-			case "name" => t.copy(charName = value.toString)
-			case "idno" => t.copy(charIdno = value.toString)
-			case "items" => t
-			case "party" => t.copy(party = value.asInstanceOf[Seq[Pokemon]])
-			case "box" => t.copy(box = value.asInstanceOf[Seq[Pokemon]])
-			case "daycare" => t.copy(daycare = value.asInstanceOf[Seq[Pokemon]])
-			case "badges" => t.copy(badges = value.asInstanceOf[Seq[Badge]])
-			case "eliteFour" => t.copy(eliteFour = value.asInstanceOf[Seq[EliteFour]])
-			case _ => throw new IllegalArgumentException("PageDataBuilder apply key: " + key)
-		}
-		override def childBuilder(key:String) = key match { 
-			case "party" => new SeqBuilder(PokemonBuilder)
-			case "box" => new SeqBuilder(PokemonBuilder)
-			case "daycare" => new SeqBuilder(PokemonBuilder)
-			case "badges" => new SeqBuilder(BadgeBuilder)
-			case "items" => new SeqBuilder
-			case "eliteFour" => new SeqBuilder(EliteFourBuilder)
-			case _ => throw new IllegalArgumentException("PageDataBuilder childBuilder key: " + key)
-		}
-		override def resultType = classOf[PageData]
-	}
-	
-	
+
+
 	object GenderElemFunctions {
-		import com.codecommit.antixml.{Elem, NamespaceBinding, Attributes, Group, Text}
-		private val HTML_NAMESPACE = "http://www.w3.org/1999/xhtml"
-		private val htmlBinding = NamespaceBinding(HTML_NAMESPACE)
-		
-		def normal:Function1[String,Elem] = {gender:String =>
+		import scalatags.Text.all._
+		private[this] val width = attr("width")
+		private[this] val height = attr("height")
+
+		def normal:Function1[String,scalatags.Text.Frag] = {gender:String =>
 			val (sexText, sexColor) = gender.toLowerCase match {
 				case "male" => ("♂", "blue")
 				case "female" => ("♀", "red")
 				case _ => ("", "grey")
 			}
-			Elem(htmlBinding, "span", Attributes("style" -> ("color:" + sexColor)), Group(Text(sexText)))
+			span(style := s"color: ${sexColor}", sexText)
 		}
-		
-		def yinyang:Function1[String,Elem] = {gender:String =>
-			val (alt, img) = gender.toLowerCase match {
+
+		def yinyang:Function1[String,scalatags.Text.Frag] = {gender:String =>
+			val (altV, imgV) = gender.toLowerCase match {
 				case "male" => ("♂", "yang")
 				case "female" => ("♀", "yin")
 				case _ => ("", "neither")
 			}
-			Elem(htmlBinding, "img", Attributes("width" -> "16", "height" -> "16", "alt" -> alt, "src" -> ("images/gender/" + img + ".png")))
+			img(width := 16, height := 16, alt := altV, src := s"images/gender/${imgV}.png")
 		}
 	}
-
 }

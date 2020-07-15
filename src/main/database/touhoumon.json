@@ -96,7 +96,6 @@
 		"ability":"Limber",
 		"ingame":"A",
 		"gender":"Female",
-		"type1":"Flying",
 		"level":63,
 		"attacks":[
 			"Slash",
@@ -603,7 +602,6 @@
 		"holding":"Nothing",
 		"ability":"Torrent",
 		"ingame":"CMurasa",
-		"holding":"Nothing",
 		"gender":"male",
 		"level":5,
 		"caughtTime":"7d 0h 37m",
@@ -628,7 +626,6 @@
 		"holding":"Nothing",
 		"ability":"Torrent",
 		"ingame":"AAAA",
-		"holding":"Nothing",
 		"gender":"female",
 		"level":13,
 		"caughtTime":"9d 1h 0m",
